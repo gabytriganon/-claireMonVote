@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, NavLink, Outlet } from 'react-router-dom'
 import { BookOpenText, Download, Moon, Sun, WifiOff } from 'lucide-react'
 import { useAppStore } from '../store/useAppStore'
+import { SupportLink } from './SupportLink'
 import { withBase } from '../lib/base'
 import { formatDate, meta } from '../lib/data'
 
@@ -156,6 +157,7 @@ export function Layout() {
           </p>
           <p>Chaque proposition renvoie vers sa source publique. Une position non vérifiée est signalée, jamais devinée. Les photos, sous licence libre, sont créditées sur chaque fiche.</p>
         </div>
+        <SupportLink />
       </footer>
     </div>
   )
