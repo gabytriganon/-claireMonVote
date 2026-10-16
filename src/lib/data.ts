@@ -36,7 +36,18 @@ export interface Candidate {
   summary: string
   officialSiteUrl?: string | null
   programUrl?: string | null
+  /** Titre de l'article Wikipédia (fr) dont l'image principale sert de photo, si elle est sous licence libre. */
+  wikipediaTitle?: string
   proposals: Proposal[]
+}
+
+/** Crédit d'une photo sous licence libre, généré par `scripts/fetch-photos.mjs`. */
+export interface PhotoCredit {
+  file: string
+  author: string
+  license: string
+  licenseUrl?: string
+  sourceUrl: string
 }
 
 export interface Meta {
@@ -48,7 +59,7 @@ export interface Meta {
   selectionSources: { label: string; url: string }[]
 }
 
-export const meta = metaJson as Meta
+export let meta = metaJson as Meta
 
 const originWords: Record<string, string> = {
   programme: 'Programme',
@@ -90,9 +101,10 @@ export interface Issue {
   options: Record<string, string>
 }
 
-export const themes = themesJson as Theme[]
-export const issues = issuesJson as unknown as Issue[]
-const allCandidates = candidatesJson as Candidate[]
+export let themes = themesJson as Theme[]
+export let issues = issuesJson as unknown as Issue[]
+/** Photos disponibles (id du candidat → crédit), vide tant que les crédits n'ont pas été chargés. */
+export let photos: Record<string, PhotoCredit> = {}
 
 /**
  * Ordre d'affichage aléatoire, tiré une fois par session de navigation, pour qu'aucun
@@ -121,7 +133,26 @@ function sessionShuffle<T extends { id: string }>(items: T[]): T[] {
   return order.map((id) => items.find((c) => c.id === id)!)
 }
 
-export const candidates = sessionShuffle(allCandidates)
+export let candidates = sessionShuffle(candidatesJson as Candidate[])
+
+export interface DataBundle {
+  candidates: Candidate[]
+  themes: Theme[]
+  issues: Issue[]
+  meta: Meta
+}
+
+/** Remplace les données embarquées par une version plus récente (appelé au démarrage, avant le premier rendu). */
+export function applyData(bundle: Partial<DataBundle>, credits?: Record<string, PhotoCredit>) {
+  if (bundle.meta && bundle.candidates && bundle.themes && bundle.issues && bundle.meta.updatedAt >= meta.updatedAt) {
+    meta = bundle.meta
+    themes = bundle.themes
+    issues = bundle.issues
+    candidates = sessionShuffle(bundle.candidates)
+  }
+  // Neutralité : des photos pour certains candidats seulement les mettraient en avant. Tout le monde ou personne.
+  if (credits && candidates.every((c) => credits[c.id])) photos = credits
+}
 
 export function getCandidate(id: string | null | undefined): Candidate | undefined {
   return candidates.find((c) => c.id === id)

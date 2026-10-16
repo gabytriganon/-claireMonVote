@@ -1,12 +1,29 @@
-import { defineConfig } from 'vite'
+import { defineConfig, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
+import candidates from './src/data/candidates.json'
+import themes from './src/data/themes.json'
+import issues from './src/data/issues.json'
+import meta from './src/data/meta.json'
+
+// Publie les données à côté de l'app (`data/*.json`) pour que l'app installée puisse les recharger au démarrage.
+function publishData(): Plugin {
+  return {
+    name: 'publish-data',
+    generateBundle() {
+      for (const [name, data] of Object.entries({ candidates, themes, issues, meta })) {
+        this.emitFile({ type: 'asset', fileName: `data/${name}.json`, source: JSON.stringify(data) })
+      }
+    },
+  }
+}
 
 export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
+    publishData(),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon-180x180.png', 'logo.svg', 'avatars/*.svg'],
@@ -28,8 +45,10 @@ export default defineConfig({
         ],
       },
       workbox: {
-        // App shell + données JSON (embarquées dans le bundle) sont précachées : tout fonctionne hors ligne.
+        // App shell précachée : tout fonctionne hors ligne (les données sont aussi embarquées dans le bundle).
         globPatterns: ['**/*.{js,css,html,svg,png,ico,webp,woff2,json}'],
+        // Données publiées et crédits photo : jamais précachés, pour que le démarrage récupère la dernière version.
+        globIgnores: ['data/**', 'photos/**'],
         navigateFallback: 'index.html',
         runtimeCaching: [
           {
@@ -42,7 +61,7 @@ export default defineConfig({
             },
           },
           {
-            // Futures données distantes (API / JSON hébergé) : network first, repli sur le cache.
+            // Données publiées et crédits photo : network first, repli sur le cache hors ligne.
             urlPattern: ({ url }) => url.pathname.endsWith('.json'),
             handler: 'NetworkFirst',
             options: { cacheName: 'data', networkTimeoutSeconds: 3 },

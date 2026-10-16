@@ -154,7 +154,7 @@ export function Layout() {
             {meta.election} : liste provisoire des candidats, données mises à jour le {formatDate(meta.updatedAt)}. Les
             candidats sont affichés dans un ordre aléatoire pour ne favoriser personne.
           </p>
-          <p>Chaque proposition renvoie vers sa source publique. Une position non vérifiée est signalée, jamais devinée.</p>
+          <p>Chaque proposition renvoie vers sa source publique. Une position non vérifiée est signalée, jamais devinée. Les photos, sous licence libre, sont créditées sur chaque fiche.</p>
         </div>
       </footer>
     </div>

@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { ArrowLeft, ExternalLink, Scale } from 'lucide-react'
-import { Avatar } from '../components/Avatar'
+import { Avatar, PhotoCreditLine } from '../components/Avatar'
 import { ProposalView } from '../components/ProposalView'
 import { ThemeTabs } from '../components/ThemeTabs'
 import { getCandidate, getProposal, getTheme, themes } from '../lib/data'
@@ -32,7 +32,10 @@ export function CandidatePage() {
         style={{ borderTop: `6px solid ${candidate.color}` }}
       >
         <div className="flex flex-col gap-5 p-5 sm:flex-row sm:p-8">
-          <Avatar candidate={candidate} size={96} />
+          <div className="flex flex-col items-start gap-2 sm:w-32">
+            <Avatar candidate={candidate} size={96} />
+            <PhotoCreditLine candidate={candidate} />
+          </div>
           <div className="space-y-3">
             <div>
               <h1 className="text-2xl font-bold sm:text-3xl">{candidate.name}</h1>
