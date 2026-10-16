@@ -3,6 +3,10 @@ name: Déployer sur GitHub Pages
 on:
   push:
     branches: [main]
+  # Chaque lundi : photos re-téléchargées, liens sources vérifiés, site republié.
+  schedule:
+    - cron: '0 5 * * 1'
+  # Bouton « Run workflow » dans l'onglet Actions pour relancer une mise à jour à la demande.
   workflow_dispatch:
 
 permissions:
@@ -24,6 +28,10 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Récupérer les photos sous licence libre
+        run: node scripts/fetch-photos.mjs
+      - name: Vérifier les liens sources
+        run: node scripts/check-sources.mjs
       - run: npm run build -- --base=/${{ github.event.repository.name }}/
       # GitHub Pages ne connaît pas les routes de l'app : 404.html renvoie vers l'app pour les liens directs.
       - run: cp dist/index.html dist/404.html

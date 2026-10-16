@@ -46,4 +46,11 @@ Deux candidats sont **d'accord** sur une question quand leurs `positions` ont la
 
 Règles de neutralité pour la mise à jour : même structure pour chaque candidat (6 thèmes, mêmes questions clés), aucune proposition sans source publique vérifiable, pas de photo sous droits (avatars à initiales), ordre d'affichage aléatoire.
 
+## Mise à jour des données et photos
+
+- **Au démarrage**, l'app recharge la dernière version publiée de `data/*.json` et `photos/credits.json` (délai max. 3 s, sinon données embarquées ou cache hors ligne). Une app installée affiche donc toujours la dernière mise à jour publiée, sans attendre la mise à jour de son service worker.
+- **Chaque lundi** (et à la demande via *Actions > Déployer sur GitHub Pages > Run workflow*), le workflow re-télécharge les photos, vérifie que chaque lien source répond encore (résultat dans le résumé du job) et republie le site.
+- **Photos** : `scripts/fetch-photos.mjs` prend l'image principale de l'article Wikipédia (`wikipediaTitle`) seulement si elle est hébergée sur Wikimedia Commons sous licence libre (CC BY, CC BY-SA, CC0, domaine public), et enregistre auteur et licence, affichés sur chaque fiche. Si un seul candidat n'a pas de photo libre, l'app garde les avatars à initiales pour tout le monde.
+- **Contenu des programmes** : il n'est pas réécrit automatiquement. Les nouvelles propositions doivent être recherchées, sourcées et relues avant publication dans `src/data/`.
+
 Pour remplacer les icônes de l'app : modifier `public/logo.svg` puis lancer `npm run generate-pwa-assets`.
