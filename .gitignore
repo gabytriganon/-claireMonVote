@@ -4,3 +4,5 @@ dev-dist
 *.local
 .DS_Store
 public/photos
+# Projet Android généré par Bubblewrap (contient la clé de signature)
+android/

@@ -156,6 +156,12 @@ export function Layout() {
             candidats sont affichés dans un ordre aléatoire pour ne favoriser personne.
           </p>
           <p>Chaque proposition renvoie vers sa source publique. Une position non vérifiée est signalée, jamais devinée. Les photos, sous licence libre, sont créditées sur chaque fiche.</p>
+          <p>
+            <a href={withBase('/confidentialite.html')} className="hover:underline">
+              Confidentialité
+            </a>{' '}
+            · Application indépendante, sans lien avec l'État, un parti ou un candidat.
+          </p>
         </div>
         <SupportLink />
       </footer>

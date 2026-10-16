@@ -1,9 +1,9 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { ArrowRight, Check, Plus, Scale, Search, X } from 'lucide-react'
 import { Avatar } from '../components/Avatar'
 import { ProvisionalNotice } from '../components/ProvisionalNotice'
-import { getCandidate, searchCandidates } from '../lib/data'
+import { electionYear, getCandidate, searchCandidates } from '../lib/data'
 import { useAppStore } from '../store/useAppStore'
 
 export function HomePage() {
@@ -12,6 +12,10 @@ export function HomePage() {
   const { compare, toggleCompare, clearCompare } = useAppStore()
   const navigate = useNavigate()
   const selected = compare.map(getCandidate).filter((c) => c !== undefined)
+
+  useEffect(() => {
+    document.title = `Programmes présidentiels ${electionYear} : comparer les candidats · ÉclaireMonVote`
+  }, [])
 
   function goCompare() {
     const params = new URLSearchParams()
@@ -24,7 +28,7 @@ export function HomePage() {
     <div className="space-y-8 pb-24">
       <section className="space-y-4">
         <h1 className="text-3xl font-bold tracking-tight text-balance sm:text-4xl">
-          Les programmes des candidats, clairs et comparables
+          Programmes présidentiels {electionYear} : les candidats, clairs et comparables
         </h1>
         <p className="max-w-2xl text-lg text-slate-700 dark:text-slate-300">
           Consultez la synthèse de chaque programme par thème, puis comparez deux candidats côte à côte pour voir où ils

@@ -6,6 +6,7 @@ import candidates from './src/data/candidates.json'
 import themes from './src/data/themes.json'
 import issues from './src/data/issues.json'
 import meta from './src/data/meta.json'
+import { seo } from './seo'
 
 // Publie les données à côté de l'app (`data/*.json`) pour que l'app installée puisse les recharger au démarrage.
 function publishData(): Plugin {
@@ -20,10 +21,13 @@ function publishData(): Plugin {
 }
 
 export default defineConfig({
+  // Le chemin de base suit l'adresse publique (`/` sur un domaine propre, `/-claireMonVote/` sur GitHub Pages).
+  base: process.env.SITE_URL ? new URL(process.env.SITE_URL).pathname.replace(/\/?$/, '/') : '/',
   plugins: [
     react(),
     tailwindcss(),
     publishData(),
+    seo(),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon-180x180.png', 'logo.svg', 'avatars/*.svg'],
@@ -48,8 +52,10 @@ export default defineConfig({
         // App shell précachée : tout fonctionne hors ligne (les données sont aussi embarquées dans le bundle).
         globPatterns: ['**/*.{js,css,html,svg,png,ico,webp,woff2,json}'],
         // Données publiées et crédits photo : jamais précachés, pour que le démarrage récupère la dernière version.
-        globIgnores: ['data/**', 'photos/**'],
+        globIgnores: ['data/**', 'photos/**', '404.html'],
         navigateFallback: 'index.html',
+        // Pages statiques hors de l'app : servies telles quelles.
+        navigateFallbackDenylist: [/confidentialite\.html$/, /\/\.well-known\//],
         runtimeCaching: [
           {
             // Images distantes éventuelles (photos officielles) : cache first.

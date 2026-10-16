@@ -61,6 +61,9 @@ export interface Meta {
 
 export let meta = metaJson as Meta
 
+/** Année de l'élection, ex. « 2027 ». */
+export const electionYear = meta.election.match(/\d{4}/)?.[0] ?? ''
+
 const originWords: Record<string, string> = {
   programme: 'Programme',
   'programme-europeennes': 'Programme européennes',
