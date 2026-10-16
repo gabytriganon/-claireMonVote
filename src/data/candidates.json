@@ -2050,5 +2050,743 @@
         ]
       }
     ]
+  },
+  {
+    "id": "karim-bouamrane",
+    "name": "Karim Bouamrane",
+    "party": "Parti socialiste / La France humaine et forte",
+    "avatarUrl": "/avatars/karim-bouamrane.svg",
+    "color": "#15803D",
+    "status": "Candidat déclaré le 9 juin 2026 sur France Inter, hors primaire socialiste ; maintient son ambition selon Public Sénat (18 septembre 2026).",
+    "statusSourceUrl": "https://www.lejdd.fr/politique/presidentielle-2027-karim-bouamrane-annonce-sa-candidature-175914",
+    "summary": "Maire de Saint-Ouen-sur-Seine depuis 2020, réélu en 2026, il a été membre du Parti communiste de 1995 à 2014 avant de rejoindre le Parti socialiste. Il se présente comme social-démocrate, s'oppose à l'alliance avec La France insoumise et a lancé en 2024 le mouvement « La France humaine et forte ».",
+    "officialSiteUrl": "https://www.lafrancehumaineetforte.fr/",
+    "programUrl": "https://www.lafrancehumaineetforte.fr/output/pdf/manifeste-karim-bouamrane-2027-v2.pdf",
+    "wikipediaTitle": "Karim Bouamrane",
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          {
+            "text": "Défend l'objectif que le travail paie et permette de vivre dignement.",
+            "sourceUrl": "https://www.lafrancehumaineetforte.fr/output/pdf/manifeste-karim-bouamrane-2027-v2.pdf",
+            "sourceLabel": "La France humaine et forte, manifeste 2027",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose de simplifier l'action publique en réduisant les doublons administratifs et en allégeant les normes.",
+            "sourceUrl": "https://www.lafrancehumaineetforte.fr/output/pdf/manifeste-karim-bouamrane-2027-v2.pdf",
+            "sourceLabel": "La France humaine et forte, manifeste 2027",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Juge irréaliste la promesse d'une retraite à 60 ans, tout en n'ayant pas soutenu la réforme des retraites d'Emmanuel Macron.",
+            "sourceUrl": "https://www.lecourrierdelatlas.com/karim-bouamrane-rn-gauche-france-humaine-forte/",
+            "sourceLabel": "Le Courrier de l'Atlas, mis à jour le 9 juin 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": [
+          {
+            "text": "Défend la lutte contre les déserts médicaux et l'accès à des soins de qualité quels que soient le lieu de résidence et les revenus.",
+            "sourceUrl": "https://www.lafrancehumaineetforte.fr/output/pdf/manifeste-karim-bouamrane-2027-v2.pdf",
+            "sourceLabel": "La France humaine et forte, manifeste 2027",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose de préparer le système de santé au vieillissement de la population et aux maladies chroniques.",
+            "sourceUrl": "https://www.lafrancehumaineetforte.fr/output/pdf/manifeste-karim-bouamrane-2027-v2.pdf",
+            "sourceLabel": "La France humaine et forte, manifeste 2027",
+            "origin": "programme-2027"
+          }
+        ]
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": [
+          {
+            "text": "Défend une transition qui rénove en priorité les logements des familles modestes et crée des emplois durables dans les territoires.",
+            "sourceUrl": "https://www.lafrancehumaineetforte.fr/output/pdf/manifeste-karim-bouamrane-2027-v2.pdf",
+            "sourceLabel": "La France humaine et forte, manifeste 2027",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose de ne pas imposer aux agriculteurs français des règles non exigées des producteurs étrangers.",
+            "sourceUrl": "https://www.lafrancehumaineetforte.fr/output/pdf/manifeste-karim-bouamrane-2027-v2.pdf",
+            "sourceLabel": "La France humaine et forte, manifeste 2027",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Fixe l'objectif de réduire la dépendance énergétique de la France.",
+            "sourceUrl": "https://www.lafrancehumaineetforte.fr/output/pdf/manifeste-karim-bouamrane-2027-v2.pdf",
+            "sourceLabel": "La France humaine et forte, manifeste 2027",
+            "origin": "programme-2027"
+          }
+        ]
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": [
+          {
+            "text": "Défend une éducation de qualité identique sur tout le territoire, donnant à chaque enfant les mêmes chances de réussir.",
+            "sourceUrl": "https://www.lafrancehumaineetforte.fr/output/pdf/manifeste-karim-bouamrane-2027-v2.pdf",
+            "sourceLabel": "La France humaine et forte, manifeste 2027",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose que chaque jeune puisse accéder à une formation menant à un emploi choisi.",
+            "sourceUrl": "https://www.lafrancehumaineetforte.fr/output/pdf/manifeste-karim-bouamrane-2027-v2.pdf",
+            "sourceLabel": "La France humaine et forte, manifeste 2027",
+            "origin": "programme-2027"
+          }
+        ]
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": [
+          {
+            "text": "Propose de combattre le narcotrafic et de faire respecter l'autorité de la République sur tout le territoire.",
+            "sourceUrl": "https://www.lafrancehumaineetforte.fr/output/pdf/manifeste-karim-bouamrane-2027-v2.pdf",
+            "sourceLabel": "La France humaine et forte, manifeste 2027",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose de faire de la protection des enfants et des femmes contre les violences une grande cause nationale.",
+            "sourceUrl": "https://www.lafrancehumaineetforte.fr/output/pdf/manifeste-karim-bouamrane-2027-v2.pdf",
+            "sourceLabel": "La France humaine et forte, manifeste 2027",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Défend une politique migratoire combinant accueil de ceux qui ont le droit de rester, action sur les causes des migrations par le développement, et reconduite des personnes en situation irrégulière.",
+            "sourceUrl": "https://www.lafrancehumaineetforte.fr/output/pdf/manifeste-karim-bouamrane-2027-v2.pdf",
+            "sourceLabel": "La France humaine et forte, manifeste 2027",
+            "origin": "programme-2027"
+          }
+        ]
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": [
+          {
+            "text": "Propose d'augmenter l'effort de défense et de maintenir une dissuasion nucléaire crédible.",
+            "sourceUrl": "https://www.lafrancehumaineetforte.fr/output/pdf/manifeste-karim-bouamrane-2027-v2.pdf",
+            "sourceLabel": "La France humaine et forte, manifeste 2027",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Défend une Europe qui protège ses citoyens et ses frontières.",
+            "sourceUrl": "https://www.lafrancehumaineetforte.fr/output/pdf/manifeste-karim-bouamrane-2027-v2.pdf",
+            "sourceLabel": "La France humaine et forte, manifeste 2027",
+            "origin": "programme-2027"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dominique-de-villepin",
+    "name": "Dominique de Villepin",
+    "party": "La France humaniste",
+    "avatarUrl": "/avatars/dominique-de-villepin.svg",
+    "color": "#DB2777",
+    "status": "A déclaré le 30 août 2026 vouloir être candidat et revendique plusieurs centaines de parrainages ; candidature pas encore formellement officialisée",
+    "statusSourceUrl": "https://actu.orange.fr/politique/presidentielle-2027-dominique-de-villepin-declare-vouloir-etre-candidat-magic-CNT000002rCnAy.html",
+    "summary": "Ancien ministre des Affaires étrangères (2002-2004), de l'Intérieur (2004-2005) puis Premier ministre (2005-2007) sous la présidence de Jacques Chirac. Il a fondé en juin 2025 le mouvement La France humaniste, qui se présente comme une alternative aux partis de gauche radicale et d'extrême droite.",
+    "officialSiteUrl": "https://lafrancehumaniste.fr/",
+    "programUrl": "https://lafrancehumaniste.fr/france2027",
+    "wikipediaTitle": "Dominique de Villepin",
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          {
+            "text": "Propose de transférer environ 200 milliards d'euros de cotisations vers une CSG universelle, avec un gain annoncé de 200 euros nets par mois en moyenne pour les salariés et de 100 euros au niveau du SMIC.",
+            "sourceUrl": "https://lafrancehumaniste.fr/programme/economie.html",
+            "sourceLabel": "La France humaniste, programme économique 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose de supprimer par paliers sur cinq ans toutes les niches fiscales et de ramener le système à neuf impôts, dont un impôt unique sur le patrimoine à partir de 2,2 millions d'euros.",
+            "sourceUrl": "https://lafrancehumaniste.fr/programme/economie.html",
+            "sourceLabel": "La France humaniste, programme économique 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose de ramener le déficit public sous 3 % du PIB en 2031, avec une trajectoire opposable à chaque loi de finances.",
+            "sourceUrl": "https://lafrancehumaniste.fr/programme/economie.html",
+            "sourceLabel": "La France humaniste, programme économique 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose d'inscrire le principe de la négociation sociale dans la loi et dans la Constitution.",
+            "sourceUrl": "https://www.boursorama.com/actualite-economique/actualites/villepin-veut-inscrire-le-principe-de-la-negociation-sociale-dans-la-constitution-b78cf186a05dfb4fcd3ce6e83d386d71",
+            "sourceLabel": "Boursorama, 27 septembre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": [
+          {
+            "text": "Propose un bouclier sanitaire plafonnant le reste à charge annuel des patients en fonction de leurs revenus.",
+            "sourceUrl": "https://lafrancehumaniste.fr/articles/protection-sociale.html",
+            "sourceLabel": "La France humaniste, chronique du 4 décembre 2025",
+            "origin": "declaration-2025"
+          },
+          {
+            "text": "Propose un droit d'option permettant aux hôpitaux publics de passer au statut d'établissement privé non lucratif, rendu obligatoire en cas de déficits répétés.",
+            "sourceUrl": "https://lafrancehumaniste.fr/articles/protection-sociale.html",
+            "sourceLabel": "La France humaniste, chronique du 4 décembre 2025",
+            "origin": "declaration-2025"
+          },
+          {
+            "text": "Propose, contre les déserts médicaux, une ouverture progressive des droits de prescription à d'autres soignants et un tri des besoins par les infirmiers.",
+            "sourceUrl": "https://lafrancehumaniste.fr/articles/protection-sociale.html",
+            "sourceLabel": "La France humaniste, chronique du 4 décembre 2025",
+            "origin": "declaration-2025"
+          }
+        ]
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": [
+          {
+            "text": "Propose la construction de six réacteurs EPR2, l'industrialisation de l'éolien en mer et une électrification massive des usages.",
+            "sourceUrl": "https://lafrancehumaniste.fr/programme/economie.html",
+            "sourceLabel": "La France humaniste, programme économique 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose un million de voitures électriques en leasing social, un million de pompes à chaleur et un dividende climatique.",
+            "sourceUrl": "https://lafrancehumaniste.fr/programme/economie.html",
+            "sourceLabel": "La France humaniste, programme économique 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose des contrats d'électricité au coût réel de production sans surtaxes, avec une baisse visée de 15 % de la facture.",
+            "sourceUrl": "https://lafrancehumaniste.fr/programme/economie.html",
+            "sourceLabel": "La France humaniste, programme économique 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose d'interdire rapidement les pesticides et substances les plus toxiques, avec un accompagnement des agriculteurs et un étiquetage d'avertissement obligatoire.",
+            "sourceUrl": "https://lafrancehumaniste.fr/articles/sante-et-environnement.html",
+            "sourceLabel": "La France humaniste, chronique du 27 août 2025",
+            "origin": "declaration-2025"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "nucleaire",
+            "value": "relance",
+            "sourceUrl": "https://lafrancehumaniste.fr/programme/economie.html"
+          }
+        ]
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": [
+          {
+            "text": "Propose une hausse d'au moins 10 % de la rémunération de tous les personnels scolaires, enseignants compris.",
+            "sourceUrl": "https://lafrancehumaniste.fr/articles/refonder-lecole-pour-refaire-societe.html",
+            "sourceLabel": "La France humaniste, chronique du 1er septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de consacrer les après-midis, du primaire au lycée, aux activités pratiques, artistiques et sportives, avec plus de cent heures de pratique artistique par an et par enfant.",
+            "sourceUrl": "https://entrevue.fr/politique/dominique-de-villepin-veut-cent-heures-dart-par-enfant-et-une-taxe-sur-lia/",
+            "sourceLabel": "Entrevue, 15 septembre 2026 ; La France humaniste, 1er septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose des tests nationaux annuels en français, mathématiques et histoire du primaire au collège, et l'interdiction du téléphone portable dans les établissements.",
+            "sourceUrl": "https://lafrancehumaniste.fr/articles/refonder-lecole-pour-refaire-societe.html",
+            "sourceLabel": "La France humaniste, chronique du 1er septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de moduler la taille des classes selon l'indice de position sociale des élèves.",
+            "sourceUrl": "https://lafrancehumaniste.fr/articles/refonder-lecole-pour-refaire-societe.html",
+            "sourceLabel": "La France humaniste, chronique du 1er septembre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": [
+          {
+            "text": "Propose de renforcer la coordination entre justice, police et services financiers ainsi que la formation des magistrats, policiers et gendarmes dans la lutte antiterroriste.",
+            "sourceUrl": "https://lafrancehumaniste.fr/articles/la-lutte-antiterroriste.html",
+            "sourceLabel": "La France humaniste, chronique du 15 novembre 2025",
+            "origin": "declaration-2025"
+          }
+        ]
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": [
+          {
+            "text": "Propose une pause dans la logique d'unification européenne et la création d'un Conseil de sécurité européen réunissant l'Allemagne, l'Espagne, la France, l'Italie et la Pologne.",
+            "sourceUrl": "https://lafrancehumaniste.fr/articles/moment-europeen-europe-souveraine.html",
+            "sourceLabel": "La France humaniste, manifeste du 6 mars 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose un emprunt mutualisé européen pour financer des politiques sectorielles, une agence européenne d'innovation de défense sur le modèle de la DARPA et un porte-avions nucléaire financé par l'Union.",
+            "sourceUrl": "https://lafrancehumaniste.fr/articles/moment-europeen-europe-souveraine.html",
+            "sourceLabel": "La France humaniste, manifeste du 6 mars 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose pour l'Ukraine soit une adhésion accélérée par seuils successifs d'intégration, soit un statut d'association renforcé jusqu'au respect des critères.",
+            "sourceUrl": "https://lafrancehumaniste.fr/articles/moment-europeen-europe-souveraine.html",
+            "sourceLabel": "La France humaniste, manifeste du 6 mars 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend un pilier européen au sein de l'OTAN capable de fonctionner sans l'OTAN.",
+            "sourceUrl": "https://lafrancehumaniste.fr/articles/moment-europeen-europe-souveraine.html",
+            "sourceLabel": "La France humaniste, manifeste du 6 mars 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "david-lisnard",
+    "name": "David Lisnard",
+    "party": "Nouvelle Énergie",
+    "avatarUrl": "/avatars/david-lisnard.svg",
+    "color": "#6D28D9",
+    "status": "Candidat déclaré : candidature annoncée en janvier 2025 et confirmée le 31 mars 2026 sur France 2, en même temps que son départ de LR",
+    "statusSourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-david-lisnard-maire-de-cannes-annonce-sa-candidature-et-quitte-officiellement-les-lr",
+    "summary": "Maire de Cannes depuis 2014 et président de l'Association des maires de France depuis 2021, il préside le mouvement Nouvelle Énergie. Ancien membre des Républicains, il a quitté le parti en 2026 et se présente sur une ligne libérale centrée sur la baisse de la dépense publique et la décentralisation.",
+    "officialSiteUrl": "https://www.unenouvelleenergie.fr/",
+    "programUrl": "https://www.unenouvelleenergie.fr/notre-programme/",
+    "wikipediaTitle": "David Lisnard",
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          {
+            "text": "Propose 80 milliards d'euros d'économies dès la première année et de ne plus remplacer l'ensemble des 500 000 départs annuels de la fonction publique, en commençant par les fonctions administratives.",
+            "sourceUrl": "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-reduire-le-nombre-de-fonctionnaires/",
+            "sourceLabel": "Nouvelle Énergie (meeting de Saint-Raphaël, 4 juillet 2026)",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de ramener en dix ans la dépense publique à environ 45 % du PIB, le niveau des Pays-Bas, et de diviser par deux le nombre d'agences et d'organismes publics.",
+            "sourceUrl": "https://www.lejdd.fr/politique/david-lisnard-redresser-la-france-ne-se-resume-pas-a-un-slogan-185976",
+            "sourceLabel": "Le JDD, 14 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de reverser 60 % des économies aux actifs sous forme de salaire net, par une baisse des cotisations et un alignement de leur CSG sur celle des non-actifs.",
+            "sourceUrl": "https://www.lejdd.fr/politique/david-lisnard-redresser-la-france-ne-se-resume-pas-a-un-slogan-185976",
+            "sourceLabel": "Le JDD, 14 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de faire converger les régimes de retraite public et privé et d'introduire une part de retraite par capitalisation obligatoire et collective.",
+            "sourceUrl": "https://www.unenouvelleenergie.fr/questions/quel-age-de-depart-a-la-retraite-david-lisnard-defend-il/",
+            "sourceLabel": "Nouvelle Énergie, page mise à jour le 3 octobre 2026 ; Le JDD, 14 octobre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": [
+          {
+            "text": "S'oppose à la régulation de l'installation des médecins et propose d'augmenter le nombre de médecins formés.",
+            "sourceUrl": "https://www.unenouvelleenergie.fr/questions/comment-david-lisnard-compte-t-il-lutter-contre-les-deserts-medicaux/",
+            "sourceLabel": "Nouvelle Énergie (BFMTV, 7 mai 2025)",
+            "origin": "declaration-2025"
+          },
+          {
+            "text": "Propose d'élargir les droits de prescription des pharmaciens et de s'appuyer davantage sur les infirmiers en pratique avancée et les kinésithérapeutes pour désengorger l'hôpital.",
+            "sourceUrl": "https://www.unenouvelleenergie.fr/questions/quel-candidat-propose-une-reforme-de-l-hopital-public/",
+            "sourceLabel": "Nouvelle Énergie (BFMTV ; RMC, 21 avril 2026)",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de réduire le nombre d'agences sanitaires et d'accélérer l'accès au marché des nouveaux médicaments.",
+            "sourceUrl": "https://www.lejdd.fr/politique/david-lisnard-redresser-la-france-ne-se-resume-pas-a-un-slogan-185976",
+            "sourceLabel": "Le JDD, 14 octobre 2026",
+            "origin": "declaration-2026"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "deserts-medicaux",
+            "value": "incitations",
+            "sourceUrl": "https://www.unenouvelleenergie.fr/questions/comment-david-lisnard-compte-t-il-lutter-contre-les-deserts-medicaux/"
+          }
+        ]
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": [
+          {
+            "text": "Défend une énergie décarbonée et compétitive adossée au nucléaire et s'oppose à la fermeture de réacteurs, qualifiant de faute la fermeture de Fessenheim.",
+            "sourceUrl": "https://www.unenouvelleenergie.fr/questions/quel-candidat-defend-une-ecologie-pragmatique-et-non-punitive/",
+            "sourceLabel": "Nouvelle Énergie (entretiens du 29 novembre 2025 et du 21 janvier 2026)",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose que la puissance publique fixe des objectifs environnementaux sans imposer de choix technique.",
+            "sourceUrl": "https://www.unenouvelleenergie.fr/questions/quel-candidat-defend-une-ecologie-pragmatique-et-non-punitive/",
+            "sourceLabel": "Nouvelle Énergie (entretien du 29 novembre 2025)",
+            "origin": "declaration-2025"
+          },
+          {
+            "text": "Juge le dispositif zéro artificialisation nette inapplicable en l'état pour les communes.",
+            "sourceUrl": "https://www.unenouvelleenergie.fr/questions/quel-candidat-defend-une-ecologie-pragmatique-et-non-punitive/",
+            "sourceLabel": "Nouvelle Énergie (Congrès des maires, 20 novembre 2025)",
+            "origin": "declaration-2025"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "nucleaire",
+            "value": "relance",
+            "sourceUrl": "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-construire-de-nouveaux-reacteurs-nucleaires/"
+          }
+        ]
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": [
+          {
+            "text": "Propose un tronc commun avec français et mathématiques renforcés le matin, et sport, humanités et arts l'après-midi.",
+            "sourceUrl": "https://www.lejdd.fr/politique/david-lisnard-redresser-la-france-ne-se-resume-pas-a-un-slogan-185976",
+            "sourceLabel": "Le JDD, 14 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de créer des internats publics d'excellence, un par ancien canton, et des internats disciplinaires pour les élèves perturbateurs.",
+            "sourceUrl": "https://www.lejdd.fr/politique/david-lisnard-redresser-la-france-ne-se-resume-pas-a-un-slogan-185976",
+            "sourceLabel": "Le JDD, 14 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de supprimer la carte scolaire et de laisser les parents choisir l'établissement, le financement public suivant l'élève dans le public comme dans le privé.",
+            "sourceUrl": "https://www.lejdd.fr/politique/david-lisnard-redresser-la-france-ne-se-resume-pas-a-un-slogan-185976",
+            "sourceLabel": "Le JDD, 14 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de confier aux chefs d'établissement l'organisation, le recrutement et la gestion de leur établissement.",
+            "sourceUrl": "https://www.lejdd.fr/politique/david-lisnard-redresser-la-france-ne-se-resume-pas-a-un-slogan-185976",
+            "sourceLabel": "Le JDD, 14 octobre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": [
+          {
+            "text": "Propose de rétablir le délit de séjour irrégulier, supprimé en 2012.",
+            "sourceUrl": "https://www.unenouvelleenergie.fr/questions/david-lisnard-veut-il-retablir-le-delit-de-sejour-irregulier/",
+            "sourceLabel": "Nouvelle Énergie (Grand Angle, 30 mars 2025)",
+            "origin": "declaration-2025"
+          },
+          {
+            "text": "Propose de diviser l'immigration au moins par huit et de recourir au référendum pour maîtriser les flux migratoires.",
+            "sourceUrl": "https://www.unenouvelleenergie.fr/questions/que-propose-david-lisnard-sur-l-immigration/",
+            "sourceLabel": "Nouvelle Énergie (publication du 3 septembre 2026 ; TF1, 8 octobre 2025)",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose une loi instaurant un code pénal des mineurs et la construction de places de prison supplémentaires.",
+            "sourceUrl": "https://www.lejdd.fr/politique/david-lisnard-redresser-la-france-ne-se-resume-pas-a-un-slogan-185976",
+            "sourceLabel": "Le JDD, 14 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de financer davantage de policiers par une réduction des effectifs administratifs et se dit favorable à l'armement des polices municipales.",
+            "sourceUrl": "https://www.unenouvelleenergie.fr/questions/quel-candidat-propose-de-redonner-des-moyens-aux-forces-de-l-ordre/",
+            "sourceLabel": "Nouvelle Énergie (Public Sénat, 17 novembre 2025)",
+            "origin": "declaration-2025"
+          }
+        ]
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": [
+          {
+            "text": "Propose un traité de démocratisation de l'Europe pour revoir la répartition des compétences entre l'Union et les États, en renforçant le Conseil européen et le Parlement.",
+            "sourceUrl": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
+            "sourceLabel": "Nouvelle Énergie, programme « Être maître de notre destin »",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose qu'un État bloqué par des règles supranationales puisse soumettre la question aux citoyens par référendum.",
+            "sourceUrl": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
+            "sourceLabel": "Nouvelle Énergie, programme « Être maître de notre destin »",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Défend le maintien de l'alliance avec les États-Unis, la réduction de la dépendance stratégique à la Chine et une révision des projets franco-allemands d'avion de combat et de char.",
+            "sourceUrl": "https://www.lejdd.fr/politique/david-lisnard-redresser-la-france-ne-se-resume-pas-a-un-slogan-185976",
+            "sourceLabel": "Le JDD, 14 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend la recherche d'une paix avec la Russie sans abandon de l'Ukraine.",
+            "sourceUrl": "https://www.lejdd.fr/politique/david-lisnard-redresser-la-france-ne-se-resume-pas-a-un-slogan-185976",
+            "sourceLabel": "Le JDD, 14 octobre 2026",
+            "origin": "declaration-2026"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "union-europeenne",
+            "value": "renegociation",
+            "sourceUrl": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "francois-ruffin",
+    "name": "François Ruffin",
+    "party": "Debout !",
+    "avatarUrl": "/avatars/francois-ruffin.svg",
+    "color": "#B91C1C",
+    "status": "Candidat déclaré : la primaire de la gauche unitaire prévue le 11 octobre 2026 n'a pas eu lieu, et il maintient sa candidature hors primaire (Public Sénat, 18 septembre 2026).",
+    "statusSourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-le-dernier-decompte-des-candidats-deja-sur-la-ligne-de-depart",
+    "summary": "Député de la Somme depuis 2017, ancien membre du groupe La France insoumise, il préside le mouvement Debout ! (anciennement Picardie Debout !). Il dit vouloir rapprocher la gauche sociale et la gauche écologiste, et défend le protectionnisme économique ainsi que le référendum d'initiative citoyenne.",
+    "officialSiteUrl": "https://nouspresident.fr",
+    "programUrl": "https://nouspresident.fr/notre-programme/",
+    "wikipediaTitle": "François Ruffin",
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          {
+            "text": "Propose de porter le SMIC à 1 600 € et de rétablir la retraite à 60 ans.",
+            "sourceUrl": "https://nouspresident.fr/statut-travailleurs-essentiels/",
+            "sourceLabel": "Nous Président ! (site de campagne), cahier « Pour les travailleurs essentiels », 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose d'indexer les salaires sur l'inflation et de créer un statut des travailleurs essentiels (majoration des heures avant 8 h et après 18 h, trimestre de retraite supplémentaire pour quatre trimestres cotisés dans un métier exposé).",
+            "sourceUrl": "https://nouspresident.fr/statut-travailleurs-essentiels/",
+            "sourceLabel": "Nous Président ! (site de campagne), cahier « Pour les travailleurs essentiels », 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose de relocaliser 100 produits stratégiques au moyen de barrières douanières et de quotas d'importation, et d'adopter un « Buy French Act » visant 80 % de commande publique localisée en France.",
+            "sourceUrl": "https://nouspresident.fr/pour-proteger-notre-industrie-relocaliser-100-produits-strategiques/",
+            "sourceLabel": "Nous Président ! (site de campagne), cahier n° 7, 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose une taxe de 4 % sur les dividendes des entreprises au-delà de 10 millions d'euros (2 % en dessous) pour financer la transition écologique.",
+            "sourceUrl": "https://nouspresident.fr/travaillisme-ecologique/",
+            "sourceLabel": "Nous Président ! (site de campagne), cahier « Pour un travaillisme écologique », 2026",
+            "origin": "programme-2027"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "age-retraite",
+            "value": "60",
+            "sourceUrl": "https://nouspresident.fr/statut-travailleurs-essentiels/"
+          },
+          {
+            "issueId": "smic",
+            "value": "forte-hausse",
+            "sourceUrl": "https://nouspresident.fr/statut-travailleurs-essentiels/"
+          }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": [
+          {
+            "text": "Propose un pôle public du médicament chargé de produire en France des médicaments essentiels et d'investir dans les entreprises pharmaceutiques françaises.",
+            "sourceUrl": "https://nouspresident.fr/pour-proteger-notre-industrie-relocaliser-100-produits-strategiques/",
+            "sourceLabel": "Nous Président ! (site de campagne), cahier n° 7, 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Est cosignataire de la proposition de loi transpartisane Garot qui soumet l'installation des médecins à une autorisation de l'ARS dans les zones déjà bien dotées.",
+            "sourceUrl": "https://www.assemblee-nationale.fr/17/pdf/propositions/pion0966.pdf",
+            "sourceLabel": "Assemblée nationale, proposition de loi n° 966, 13 février 2025",
+            "origin": "proposition-de-loi-2025"
+          },
+          {
+            "text": "Propose de réduire de 20 millions d'euros le budget de l'Élysée pour financer 400 postes d'infirmiers.",
+            "sourceUrl": "https://www.brut.media/fr/articles/francois-ruffin-annonce-sa-candidature-a-la-primaire-de-gauche-et-a-la-presidentielle",
+            "sourceLabel": "Brut, 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend la sortie de la santé, de l'éducation, de la culture et du sport de la logique de marché.",
+            "sourceUrl": "https://debout.fr/notre-manifeste/",
+            "sourceLabel": "Debout !, manifeste",
+            "origin": "manifeste-debout"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "deserts-medicaux",
+            "value": "regulation",
+            "sourceUrl": "https://www.assemblee-nationale.fr/17/pdf/propositions/pion0966.pdf"
+          }
+        ]
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": [
+          {
+            "text": "Propose de multiplier par quatre le budget public de la rénovation des logements pour atteindre progressivement 800 000 rénovations d'ampleur par an.",
+            "sourceUrl": "https://nouspresident.fr/travaillisme-ecologique/",
+            "sourceLabel": "Nous Président ! (site de campagne), cahier « Pour un travaillisme écologique », 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose un leasing social de voitures électriques françaises pour 3 millions d'automobilistes sur le quinquennat, le triplement de la part du fret ferroviaire et la réduction de moitié du trafic aérien.",
+            "sourceUrl": "https://nouspresident.fr/travaillisme-ecologique/",
+            "sourceLabel": "Nous Président ! (site de campagne), cahier « Pour un travaillisme écologique », 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose de prolonger les centrales nucléaires existantes sous réserve de l'avis de l'ASN, de poursuivre six réacteurs EPR2 et de développer l'éolien et l'hydraulique.",
+            "sourceUrl": "https://nouspresident.fr/travaillisme-ecologique/",
+            "sourceLabel": "Nous Président ! (site de campagne), cahier « Pour un travaillisme écologique », 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose de plafonner le prix de l'électricité au coût de production français via des contrats de long terme gérés par un acheteur unique public.",
+            "sourceUrl": "https://nouspresident.fr/pour-proteger-notre-industrie-relocaliser-100-produits-strategiques/",
+            "sourceLabel": "Nous Président ! (site de campagne), cahier n° 7, 2026",
+            "origin": "programme-2027"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "nucleaire",
+            "value": "relance",
+            "sourceUrl": "https://nouspresident.fr/travaillisme-ecologique/"
+          }
+        ]
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": [
+          {
+            "text": "Propose que chaque enfant bénéficie d'au moins un séjour collectif en colonie de vacances financé pendant la scolarité obligatoire, et de rendre le BAFA gratuit.",
+            "sourceUrl": "https://nouspresident.fr/temps-loisirs/",
+            "sourceLabel": "Nous Président ! (site de campagne), cahier « Pour renouer avec le temps des loisirs », 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose de rétablir et d'augmenter la part collective du Pass Culture destinée aux projets artistiques des établissements scolaires.",
+            "sourceUrl": "https://nouspresident.fr/temps-loisirs/",
+            "sourceLabel": "Nous Président ! (site de campagne), cahier « Pour renouer avec le temps des loisirs », 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose d'ouvrir davantage les écoles aux associations et intervenants extérieurs, y compris sur le temps du midi et après la classe.",
+            "sourceUrl": "https://nouspresident.fr/temps-loisirs/",
+            "sourceLabel": "Nous Président ! (site de campagne), cahier « Pour renouer avec le temps des loisirs », 2026",
+            "origin": "programme-2027"
+          }
+        ]
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": [
+          {
+            "text": "Propose de mettre fin à l'inviolabilité pénale et civile complète du président de la République et de supprimer la Cour de justice de la République.",
+            "sourceUrl": "https://nouspresident.fr/separation-argent-etat/",
+            "sourceLabel": "Nous Président ! (site de campagne), cahier « Pour séparer l'argent de l'État », 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose de retirer au gouvernement le pouvoir de nomination des magistrats du parquet et de supprimer la convention judiciaire d'intérêt public.",
+            "sourceUrl": "https://nouspresident.fr/separation-argent-etat/",
+            "sourceLabel": "Nous Président ! (site de campagne), cahier « Pour séparer l'argent de l'État », 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose qu'un ministre mis en examen quitte immédiatement le gouvernement et d'interdire le pantouflage et le rétro-pantouflage des hauts fonctionnaires.",
+            "sourceUrl": "https://nouspresident.fr/separation-argent-etat/",
+            "sourceLabel": "Nous Président ! (site de campagne), cahier « Pour séparer l'argent de l'État », 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose de régulariser les travailleurs étrangers présents sur le territoire et de favoriser l'intégration par la langue, le travail et le logement.",
+            "sourceUrl": "https://debout.fr/notre-manifeste/",
+            "sourceLabel": "Debout !, manifeste",
+            "origin": "manifeste-debout"
+          }
+        ]
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": [
+          {
+            "text": "Défend la désobéissance aux traités européens lorsqu'ils contredisent les engagements du mouvement, et l'exclusion des investissements d'avenir des règles de déficit.",
+            "sourceUrl": "https://debout.fr/notre-manifeste/",
+            "sourceLabel": "Debout !, manifeste",
+            "origin": "manifeste-debout"
+          },
+          {
+            "text": "Propose de mettre fin aux négociations d'accords de libre-échange, de refuser la ratification du CETA et de déclencher les mesures de sauvegarde de l'accord UE-Mercosur.",
+            "sourceUrl": "https://nouspresident.fr/pour-proteger-notre-industrie-relocaliser-100-produits-strategiques/",
+            "sourceLabel": "Nous Président ! (site de campagne), cahier n° 7, 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Défend une voix française indépendante, hors de l'OTAN, et des sanctions identiques face à l'invasion russe de l'Ukraine et à la politique israélienne à Gaza et en Cisjordanie.",
+            "sourceUrl": "https://debout.fr/notre-manifeste/",
+            "sourceLabel": "Debout !, manifeste",
+            "origin": "manifeste-debout"
+          },
+          {
+            "text": "Se dit défavorable à l'entrée de l'Ukraine dans l'Union européenne, tout en se déclarant ouvert au débat.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/francois-ruffin-tente-par-la-primaire-du-ps-mais-rabroue-par-raphael-glucksmann-que-disent-les-regles-de-participation-a-ce-scrutin",
+            "sourceLabel": "Public Sénat, 8 septembre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      }
+    ]
   }
 ]

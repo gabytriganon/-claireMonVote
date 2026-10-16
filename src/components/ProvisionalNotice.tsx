@@ -13,8 +13,8 @@ export function ProvisionalNotice() {
         {meta.election} · liste provisoire, mise à jour le {formatDate(meta.updatedAt)}
       </h2>
       <p className="mt-1 text-sky-950 dark:text-sky-100">
-        {meta.selection} La liste officielle des candidats sera arrêtée par le Conseil constitutionnel avant le premier
-        tour du {formatDate(meta.firstRound)}.
+        {meta.selection} La liste officielle sera arrêtée par le Conseil constitutionnel avant le premier tour du{' '}
+        {formatDate(meta.firstRound)} : l'app ne gardera alors que les candidats officiels.
       </p>
       <p className="mt-1 text-sky-900 dark:text-sky-200" data-secondary>
         Chaque proposition renvoie vers sa source publique. Quand une position n'a pas pu être vérifiée, l'app l'indique
