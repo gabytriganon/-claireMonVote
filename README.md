@@ -27,6 +27,10 @@ npm run preview    # sert le build (service worker actif)
 
 L'app utilise des URL propres (`/candidat/:id`, `/comparer`) : l'hébergeur doit renvoyer `index.html` pour toute route. `vercel.json` (Vercel) et `public/_redirects` (Netlify) sont fournis.
 
+## GitHub Pages
+
+Chaque push sur `main` publie l'app sur https://gabytriganon.github.io/-claireMonVote/ via le workflow `.github/workflows/deploy-pages.yml` (build avec `--base=/<nom-du-dépôt>/`, et `404.html` pour les liens directs vers une page). Une seule fois : dans *Settings > Pages* du dépôt, choisir **GitHub Actions** comme *Source*.
+
 ## Modifier les données
 
 Tout est dans `src/data/` :

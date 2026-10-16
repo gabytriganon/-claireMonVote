@@ -1,9 +1,10 @@
 import type { Candidate } from '../lib/data'
+import { withBase } from '../lib/base'
 
 export function Avatar({ candidate, size = 64 }: { candidate: Candidate; size?: number }) {
   return (
     <img
-      src={candidate.avatarUrl}
+      src={withBase(candidate.avatarUrl)}
       alt=""
       width={size}
       height={size}

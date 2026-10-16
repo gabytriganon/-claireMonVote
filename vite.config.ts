@@ -15,8 +15,7 @@ export default defineConfig({
         short_name: 'ÉclaireMonVote',
         description: 'Consulter et comparer les programmes des candidats, thème par thème, en toute neutralité.',
         lang: 'fr',
-        start_url: '/',
-        scope: '/',
+        // start_url et scope suivent le chemin de base de Vite (`/` ou `/-claireMonVote/` sur GitHub Pages).
         display: 'standalone',
         orientation: 'portrait-primary',
         background_color: '#f8fafc',
@@ -31,7 +30,7 @@ export default defineConfig({
       workbox: {
         // App shell + données JSON (embarquées dans le bundle) sont précachées : tout fonctionne hors ligne.
         globPatterns: ['**/*.{js,css,html,svg,png,ico,webp,woff2,json}'],
-        navigateFallback: '/index.html',
+        navigateFallback: 'index.html',
         runtimeCaching: [
           {
             // Images distantes éventuelles (photos officielles) : cache first.
