@@ -2,7 +2,7 @@
 
 Progressive Web App pour consulter et comparer les programmes des candidats à l'élection présidentielle, thème par thème, en toute neutralité. Installable sur mobile et ordinateur, utilisable hors ligne.
 
-> Les candidats actuellement présents sont **fictifs** (données de démonstration).
+> Données : **présidentielle 2027**, liste **provisoire** des candidats déclarés ou désignés par leur parti et testés dans les sondages (mise à jour dans `src/data/meta.json`). Chaque proposition renvoie vers la page publique qui l'atteste ; une position non vérifiée est affichée comme « non connue », jamais devinée.
 
 ## Fonctionnalités
 
@@ -37,10 +37,13 @@ Tout est dans `src/data/` :
 
 | Fichier | Contenu |
 | --- | --- |
-| `candidates.json` | Candidats et propositions par thème (schéma du DSE, enrichi de `slogan`, `tags`, `quotes`, `sourceUrl`, `positions`). |
+| `candidates.json` | Candidats (statut de candidature et sa source, site officiel, programme 2027 s'il existe) et propositions par thème. Chaque point clé porte sa source : `{ text, sourceUrl, sourceLabel, origin }`, où `origin` vaut par exemple `programme-2027`, `declaration-2026` ou `programme-2022`. Chaque position sur une question clé porte aussi son `sourceUrl`. |
+| `meta.json` | Élection, date du premier tour, date de mise à jour, critère de sélection des candidats et ses sources. |
 | `themes.json` | Liste des thèmes affichés en onglets. |
 | `issues.json` | Questions clés comparables (ex. âge de départ à la retraite) et leurs options. `major: true` les fait apparaître dans « Divergences majeures ». |
 
-Deux candidats sont **d'accord** sur une question quand leurs `positions` ont la même valeur, en **désaccord** sinon.
+Deux candidats sont **d'accord** sur une question quand leurs `positions` ont la même valeur, en **désaccord** quand elles diffèrent. Si l'une des deux positions est inconnue, la question est marquée « non comparable » et n'est comptée ni comme accord ni comme désaccord.
+
+Règles de neutralité pour la mise à jour : même structure pour chaque candidat (6 thèmes, mêmes questions clés), aucune proposition sans source publique vérifiable, pas de photo sous droits (avatars à initiales), ordre d'affichage aléatoire.
 
 Pour remplacer les icônes de l'app : modifier `public/logo.svg` puis lancer `npm run generate-pwa-assets`.

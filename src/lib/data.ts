@@ -1,19 +1,27 @@
 import candidatesJson from '../data/candidates.json'
 import themesJson from '../data/themes.json'
 import issuesJson from '../data/issues.json'
+import metaJson from '../data/meta.json'
 
 export interface Position {
   issueId: string
   value: string
+  sourceUrl: string
+}
+
+/** Une proposition vérifiable : chaque point renvoie vers la page publique qui l'atteste. */
+export interface KeyPoint {
+  text: string
+  sourceUrl: string
+  sourceLabel: string
+  /** Nature de la source, ex. « programme-2022 », « declaration-2026 ». */
+  origin: string
 }
 
 export interface Proposal {
   themeId: string
   themeLabel: string
-  keyPoints: string[]
-  quotes?: string[]
-  stance?: string
-  sourceUrl?: string
+  keyPoints: KeyPoint[]
   positions?: Position[]
 }
 
@@ -23,11 +31,49 @@ export interface Candidate {
   party: string
   avatarUrl: string
   color: string
-  slogan?: string
-  tags?: string[]
+  status: string
+  statusSourceUrl: string
   summary: string
-  officialProgramUrl: string
+  officialSiteUrl?: string | null
+  programUrl?: string | null
   proposals: Proposal[]
+}
+
+export interface Meta {
+  election: string
+  firstRound: string
+  updatedAt: string
+  provisional: boolean
+  selection: string
+  selectionSources: { label: string; url: string }[]
+}
+
+export const meta = metaJson as Meta
+
+const originWords: Record<string, string> = {
+  programme: 'Programme',
+  'programme-europeennes': 'Programme européennes',
+  'programme-synthese': 'Programme (synthèse)',
+  declaration: 'Déclaration',
+  livre: 'Livre',
+  'contre-budget': 'Contre-budget',
+  'proposition-de-loi': 'Proposition de loi',
+}
+
+/**
+ * Libellé lisible de la nature d'une source : « declaration-2026 » → « Déclaration 2026 »,
+ * « programme-2027-synthese » → « Programme (synthèse) 2027 », « declaration-2024-2026 » → « Déclaration 2024-2026 ».
+ */
+export function originLabel(origin: string): string {
+  const parts = origin.split('-')
+  const years = parts.filter((p) => /^\d{4}$/.test(p))
+  const kind = parts.filter((p) => !/^\d{4}$/.test(p)).join('-')
+  const label = originWords[kind] ?? kind.charAt(0).toUpperCase() + kind.slice(1).replace(/-/g, ' ')
+  return [label, years.join('-')].filter(Boolean).join(' ')
+}
+
+export function formatDate(iso: string): string {
+  return new Date(`${iso}T12:00:00`).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })
 }
 
 export interface Theme {
@@ -98,7 +144,7 @@ export function positionOf(candidate: Candidate, issueId: string): string | unde
 }
 
 export function positionLabel(issue: Issue, value: string | undefined): string {
-  if (!value) return 'Pas de position exprimée'
+  if (!value) return 'Position non connue à ce jour'
   return issue.options[value] ?? value
 }
 
@@ -106,6 +152,8 @@ export interface IssueComparison {
   issue: Issue
   a?: string
   b?: string
+  /** Les deux positions sont connues : on peut dire s'il y a accord ou désaccord. */
+  comparable: boolean
   agree: boolean
 }
 
@@ -116,7 +164,8 @@ export function compareCandidates(a: Candidate, b: Candidate, themeId?: string):
     .map((issue) => {
       const va = positionOf(a, issue.id)
       const vb = positionOf(b, issue.id)
-      return { issue, a: va, b: vb, agree: va !== undefined && va === vb }
+      const comparable = va !== undefined && vb !== undefined
+      return { issue, a: va, b: vb, comparable, agree: comparable && va === vb }
     })
     .filter((c) => c.a !== undefined || c.b !== undefined)
 }
@@ -140,10 +189,10 @@ export function searchCandidates(query: string): SearchMatch[] {
   const results: SearchMatch[] = []
   for (const candidate of candidates) {
     const identity = normalize(
-      [candidate.name, candidate.party, candidate.slogan ?? '', ...(candidate.tags ?? [])].join(' '),
+      [candidate.name, candidate.party].join(' '),
     )
     const matchedThemes = candidate.proposals
-      .filter((p) => normalize([p.themeLabel, ...p.keyPoints, ...(p.quotes ?? [])].join(' ')).includes(q))
+      .filter((p) => normalize([p.themeLabel, ...p.keyPoints.map((k) => k.text)].join(' ')).includes(q))
       .map((p) => getTheme(p.themeId))
       .filter((t): t is Theme => Boolean(t))
     if (identity.includes(q) || matchedThemes.length > 0) {
