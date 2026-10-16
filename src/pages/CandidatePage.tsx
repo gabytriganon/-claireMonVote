@@ -38,22 +38,36 @@ export function CandidatePage() {
               <h1 className="text-2xl font-bold sm:text-3xl">{candidate.name}</h1>
               <p className="text-slate-600 dark:text-slate-400">{candidate.party}</p>
             </div>
-            {candidate.slogan && (
-              <p data-secondary className="text-lg italic">
-                « {candidate.slogan} »
-              </p>
-            )}
-            <p className="max-w-3xl leading-relaxed text-slate-700 dark:text-slate-300">{candidate.summary}</p>
-            <div className="flex flex-wrap gap-2 pt-1">
+            <p className="text-sm text-slate-700 dark:text-slate-300">
+              {candidate.status}{' '}
               <a
-                href={candidate.officialProgramUrl}
+                href={candidate.statusSourceUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 px-3 py-2 text-sm font-semibold hover:bg-slate-100 dark:border-slate-700 dark:hover:bg-slate-800"
+                className="font-medium text-sky-700 hover:underline dark:text-sky-400"
               >
-                Programme officiel <ExternalLink aria-hidden="true" className="size-4" />
-                <span className="sr-only">(nouvel onglet)</span>
+                (source<span className="sr-only">, nouvel onglet</span>)
               </a>
+            </p>
+            <p className="max-w-3xl leading-relaxed text-slate-700 dark:text-slate-300">{candidate.summary}</p>
+            <div className="flex flex-wrap gap-2 pt-1">
+              {[
+                { url: candidate.programUrl, label: 'Programme 2027' },
+                { url: candidate.officialSiteUrl, label: 'Site officiel' },
+              ]
+                .filter((l): l is { url: string; label: string } => Boolean(l.url))
+                .map((l) => (
+                  <a
+                    key={l.label}
+                    href={l.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 px-3 py-2 text-sm font-semibold hover:bg-slate-100 dark:border-slate-700 dark:hover:bg-slate-800"
+                  >
+                    {l.label} <ExternalLink aria-hidden="true" className="size-4" />
+                    <span className="sr-only">(nouvel onglet)</span>
+                  </a>
+                ))}
               <Link
                 to={`/comparer?a=${candidate.id}&theme=${themeId}`}
                 className="inline-flex items-center gap-1.5 rounded-lg bg-slate-900 px-3 py-2 text-sm font-semibold text-white hover:bg-slate-800 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-200"
@@ -63,6 +77,12 @@ export function CandidatePage() {
             </div>
           </div>
         </div>
+        {!candidate.programUrl && (
+          <p className="border-t border-slate-200 px-5 py-3 text-sm text-slate-600 sm:px-8 dark:border-slate-800 dark:text-slate-400">
+            Programme complet pour 2027 non publié à ce jour : les propositions ci-dessous proviennent de déclarations
+            publiques ou d'un programme antérieur, comme indiqué à côté de chacune.
+          </p>
+        )}
       </header>
 
       <section className="space-y-5">

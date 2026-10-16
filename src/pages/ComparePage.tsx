@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import { AlertTriangle, ArrowLeftRight, Check, X } from 'lucide-react'
+import { AlertTriangle, ArrowLeftRight, Check, CircleHelp, X } from 'lucide-react'
 import { Avatar } from '../components/Avatar'
 import { ProposalView } from '../components/ProposalView'
 import { ThemeTabs } from '../components/ThemeTabs'
@@ -57,7 +57,14 @@ function CandidateSelect({
   )
 }
 
-function AgreementBadge({ agree }: { agree: boolean }) {
+function AgreementBadge({ comparable, agree }: { comparable: boolean; agree: boolean }) {
+  if (!comparable) {
+    return (
+      <span className="inline-flex items-center gap-1 rounded-full bg-slate-100 px-2 py-0.5 text-xs font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-300">
+        <CircleHelp aria-hidden="true" className="size-3.5" /> Non comparable
+      </span>
+    )
+  }
   return agree ? (
     <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-semibold text-emerald-900 dark:bg-emerald-900/50 dark:text-emerald-200">
       <Check aria-hidden="true" className="size-3.5" /> Accord
@@ -74,7 +81,7 @@ function PositionRow({ row, a, b }: { row: IssueComparison; a: Candidate; b: Can
     <li className="space-y-2 py-3">
       <div className="flex flex-wrap items-center gap-2">
         <span className="font-semibold">{row.issue.question}</span>
-        <AgreementBadge agree={row.agree} />
+        <AgreementBadge comparable={row.comparable} agree={row.agree} />
       </div>
       <dl className="grid grid-cols-2 gap-3 text-sm">
         {[
@@ -123,11 +130,12 @@ export function ComparePage() {
   }
 
   const all = a && b ? compareCandidates(a, b) : []
-  const majorDivergences = all.filter((r) => r.issue.major && !r.agree)
+  const majorDivergences = all.filter((r) => r.issue.major && r.comparable && !r.agree)
   const agreeCount = all.filter((r) => r.agree).length
+  const comparableCount = all.filter((r) => r.comparable).length
   const themeRows = all
     .filter((r) => r.issue.themeId === themeId)
-    .filter((r) => (filter === 'tous' ? true : filter === 'accords' ? r.agree : !r.agree))
+    .filter((r) => (filter === 'tous' ? true : filter === 'accords' ? r.agree : r.comparable && !r.agree))
   const theme = getTheme(themeId)!
 
   return (
@@ -169,10 +177,11 @@ export function ComparePage() {
             <p className="mt-1 text-sm text-amber-900 dark:text-amber-200">
               {majorDivergences.length} divergence{majorDivergences.length > 1 ? 's' : ''} majeure
               {majorDivergences.length > 1 ? 's' : ''} · {agreeCount} point{agreeCount > 1 ? 's' : ''} d'accord sur{' '}
-              {all.length} questions clés
+              {comparableCount} question{comparableCount > 1 ? 's' : ''} clé{comparableCount > 1 ? 's' : ''} où les deux positions
+              sont connues
             </p>
             {majorDivergences.length === 0 ? (
-              <p className="mt-3">Aucune opposition frontale sur les questions clés.</p>
+              <p className="mt-3">Aucune opposition frontale sur les questions clés où les deux positions sont connues.</p>
             ) : (
               <ul className="mt-3 divide-y divide-amber-200 dark:divide-amber-900">
                 {majorDivergences.map((row) => (
@@ -195,7 +204,7 @@ export function ComparePage() {
                           <span className="font-medium">{positionLabel(row.issue, v)}</span>
                           <span data-secondary className="text-slate-600 dark:text-slate-400" aria-hidden="true">
                             {' '}
-                            ({c.name.split(' ').pop()})
+                            ({c.name})
                           </span>
                         </span>
                       </p>

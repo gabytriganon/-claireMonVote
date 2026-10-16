@@ -1,361 +1,2042 @@
 [
   {
-    "id": "jean-dupont",
-    "name": "Jean Dupont",
-    "party": "Mouvement Demain",
-    "avatarUrl": "/avatars/jean-dupont.svg",
+    "id": "nathalie-arthaud",
+    "name": "Nathalie Arthaud",
+    "party": "Lutte ouvrière",
+    "avatarUrl": "/avatars/nathalie-arthaud.svg",
     "color": "#0F766E",
-    "slogan": "Construire ensemble le pays de demain",
-    "tags": ["Nucléaire", "Europe", "Pouvoir d'achat"],
-    "summary": "Jean Dupont défend une modernisation progressive de l'économie, appuyée sur une énergie décarbonée et une Europe plus intégrée. Il met l'accent sur le pouvoir d'achat et l'équilibre des comptes publics.",
-    "officialProgramUrl": "https://example.org/programmes/jean-dupont",
+    "status": "Candidate déclarée le 14 février 2026 (annonce lors d'un meeting de Lutte ouvrière)",
+    "statusSourceUrl": "https://www.lutte-ouvriere.org/portail/brochures/meeting-14-fevrier-2026-discours-nathalie-arthaud-191591.html",
+    "summary": "Professeure d'économie en lycée, elle est porte-parole de Lutte ouvrière depuis 2008, à la suite d'Arlette Laguiller. Elle a été candidate aux élections présidentielles de 2012, 2017 et 2022, et se présente en 2027 sur une ligne communiste révolutionnaire.",
+    "officialSiteUrl": "https://www.lutte-ouvriere.org/portail/nathalie-arthaud.html",
+    "programUrl": null,
     "proposals": [
       {
         "themeId": "economie",
         "themeLabel": "Économie & Emploi",
         "keyPoints": [
-          "Âge légal de départ maintenu à 64 ans, avec un dispositif renforcé pour les carrières longues.",
-          "Revalorisation du SMIC de 5 %.",
-          "Baisse de la TVA sur les produits de première nécessité."
+          {
+            "text": "Défend un salaire, une pension ou une allocation d'au moins 2 200 euros net par mois, indexés sur la hausse des prix.",
+            "sourceUrl": "https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf",
+            "sourceLabel": "Lutte ouvrière, brochure été 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de répartir le travail entre tous sans diminution de salaire et d'interdire les licenciements.",
+            "sourceUrl": "https://www.lutte-ouvriere.org/portail/brochures/meeting-26-septembre-2026-discours-nathalie-arthaud-197446.html",
+            "sourceLabel": "Lutte ouvrière, discours du meeting du 26 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de rendre publics les comptes des grandes entreprises et de lever le secret commercial et le secret des affaires.",
+            "sourceUrl": "https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf",
+            "sourceLabel": "Lutte ouvrière, brochure été 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend le retour de la retraite à 60 ans.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/emploi-retrouvez-les-principales-propositions-des-candidats-a-la-presidentielle",
+            "sourceLabel": "Public Sénat, 22 mars 2022",
+            "origin": "programme-2022"
+          }
         ],
-        "quotes": ["« Le travail doit toujours payer davantage que l'inactivité. »"],
-        "sourceUrl": "https://example.org/programmes/jean-dupont#economie",
         "positions": [
-          { "issueId": "age-retraite", "value": "64" },
-          { "issueId": "smic", "value": "hausse-moderee" },
-          { "issueId": "tva-premiere-necessite", "value": "baisse" }
+          {
+            "issueId": "age-retraite",
+            "value": "60",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/emploi-retrouvez-les-principales-propositions-des-candidats-a-la-presidentielle"
+          },
+          {
+            "issueId": "smic",
+            "value": "forte-hausse",
+            "sourceUrl": "https://www.lutte-ouvriere.org/portail/brochures/meeting-26-septembre-2026-discours-nathalie-arthaud-197446.html"
+          }
         ]
       },
       {
         "themeId": "sante",
         "themeLabel": "Santé",
         "keyPoints": [
-          "Prime d'installation de 50 000 € pour les médecins s'installant en zone sous-dotée.",
-          "Création de 500 maisons de santé pluridisciplinaires.",
-          "Remboursement intégral des soins dentaires et optiques de base."
-        ],
-        "quotes": ["« Personne ne devrait faire une heure de route pour voir un médecin. »"],
-        "sourceUrl": "https://example.org/programmes/jean-dupont#sante",
-        "positions": [{ "issueId": "deserts-medicaux", "value": "incitations" }]
+          {
+            "text": "Propose d'affecter des profits confisqués aux grandes entreprises au recrutement de soignants dans les hôpitaux.",
+            "sourceUrl": "https://www.lutte-ouvriere.org/portail/brochures/meeting-26-septembre-2026-discours-nathalie-arthaud-197446.html",
+            "sourceLabel": "Lutte ouvrière, discours du meeting du 26 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose que les embauches dans les hôpitaux et les EHPAD soient déterminées à partir des besoins recensés par le personnel.",
+            "sourceUrl": "https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure_caravane_2026-01_-_couleur.pdf",
+            "sourceLabel": "Lutte ouvrière, brochure de campagne présidentielle 2027, mai 2026",
+            "origin": "declaration-2026"
+          }
+        ]
       },
       {
         "themeId": "ecologie",
         "themeLabel": "Écologie & Énergie",
         "keyPoints": [
-          "Objectif de neutralité carbone en 2040.",
-          "Construction de 6 nouveaux réacteurs nucléaires.",
-          "Investissement de 10 milliards d'euros dans l'isolation thermique."
-        ],
-        "quotes": ["« Le nucléaire est notre meilleur allié pour sortir des énergies fossiles. »"],
-        "stance": "pro-nucleaire",
-        "sourceUrl": "https://example.org/programmes/jean-dupont#ecologie",
-        "positions": [{ "issueId": "nucleaire", "value": "relance" }]
+          {
+            "text": "Défend une planification de la production d'énergie et des usages de l'eau coordonnée entre pays.",
+            "sourceUrl": "https://www.lutte-ouvriere.org/portail/brochures/meeting-26-septembre-2026-discours-nathalie-arthaud-197446.html",
+            "sourceLabel": "Lutte ouvrière, discours du meeting du 26 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose d'obliger TotalEnergies à vendre son carburant à prix coûtant.",
+            "sourceUrl": "https://www.lutte-ouvriere.org/portail/brochures/meeting-26-septembre-2026-discours-nathalie-arthaud-197446.html",
+            "sourceLabel": "Lutte ouvrière, discours du meeting du 26 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose l'expropriation sans indemnité des actionnaires des grands groupes, en commençant par les secteurs du pétrole et de l'armement.",
+            "sourceUrl": "https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf",
+            "sourceLabel": "Lutte ouvrière, brochure été 2026",
+            "origin": "declaration-2026"
+          }
+        ]
       },
       {
         "themeId": "education",
         "themeLabel": "Éducation",
         "keyPoints": [
-          "Revalorisation de 10 % du salaire des enseignants en début de carrière.",
-          "Classes limitées à 20 élèves en primaire.",
-          "Uniforme laissé au choix des établissements."
-        ],
-        "quotes": ["« L'école est la première promesse de la République. »"],
-        "sourceUrl": "https://example.org/programmes/jean-dupont#education",
-        "positions": [{ "issueId": "uniforme", "value": "libre-choix" }]
+          {
+            "text": "Propose d'affecter des profits confisqués aux écoles où les classes sont surchargées.",
+            "sourceUrl": "https://www.lutte-ouvriere.org/portail/brochures/meeting-26-septembre-2026-discours-nathalie-arthaud-197446.html",
+            "sourceLabel": "Lutte ouvrière, discours du meeting du 26 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "S'oppose à la préparation de la jeunesse au service national et aux célébrations militaires du 11 novembre dans les écoles.",
+            "sourceUrl": "https://www.lutte-ouvriere.org/portail/brochures/meeting-26-septembre-2026-discours-nathalie-arthaud-197446.html",
+            "sourceLabel": "Lutte ouvrière, discours du meeting du 26 septembre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
       },
       {
         "themeId": "securite",
         "themeLabel": "Sécurité & Justice",
         "keyPoints": [
-          "Recrutement de 8 000 policiers et gendarmes supplémentaires.",
-          "Réduction des délais de jugement à moins d'un an.",
-          "Création d'un parquet national dédié aux cybercrimes."
-        ],
-        "quotes": ["« La sécurité est la condition de toutes les libertés. »"],
-        "sourceUrl": "https://example.org/programmes/jean-dupont#securite",
-        "positions": [{ "issueId": "effectifs-police", "value": "hausse" }]
+          {
+            "text": "Propose la régularisation de tous les sans-papiers.",
+            "sourceUrl": "https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf",
+            "sourceLabel": "Lutte ouvrière, brochure été 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend la liberté de circulation et d'installation pour chaque être humain et s'oppose aux expulsions.",
+            "sourceUrl": "https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf",
+            "sourceLabel": "Lutte ouvrière, brochure été 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "S'oppose à la préférence nationale et à l'interdiction du voile dans l'espace public.",
+            "sourceUrl": "https://www.lutte-ouvriere.org/portail/brochures/meeting-26-septembre-2026-discours-nathalie-arthaud-197446.html",
+            "sourceLabel": "Lutte ouvrière, discours du meeting du 26 septembre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
       },
       {
         "themeId": "international",
         "themeLabel": "International & Europe",
         "keyPoints": [
-          "Création d'une défense européenne commune.",
-          "Renforcement du budget européen pour l'innovation.",
-          "Maintien de l'aide au développement à 0,7 % du PIB."
-        ],
-        "quotes": ["« Seule, la France pèse ; unie à l'Europe, elle compte. »"],
-        "sourceUrl": "https://example.org/programmes/jean-dupont#international",
-        "positions": [{ "issueId": "union-europeenne", "value": "integration" }]
+          {
+            "text": "S'oppose à la hausse du budget militaire et à la livraison d'armes à l'Ukraine.",
+            "sourceUrl": "https://www.lutte-ouvriere.org/portail/brochures/meeting-26-septembre-2026-discours-nathalie-arthaud-197446.html",
+            "sourceLabel": "Lutte ouvrière, discours du meeting du 26 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de confisquer les profits des marchands d'armes et des compagnies pétrolières.",
+            "sourceUrl": "https://www.lutte-ouvriere.org/portail/brochures/meeting-26-septembre-2026-discours-nathalie-arthaud-197446.html",
+            "sourceLabel": "Lutte ouvrière, discours du meeting du 26 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "S'oppose à l'Europe-forteresse ainsi qu'au protectionnisme.",
+            "sourceUrl": "https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf",
+            "sourceLabel": "Lutte ouvrière, brochure été 2026",
+            "origin": "declaration-2026"
+          }
+        ]
       }
     ]
   },
   {
-    "id": "amina-benali",
-    "name": "Amina Benali",
-    "party": "Alliance Citoyenne pour le Climat",
-    "avatarUrl": "/avatars/amina-benali.svg",
+    "id": "gabriel-attal",
+    "name": "Gabriel Attal",
+    "party": "Renaissance",
+    "avatarUrl": "/avatars/gabriel-attal.svg",
     "color": "#7C3AED",
-    "slogan": "Le climat et la justice sociale, maintenant",
-    "tags": ["Climat", "Retraite à 60 ans", "Services publics"],
-    "summary": "Amina Benali place la transition écologique et la réduction des inégalités au cœur de son projet. Elle propose un rôle accru de l'État et des services publics, financé par une fiscalité plus progressive.",
-    "officialProgramUrl": "https://example.org/programmes/amina-benali",
+    "status": "Candidat déclaré le 22 mai 2026 (annonce à Mur-de-Barrez, Aveyron)",
+    "statusSourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-gabriel-attal-officialise-sa-candidature-en-aveyron",
+    "summary": "Ministre de l'Éducation nationale en 2023 puis Premier ministre de janvier à septembre 2024, il préside le groupe Renaissance à l'Assemblée nationale et est secrétaire général du parti depuis décembre 2024. Il est candidat de Renaissance pour 2027.",
+    "officialSiteUrl": "https://parti-renaissance.fr",
+    "programUrl": null,
     "proposals": [
       {
         "themeId": "economie",
         "themeLabel": "Économie & Emploi",
         "keyPoints": [
-          "Retour de l'âge légal de départ à 60 ans.",
-          "Hausse du SMIC de 12 % dès la première année.",
-          "Baisse de la TVA sur les produits de première nécessité, compensée par un impôt sur les très hauts patrimoines."
-        ],
-        "quotes": ["« La richesse produite doit mieux revenir à celles et ceux qui la créent. »"],
-        "sourceUrl": "https://example.org/programmes/amina-benali#economie",
-        "positions": [
-          { "issueId": "age-retraite", "value": "60" },
-          { "issueId": "smic", "value": "forte-hausse" },
-          { "issueId": "tva-premiere-necessite", "value": "baisse" }
+          {
+            "text": "Propose de supprimer l'âge légal de départ à la retraite au profit d'un système fondé sur la durée de cotisation, avec décotes et surcotes.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-2027-qui-propose-quoi-sur-les-retraites-437864",
+            "sourceLabel": "LCP, 19 juin 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose d'ajouter une part de capitalisation aux retraites, avec un versement de l'État de 1 000 euros à la naissance de chaque enfant, et de confier la gestion du système aux partenaires sociaux.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe",
+            "sourceLabel": "Public Sénat, 30 mai 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose un « choc des salaires » consistant à rapprocher le salaire net du brut par une baisse des cotisations.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe",
+            "sourceLabel": "Public Sénat, 30 mai 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend une contrepartie d'au moins 15 heures hebdomadaires d'activité, de formation ou d'insertion pour les bénéficiaires du RSA.",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Gabriel_Attal",
+            "sourceLabel": "Wikipédia (en), consulté le 16 octobre 2026",
+            "origin": "declaration-2024-2026"
+          }
         ]
       },
       {
         "themeId": "sante",
         "themeLabel": "Santé",
-        "keyPoints": [
-          "Régulation de l'installation des médecins dans les zones déjà bien dotées.",
-          "Recrutement de 100 000 soignants à l'hôpital public.",
-          "Création d'un pôle public du médicament."
-        ],
-        "quotes": ["« La santé n'est pas une marchandise. »"],
-        "sourceUrl": "https://example.org/programmes/amina-benali#sante",
-        "positions": [{ "issueId": "deserts-medicaux", "value": "regulation" }]
+        "keyPoints": []
       },
       {
         "themeId": "ecologie",
         "themeLabel": "Écologie & Énergie",
         "keyPoints": [
-          "Sortie progressive du nucléaire d'ici 2050.",
-          "100 % d'électricité renouvelable en 2050.",
-          "Gratuité des transports en commun pour les moins de 25 ans."
+          {
+            "text": "Défend un accompagnement des ménages plutôt que la contrainte, avec un leasing social et un compte carbone.",
+            "sourceUrl": "https://www.syndicat-energies-renouvelables.fr/wp-content/uploads/2026/02/LOpinion-09-02-2026-Page-2.pdf",
+            "sourceLabel": "L'Opinion, 9 février 2026 (reproduction SER)",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Soutient le nucléaire, dont la construction de 14 nouveaux réacteurs, en complément des énergies renouvelables.",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Gabriel_Attal",
+            "sourceLabel": "Wikipédia (en), consulté le 16 octobre 2026",
+            "origin": "declaration-2024-2026"
+          },
+          {
+            "text": "Propose une politique d'urgence écologique à l'échelle européenne dans le cadre d'un traité de prospérité économique et d'urgence écologique.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/gabriel-attal-veut-construire-les-etats-unis-deurope-proposition-choc-pour-relancer-lideal-europeen",
+            "sourceLabel": "Public Sénat, 17 septembre 2026",
+            "origin": "declaration-2026"
+          }
         ],
-        "quotes": ["« Chaque année perdue rendra la transition plus brutale. »"],
-        "stance": "anti-nucleaire",
-        "sourceUrl": "https://example.org/programmes/amina-benali#ecologie",
-        "positions": [{ "issueId": "nucleaire", "value": "sortie" }]
+        "positions": [
+          {
+            "issueId": "nucleaire",
+            "value": "relance",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Gabriel_Attal"
+          }
+        ]
       },
       {
         "themeId": "education",
         "themeLabel": "Éducation",
         "keyPoints": [
-          "Classes limitées à 19 élèves de la maternelle au lycée.",
-          "Gratuité totale des cantines scolaires.",
-          "Uniforme laissé au choix des établissements."
-        ],
-        "quotes": ["« L'égalité commence à l'école. »"],
-        "sourceUrl": "https://example.org/programmes/amina-benali#education",
-        "positions": [{ "issueId": "uniforme", "value": "libre-choix" }]
+          {
+            "text": "Propose le retour d'un certificat d'études à l'entrée en sixième, avec une année passerelle, et un brevet obligatoire pour passer en seconde.",
+            "sourceUrl": "https://lcp.fr/index%2Ephp/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose",
+            "sourceLabel": "LCP, 25 août 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de généraliser les groupes de niveau en français et en mathématiques et de limiter les classes du primaire à moins de 20 élèves.",
+            "sourceUrl": "https://lcp.fr/index%2Ephp/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose",
+            "sourceLabel": "LCP, 25 août 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose une revalorisation de 200 euros net par mois pour les enseignants, jusqu'à 500 euros net en milieu de carrière.",
+            "sourceUrl": "https://lcp.fr/index%2Ephp/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose",
+            "sourceLabel": "LCP, 25 août 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de fermer les 100 collèges les plus marqués par la ségrégation sociale et de répartir leurs élèves dans d'autres établissements.",
+            "sourceUrl": "https://lcp.fr/index%2Ephp/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose",
+            "sourceLabel": "LCP, 25 août 2026",
+            "origin": "declaration-2026"
+          }
+        ]
       },
       {
         "themeId": "securite",
         "themeLabel": "Sécurité & Justice",
         "keyPoints": [
-          "Retour d'une police de proximité, à effectifs constants.",
-          "Doublement du budget de la justice sur le quinquennat.",
-          "Développement des peines alternatives à la prison."
-        ],
-        "quotes": ["« Une police proche des habitants est une police plus efficace. »"],
-        "sourceUrl": "https://example.org/programmes/amina-benali#securite",
-        "positions": [{ "issueId": "effectifs-police", "value": "redeploiement" }]
+          {
+            "text": "Propose des quotas d'immigration de travail fixés avec les partenaires sociaux et votés par le Parlement.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe",
+            "sourceLabel": "Public Sénat, 30 mai 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend un encadrement plus strict du regroupement familial.",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Gabriel_Attal",
+            "sourceLabel": "Wikipédia (en), consulté le 16 octobre 2026",
+            "origin": "declaration-2024-2026"
+          },
+          {
+            "text": "A porté une proposition de loi atténuant l'excuse de minorité pour les mineurs de plus de 16 ans récidivistes et instaurant la comparution immédiate des mineurs, adoptée en première lecture à l'Assemblée.",
+            "sourceUrl": "https://lcp.fr/index%2Ephp/actualites/delinquance-des-mineurs-la-proposition-de-loi-de-gabriel-attal-pour-restaurer-l-autorite",
+            "sourceLabel": "LCP, 13 février 2025",
+            "origin": "proposition-de-loi-2025"
+          }
+        ]
       },
       {
         "themeId": "international",
         "themeLabel": "International & Europe",
         "keyPoints": [
-          "Taxe carbone aux frontières de l'Union européenne.",
-          "Harmonisation sociale et fiscale européenne.",
-          "Hausse de l'aide au développement à 1 % du PIB."
+          {
+            "text": "Propose de construire des « États-Unis d'Europe » avec un noyau de 8 à 10 pays, dotés d'un président élu au suffrage universel.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/gabriel-attal-veut-construire-les-etats-unis-deurope-proposition-choc-pour-relancer-lideal-europeen",
+            "sourceLabel": "Public Sénat, 17 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose un référendum européen simultané dans les pays concernés et l'harmonisation des taux d'imposition et du droit du travail entre eux.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/gabriel-attal-veut-construire-les-etats-unis-deurope-proposition-choc-pour-relancer-lideal-europeen",
+            "sourceLabel": "Public Sénat, 17 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose d'achever l'union bancaire et l'union des marchés de capitaux et de doter l'Union de ressources propres.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/gabriel-attal-veut-construire-les-etats-unis-deurope-proposition-choc-pour-relancer-lideal-europeen",
+            "sourceLabel": "Public Sénat, 17 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Soutient l'Ukraine et a appelé en mars 2025 à utiliser plus de 200 milliards d'euros d'avoirs russes gelés.",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Gabriel_Attal",
+            "sourceLabel": "Wikipédia (en), consulté le 16 octobre 2026",
+            "origin": "declaration-2025"
+          }
         ],
-        "quotes": ["« L'Europe doit devenir le continent de la transition. »"],
-        "sourceUrl": "https://example.org/programmes/amina-benali#international",
-        "positions": [{ "issueId": "union-europeenne", "value": "integration" }]
+        "positions": [
+          {
+            "issueId": "union-europeenne",
+            "value": "integration",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/gabriel-attal-veut-construire-les-etats-unis-deurope-proposition-choc-pour-relancer-lideal-europeen"
+          }
+        ]
       }
     ]
   },
   {
-    "id": "marc-lefevre",
-    "name": "Marc Lefèvre",
-    "party": "Rassemblement des Territoires",
-    "avatarUrl": "/avatars/marc-lefevre.svg",
+    "id": "nicolas-dupont-aignan",
+    "name": "Nicolas Dupont-Aignan",
+    "party": "Debout la France",
+    "avatarUrl": "/avatars/nicolas-dupont-aignan.svg",
     "color": "#B45309",
-    "slogan": "Rendre le pouvoir aux territoires",
-    "tags": ["Décentralisation", "Ruralité", "Souveraineté"],
-    "summary": "Marc Lefèvre veut redonner davantage de compétences aux régions et aux communes. Il défend la souveraineté nationale, l'agriculture et les services publics de proximité dans les zones rurales.",
-    "officialProgramUrl": "https://example.org/programmes/marc-lefevre",
+    "status": "Candidature annoncée le 8 mars 2025 à Yerres et confirmée lors de sa rentrée politique à Yerres le 19 septembre 2026.",
+    "statusSourceUrl": "https://www.europe1.fr/politique/presidentielle-2027-nicolas-dupont-aignan-promet-de-decoloniser-la-france-en-sortant-de-lue-1089125",
+    "summary": "Ancien député de l'Essonne (1997-2024) et maire de Yerres, Nicolas Dupont-Aignan a quitté l'UMP en 2007 et fondé Debout la France, parti gaulliste et souverainiste. Candidat aux présidentielles de 2012, 2017 et 2022, il se présente en 2027 pour la quatrième fois.",
+    "officialSiteUrl": "https://www.debout-la-france.fr",
+    "programUrl": null,
     "proposals": [
       {
         "themeId": "economie",
         "themeLabel": "Économie & Emploi",
         "keyPoints": [
-          "Âge légal de départ ramené à 62 ans.",
-          "Revalorisation du SMIC de 5 %, modulée par une prime régionale.",
-          "Baisse de la TVA sur les produits de première nécessité et les produits agricoles locaux."
-        ],
-        "quotes": ["« L'emploi se crée d'abord au plus près du terrain. »"],
-        "sourceUrl": "https://example.org/programmes/marc-lefevre#economie",
-        "positions": [
-          { "issueId": "age-retraite", "value": "62" },
-          { "issueId": "smic", "value": "hausse-moderee" },
-          { "issueId": "tva-premiere-necessite", "value": "baisse" }
+          {
+            "text": "Propose de ne pas désindexer les pensions, de fixer l'âge de départ à 62 ans et neuf mois et de créer une pension minimale financée par capitalisation.",
+            "sourceUrl": "https://www.europe1.fr/politique/presidentielle-2027-nicolas-dupont-aignan-promet-de-decoloniser-la-france-en-sortant-de-lue-1089125",
+            "sourceLabel": "Europe 1, 19 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend un protectionnisme national et l'arrêt des subventions aux entreprises qui délocalisent, avec l'objectif de relocaliser deux millions d'emplois.",
+            "sourceUrl": "https://www.europe1.fr/politique/presidentielle-2027-nicolas-dupont-aignan-promet-de-decoloniser-la-france-en-sortant-de-lue-1089125",
+            "sourceLabel": "Europe 1, 19 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de supprimer l'impôt sur le revenu sur les heures supplémentaires et les droits de succession sur la résidence principale, et de plafonner le cumul des prestations sociales sous le niveau du SMIC.",
+            "sourceUrl": "https://www.europe1.fr/politique/presidentielle-2027-nicolas-dupont-aignan-promet-de-decoloniser-la-france-en-sortant-de-lue-1089125",
+            "sourceLabel": "Europe 1, 19 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de baisser les charges des entreprises qui relocalisent ou investissent en France et d'instaurer des droits de douane nationaux sur les importations jugées déloyales.",
+            "sourceUrl": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/",
+            "sourceLabel": "Debout la France, discours du 8 mars 2025",
+            "origin": "declaration-2025"
+          }
         ]
       },
       {
         "themeId": "sante",
         "themeLabel": "Santé",
         "keyPoints": [
-          "Obligation pour les jeunes médecins d'exercer trois ans en zone sous-dotée.",
-          "Aucune fermeture de maternité ou d'hôpital de proximité.",
-          "Déploiement de la téléconsultation dans chaque mairie rurale."
-        ],
-        "quotes": ["« La santé de proximité est un droit, pas un luxe urbain. »"],
-        "sourceUrl": "https://example.org/programmes/marc-lefevre#sante",
-        "positions": [{ "issueId": "deserts-medicaux", "value": "regulation" }]
+          {
+            "text": "Propose un hôpital ou une maternité par département, soit 20 000 lits supplémentaires.",
+            "sourceUrl": "https://www.macommune.info/wp-content/uploads/2022/04/candidat-02-nicolas-dupont-aignan-declaration-accessible.pdf",
+            "sourceLabel": "Profession de foi officielle, avril 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose d'augmenter de 25 % le taux d'encadrement en Ehpad.",
+            "sourceUrl": "https://www.macommune.info/wp-content/uploads/2022/04/candidat-02-nicolas-dupont-aignan-declaration-accessible.pdf",
+            "sourceLabel": "Profession de foi officielle, avril 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de doubler le nombre de médecins et d'infirmières scolaires.",
+            "sourceUrl": "https://www.macommune.info/wp-content/uploads/2022/04/candidat-02-nicolas-dupont-aignan-declaration-accessible.pdf",
+            "sourceLabel": "Profession de foi officielle, avril 2022",
+            "origin": "programme-2022"
+          }
+        ]
       },
       {
         "themeId": "ecologie",
         "themeLabel": "Écologie & Énergie",
         "keyPoints": [
-          "Construction de 10 nouveaux réacteurs nucléaires.",
-          "Moratoire sur les nouveaux parcs éoliens terrestres.",
-          "Soutien à la méthanisation agricole."
+          {
+            "text": "Propose de sortir du marché européen de l'électricité pour baisser la facture d'au moins 30 % en s'appuyant sur le coût de production d'EDF.",
+            "sourceUrl": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/",
+            "sourceLabel": "Debout la France, discours du 8 mars 2025",
+            "origin": "declaration-2025"
+          },
+          {
+            "text": "Propose de supprimer l'interdiction des moteurs thermiques en 2035, les zones à faibles émissions et le diagnostic de performance énergétique.",
+            "sourceUrl": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/",
+            "sourceLabel": "Debout la France, discours du 8 mars 2025",
+            "origin": "declaration-2025"
+          },
+          {
+            "text": "Propose un plan de nucléaire de nouvelle génération maintenant le nucléaire à au moins 70 % de la production d'électricité, avec des réacteurs de génération IV et au thorium.",
+            "sourceUrl": "https://www.linfodurable.fr/politique/le-programme-ecolo-de-nicolas-dupont-aignan-31372",
+            "sourceLabel": "L'Info durable, 29 mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose d'arrêter l'implantation de nouvelles éoliennes, sur terre comme en mer.",
+            "sourceUrl": "https://www.linfodurable.fr/politique/le-programme-ecolo-de-nicolas-dupont-aignan-31372",
+            "sourceLabel": "L'Info durable, 29 mars 2022",
+            "origin": "programme-2022"
+          }
         ],
-        "quotes": ["« Notre indépendance énergétique ne se négocie pas. »"],
-        "stance": "pro-nucleaire",
-        "sourceUrl": "https://example.org/programmes/marc-lefevre#ecologie",
-        "positions": [{ "issueId": "nucleaire", "value": "relance" }]
+        "positions": [
+          {
+            "issueId": "nucleaire",
+            "value": "relance",
+            "sourceUrl": "https://www.linfodurable.fr/politique/le-programme-ecolo-de-nicolas-dupont-aignan-31372"
+          }
+        ]
       },
       {
         "themeId": "education",
         "themeLabel": "Éducation",
         "keyPoints": [
-          "Généralisation de l'uniforme à l'école et au collège.",
-          "Aucune fermeture de classe en zone rurale sans accord du maire.",
-          "Renforcement de l'apprentissage dès 15 ans."
-        ],
-        "quotes": ["« Chaque village mérite son école. »"],
-        "sourceUrl": "https://example.org/programmes/marc-lefevre#education",
-        "positions": [{ "issueId": "uniforme", "value": "generalisation" }]
+          {
+            "text": "Propose un référendum sur une réforme de l'école centrée sur les savoirs, l'effort et le mérite.",
+            "sourceUrl": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/",
+            "sourceLabel": "Debout la France, discours du 8 mars 2025",
+            "origin": "declaration-2025"
+          },
+          {
+            "text": "Défend une école centrée sur l'apprentissage de la lecture, de l'écriture, du calcul et de l'histoire nationale.",
+            "sourceUrl": "https://www.macommune.info/wp-content/uploads/2022/04/candidat-02-nicolas-dupont-aignan-declaration-accessible.pdf",
+            "sourceLabel": "Profession de foi officielle, avril 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de créer 250 000 places de crèche en cinq ans.",
+            "sourceUrl": "https://www.macommune.info/wp-content/uploads/2022/04/candidat-02-nicolas-dupont-aignan-declaration-accessible.pdf",
+            "sourceLabel": "Profession de foi officielle, avril 2022",
+            "origin": "programme-2022"
+          }
+        ]
       },
       {
         "themeId": "securite",
         "themeLabel": "Sécurité & Justice",
         "keyPoints": [
-          "Recrutement de 10 000 gendarmes, en priorité dans les zones rurales.",
-          "Renforcement des pouvoirs des polices municipales.",
-          "Construction de 15 000 places de prison."
-        ],
-        "quotes": ["« La gendarmerie doit revenir dans nos campagnes. »"],
-        "sourceUrl": "https://example.org/programmes/marc-lefevre#securite",
-        "positions": [{ "issueId": "effectifs-police", "value": "hausse" }]
+          {
+            "text": "Propose de déployer l'armée aux frontières contre les entrées illégales et les trafics.",
+            "sourceUrl": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/",
+            "sourceLabel": "Debout la France, discours du 8 mars 2025",
+            "origin": "declaration-2025"
+          },
+          {
+            "text": "Propose de construire les places de prison manquantes et de soumettre un nouveau code pénal à référendum.",
+            "sourceUrl": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/",
+            "sourceLabel": "Debout la France, discours du 8 mars 2025",
+            "origin": "declaration-2025"
+          },
+          {
+            "text": "Propose d'instruire les demandes d'asile hors du territoire ou en centre de rétention, de rétablir le délit de séjour irrégulier et de conditionner les aides sociales des étrangers à cinq ans de séjour régulier.",
+            "sourceUrl": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/",
+            "sourceLabel": "Debout la France, discours du 8 mars 2025",
+            "origin": "declaration-2025"
+          },
+          {
+            "text": "Propose des peines planchers pour les récidivistes et les auteurs d'agressions contre les policiers, gendarmes et pompiers.",
+            "sourceUrl": "https://www.macommune.info/wp-content/uploads/2022/04/candidat-02-nicolas-dupont-aignan-declaration-accessible.pdf",
+            "sourceLabel": "Profession de foi officielle, avril 2022",
+            "origin": "programme-2022"
+          }
+        ]
       },
       {
         "themeId": "international",
         "themeLabel": "International & Europe",
         "keyPoints": [
-          "Renégociation des traités européens pour rendre des compétences aux États.",
-          "Clause de sauvegarde pour protéger l'agriculture française.",
-          "Priorité aux produits locaux dans la commande publique."
+          {
+            "text": "Propose la sortie de la France de l'Union européenne (Frexit) et l'arrêt des contributions françaises à l'UE et de l'aide à l'Ukraine.",
+            "sourceUrl": "https://www.europe1.fr/politique/presidentielle-2027-nicolas-dupont-aignan-promet-de-decoloniser-la-france-en-sortant-de-lue-1089125",
+            "sourceLabel": "Europe 1, 19 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de dénoncer les accords de libre-échange, dont celui avec le Mercosur.",
+            "sourceUrl": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/",
+            "sourceLabel": "Debout la France, discours du 8 mars 2025",
+            "origin": "declaration-2025"
+          },
+          {
+            "text": "Propose de sortir du commandement militaire intégré de l'OTAN et de quitter les programmes d'armement communs comme le SCAF.",
+            "sourceUrl": "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/",
+            "sourceLabel": "Debout la France, discours du 8 mars 2025",
+            "origin": "declaration-2025"
+          }
         ],
-        "quotes": ["« Coopérer en Europe, oui ; obéir à Bruxelles, non. »"],
-        "sourceUrl": "https://example.org/programmes/marc-lefevre#international",
-        "positions": [{ "issueId": "union-europeenne", "value": "renegociation" }]
+        "positions": [
+          {
+            "issueId": "union-europeenne",
+            "value": "sortie",
+            "sourceUrl": "https://www.europe1.fr/politique/presidentielle-2027-nicolas-dupont-aignan-promet-de-decoloniser-la-france-en-sortant-de-lue-1089125"
+          }
+        ]
       }
     ]
   },
   {
-    "id": "claire-moreau",
-    "name": "Claire Moreau",
-    "party": "Parti de la Libre Entreprise",
-    "avatarUrl": "/avatars/claire-moreau.svg",
-    "color": "#BE185D",
-    "slogan": "Libérer les énergies, simplifier la vie",
-    "tags": ["Entreprises", "Simplification", "Dette"],
-    "summary": "Claire Moreau mise sur la baisse des charges et la simplification administrative pour stimuler l'emploi. Elle fait de la réduction de la dette publique une priorité du quinquennat.",
-    "officialProgramUrl": "https://example.org/programmes/claire-moreau",
+    "id": "raphael-glucksmann",
+    "name": "Raphaël Glucksmann",
+    "party": "Place publique",
+    "avatarUrl": "/avatars/raphael-glucksmann.svg",
+    "color": "#1D4ED8",
+    "status": "Désigné candidat de la gauche sociale-démocrate après avoir remporté au premier tour la primaire PS/Place publique du 11 octobre 2026 (66,17 % des suffrages exprimés).",
+    "statusSourceUrl": "https://lcp.fr/actualites/primaire-socialiste-vainqueur-des-le-1er-tour-raphael-glucksmann-sera-le-candidat-de-la",
+    "summary": "Député européen, il a conduit la liste PS-Place publique aux élections européennes de 2024. Il a présenté les grandes lignes de son projet présidentiel dans le livre « Nous avons encore envie » (2026) avant de remporter la primaire de la gauche sociale-démocrate en octobre 2026.",
+    "officialSiteUrl": "https://glucks2027.fr/",
+    "programUrl": null,
     "proposals": [
       {
         "themeId": "economie",
         "themeLabel": "Économie & Emploi",
         "keyPoints": [
-          "Report de l'âge légal de départ à 65 ans.",
-          "Pas de coup de pouce au SMIC, mais baisse des cotisations salariales.",
-          "Maintien des taux de TVA actuels pour financer la baisse des charges."
+          {
+            "text": "Propose d'abroger la réforme des retraites de 2023 et de revenir à un âge légal de 62 ans, en écartant un retour à 60 ans.",
+            "sourceUrl": "https://lcp.fr/actualites/glucksmann-face-a-royal-divisions-sur-lfi-lycees-ce-qu-il-faut-retenir-du-dernier-debat",
+            "sourceLabel": "LCP, 5 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de taxer les très grandes successions (au-delà de deux millions d'euros) pour financer une baisse de la CSG sur les salaires et augmenter le salaire net.",
+            "sourceUrl": "https://lcp.fr/actualites/glucksmann-face-a-royal-divisions-sur-lfi-lycees-ce-qu-il-faut-retenir-du-dernier-debat",
+            "sourceLabel": "LCP, 5 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend une modulation de l'âge de départ selon la pénibilité et l'espérance de vie en bonne santé, avec un départ plus tôt pour les carrières hachées ou pénibles.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann",
+            "sourceLabel": "Public Sénat, 24 août 2026",
+            "origin": "livre-2026"
+          },
+          {
+            "text": "Propose de déclarer un état d'urgence industriel pour les secteurs menacés par la concurrence chinoise.",
+            "sourceUrl": "https://lcp.fr/actualites/gagner-en-2027-raphael-glucksmann-lance-sa-campagne-et-veut-ramener-la-gauche-au-pouvoir",
+            "sourceLabel": "LCP, 14 juin 2026",
+            "origin": "declaration-2026"
+          }
         ],
-        "quotes": ["« On ne redistribue bien que la richesse qu'on a d'abord créée. »"],
-        "sourceUrl": "https://example.org/programmes/claire-moreau#economie",
         "positions": [
-          { "issueId": "age-retraite", "value": "65" },
-          { "issueId": "smic", "value": "stable" },
-          { "issueId": "tva-premiere-necessite", "value": "maintien" }
+          {
+            "issueId": "age-retraite",
+            "value": "62",
+            "sourceUrl": "https://lcp.fr/actualites/glucksmann-face-a-royal-divisions-sur-lfi-lycees-ce-qu-il-faut-retenir-du-dernier-debat"
+          }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": []
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": [
+          {
+            "text": "Propose d'engager, dès son élection, « les 100 jours de la révolution écologique » visant à sortir de la dépendance au gaz et au pétrole.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-2027-s-il-gagne-raphael-glucksmann-engagera-les-100-jours-de-la",
+            "sourceLabel": "LCP, 25 août 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend à la fois le développement des énergies renouvelables et la construction de nouveaux réacteurs nucléaires.",
+            "sourceUrl": "https://www.linfodurable.fr/politique/apres-la-primaire-quelles-ambitions-ecologiques-pour-raphael-glucksmann-59331",
+            "sourceLabel": "L'info durable, 12 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de relancer la production industrielle de panneaux solaires en France pour réduire la dépendance à la Chine.",
+            "sourceUrl": "https://www.linfodurable.fr/politique/apres-la-primaire-quelles-ambitions-ecologiques-pour-raphael-glucksmann-59331",
+            "sourceLabel": "L'info durable, 12 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose aux ménages modestes l'accès à une voiture électrique pour un loyer de 100 euros par mois.",
+            "sourceUrl": "https://lcp.fr/actualites/gagner-en-2027-raphael-glucksmann-lance-sa-campagne-et-veut-ramener-la-gauche-au-pouvoir",
+            "sourceLabel": "LCP, 14 juin 2026",
+            "origin": "declaration-2026"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "nucleaire",
+            "value": "relance",
+            "sourceUrl": "https://www.linfodurable.fr/politique/apres-la-primaire-quelles-ambitions-ecologiques-pour-raphael-glucksmann-59331"
+          }
+        ]
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": [
+          {
+            "text": "Propose d'augmenter le salaire de tous les enseignants de 10 %, et jusqu'à 25 % selon l'avancement de carrière, pour un coût annoncé de six milliards d'euros.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+            "sourceLabel": "Public Sénat, 31 août 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose un plan quinquennal pour l'école publique, inscrit dans une loi de programmation, comprenant la baisse des effectifs par classe en primaire et la rénovation des bâtiments scolaires.",
+            "sourceUrl": "https://lcp.fr/actualites/glucksmann-face-a-royal-divisions-sur-lfi-lycees-ce-qu-il-faut-retenir-du-dernier-debat",
+            "sourceLabel": "LCP, 5 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose d'appliquer un principe de mixité sociale aux établissements scolaires privés.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme",
+            "sourceLabel": "LCP, 26 mai 2026",
+            "origin": "livre-2026"
+          },
+          {
+            "text": "Propose un service civique obligatoire de dix mois pour les jeunes, effectué dans les Ehpad, les écoles, les services publics ou des missions d'intérêt général.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann",
+            "sourceLabel": "Public Sénat, 24 août 2026",
+            "origin": "livre-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": [
+          {
+            "text": "Propose une convention citoyenne sur l'immigration, composée de citoyens tirés au sort, dont les propositions seraient soumises au vote du Parlement.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann",
+            "sourceLabel": "Public Sénat, 24 août 2026",
+            "origin": "livre-2026"
+          },
+          {
+            "text": "Propose de régulariser les travailleurs sans papiers.",
+            "sourceUrl": "https://lcp.fr/actualites/glucksmann-face-a-royal-divisions-sur-lfi-lycees-ce-qu-il-faut-retenir-du-dernier-debat",
+            "sourceLabel": "LCP, 5 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend la lutte contre le narcotrafic comme priorité nationale, en ciblant le blanchiment d'argent, notamment via les cryptomonnaies.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/narcotrafic-raphael-glucksmann-defend-une-politique-sans-naivete-aucune-sur-la-securite",
+            "sourceLabel": "Public Sénat, 19 novembre 2025",
+            "origin": "declaration-2025"
+          },
+          {
+            "text": "Propose de laisser aux maires le choix d'armer la police municipale et d'installer de la vidéosurveillance, celle-ci devant être encadrée par la loi.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/narcotrafic-raphael-glucksmann-defend-une-politique-sans-naivete-aucune-sur-la-securite",
+            "sourceLabel": "Public Sénat, 19 novembre 2025",
+            "origin": "declaration-2025"
+          }
+        ]
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": [
+          {
+            "text": "Propose de renforcer l'aide à l'Ukraine en la finançant par la saisie des avoirs publics russes gelés.",
+            "sourceUrl": "https://lcp.fr/actualites/glucksmann-face-a-royal-divisions-sur-lfi-lycees-ce-qu-il-faut-retenir-du-dernier-debat",
+            "sourceLabel": "LCP, 5 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de supprimer le droit de veto au sein de l'Union européenne et de lancer un grand emprunt européen.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme",
+            "sourceLabel": "LCP, 26 mai 2026",
+            "origin": "livre-2026"
+          },
+          {
+            "text": "Propose un fonds européen de défense de 100 milliards d'euros et un « Buy European Act » dans l'armement.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/europeennes-2024-raphael-glucksmann-prone-dans-son-programme-une-revolution-ecologique",
+            "sourceLabel": "Public Sénat, 15 mai 2024",
+            "origin": "programme-europeennes-2024"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "union-europeenne",
+            "value": "integration",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "marine-le-pen",
+    "name": "Marine Le Pen",
+    "party": "Rassemblement national",
+    "avatarUrl": "/avatars/marine-le-pen.svg",
+    "color": "#BE185D",
+    "status": "Candidate déclarée le 7 juillet 2026, le jour de sa condamnation en appel, décision qui la laisse éligible ; elle a annoncé un pourvoi en cassation.",
+    "statusSourceUrl": "https://lcp.fr/actualites/marine-le-pen-candidate-a-l-election-presidentielle-pourquoi-elle-pense-pouvoir-faire",
+    "summary": "Présidente du Front national devenu Rassemblement national de 2011 à 2022, puis présidente du groupe RN à l'Assemblée nationale, Marine Le Pen a été candidate aux présidentielles de 2012, 2017 et 2022, atteignant le second tour en 2017 et 2022. Elle se présente en 2027 pour la quatrième fois.",
+    "officialSiteUrl": "https://rassemblementnational.fr",
+    "programUrl": null,
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          {
+            "text": "Défend un âge légal de départ à la retraite à 62 ans avec 42 annuités, et un départ à 60 ans avec 40 annuités pour les personnes ayant commencé à travailler avant 20 ans.",
+            "sourceUrl": "https://www.lejdd.fr/politique/retraites-ce-que-proposent-les-candidats-a-la-presidentielle-184728",
+            "sourceLabel": "Le JDD, 29 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de baisser la TVA sur l'énergie et d'appliquer une TVA nulle sur une centaine de produits de première nécessité.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/economie/contre-budget-du-rn-des-propositions-qui-manquent-de-credibilite-economique-mais-trahissent-une-veritable-coherence-doctrinale",
+            "sourceLabel": "Public Sénat, 24 octobre 2025",
+            "origin": "contre-budget-2026"
+          },
+          {
+            "text": "Propose de baisser les impôts de production (CFE, C3S, CVAE) et de créer un impôt sur la fortune financière.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/economie/contre-budget-du-rn-des-propositions-qui-manquent-de-credibilite-economique-mais-trahissent-une-veritable-coherence-doctrinale",
+            "sourceLabel": "Public Sénat, 24 octobre 2025",
+            "origin": "contre-budget-2026"
+          },
+          {
+            "text": "Présente un plan de 140 milliards d'euros d'économies d'ici 2032 et propose d'inscrire par référendum une règle d'or budgétaire dans la Constitution.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f",
+            "sourceLabel": "Public Sénat, 6 octobre 2026",
+            "origin": "declaration-2026"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "age-retraite",
+            "value": "62",
+            "sourceUrl": "https://www.lejdd.fr/politique/retraites-ce-que-proposent-les-candidats-a-la-presidentielle-184728"
+          },
+          {
+            "issueId": "tva-premiere-necessite",
+            "value": "baisse",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/economie/contre-budget-du-rn-des-propositions-qui-manquent-de-credibilite-economique-mais-trahissent-une-veritable-coherence-doctrinale"
+          }
         ]
       },
       {
         "themeId": "sante",
         "themeLabel": "Santé",
         "keyPoints": [
-          "Exonération fiscale pendant cinq ans pour les médecins s'installant en zone sous-dotée.",
-          "Suppression d'un tiers des formalités administratives des soignants.",
-          "Ouverture accrue des partenariats public-privé hospitaliers."
-        ],
-        "quotes": ["« Libérons du temps médical en libérant les soignants de la paperasse. »"],
-        "sourceUrl": "https://example.org/programmes/claire-moreau#sante",
-        "positions": [{ "issueId": "deserts-medicaux", "value": "incitations" }]
+          {
+            "text": "Propose de remplacer l'aide médicale d'État (AME) par une aide médicale d'urgence.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/economie/contre-budget-du-rn-des-propositions-qui-manquent-de-credibilite-economique-mais-trahissent-une-veritable-coherence-doctrinale",
+            "sourceLabel": "Public Sénat, 24 octobre 2025",
+            "origin": "contre-budget-2026"
+          },
+          {
+            "text": "Propose de supprimer les agences régionales de santé (ARS) et de les remplacer par des directions régionales placées sous l'autorité des préfets.",
+            "sourceUrl": "https://medecine-generale.lequotidiendumedecin.fr/sante-societe/politique-de-sante/marine-le-pen-20-milliards-deuros-pour-la-sante-0",
+            "sourceLabel": "Le Quotidien du Médecin, 17 mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de moduler le tarif de la consultation des médecins selon leur lieu d'installation.",
+            "sourceUrl": "https://pneumologie.lequotidiendumedecin.fr/sante-societe/politique-de-sante/marine-le-pen-rassemblement-national-une-consultation-modulee-selon-le-lieu-dinstallation",
+            "sourceLabel": "Le Quotidien du Médecin, 14 mars 2022",
+            "origin": "programme-2022"
+          }
+        ]
       },
       {
         "themeId": "ecologie",
         "themeLabel": "Écologie & Énergie",
         "keyPoints": [
-          "Prolongation des réacteurs nucléaires existants jusqu'à 60 ans.",
-          "Crédit d'impôt pour les entreprises qui investissent dans la décarbonation.",
-          "Neutralité carbone en 2050."
+          {
+            "text": "Propose de prolonger les centrales nucléaires existantes jusqu'à 60 ans et de lancer cinq paires d'EPR pour 2031 et cinq paires d'EPR2 pour 2036.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/energies-plein-pot-sur-le-nucleaire-et-haro-sur-les-eoliennes-pour-marine-le-pen",
+            "sourceLabel": "Public Sénat, 14 mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose un moratoire sur les nouvelles éoliennes, terrestres et en mer, puis leur démantèlement progressif.",
+            "sourceUrl": "https://www.connaissancedesenergies.org/afp/eolien-nucleaire-fossiles-les-programmes-de-marine-le-pen-et-emmanuel-macron-220420",
+            "sourceLabel": "Connaissance des énergies (AFP), 20 avril 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de sortir du marché européen de l'électricité.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/energies-plein-pot-sur-le-nucleaire-et-haro-sur-les-eoliennes-pour-marine-le-pen",
+            "sourceLabel": "Public Sénat, 14 mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "S'oppose à la programmation pluriannuelle de l'énergie (PPE3) adoptée par décret en février 2026, propose une motion de censure et annonce un recours devant le Conseil d'État.",
+            "sourceUrl": "https://lcp.fr/actualites/strategie-energetique-marine-le-pen-propose-une-motion-de-censure-transpartisane-431293",
+            "sourceLabel": "LCP, 13 février 2026",
+            "origin": "declaration-2026"
+          }
         ],
-        "quotes": ["« L'innovation fera plus pour le climat que la contrainte. »"],
-        "stance": "pro-nucleaire",
-        "sourceUrl": "https://example.org/programmes/claire-moreau#ecologie",
-        "positions": [{ "issueId": "nucleaire", "value": "maintien" }]
+        "positions": [
+          {
+            "issueId": "nucleaire",
+            "value": "relance",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/energies-plein-pot-sur-le-nucleaire-et-haro-sur-les-eoliennes-pour-marine-le-pen"
+          }
+        ]
       },
       {
         "themeId": "education",
         "themeLabel": "Éducation",
         "keyPoints": [
-          "Généralisation de l'uniforme à l'école et au collège.",
-          "Autonomie accrue des chefs d'établissement pour recruter.",
-          "Cours d'économie et d'entrepreneuriat dès le collège."
+          {
+            "text": "Propose de rendre l'uniforme obligatoire à l'école primaire et au collège, choisi par chaque établissement.",
+            "sourceUrl": "https://www.europe1.fr/politique/presidentielle-que-propose-marine-le-pen-pour-leducation-nationale-4106299",
+            "sourceLabel": "Europe 1, 18 avril 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose d'étendre le dédoublement des classes à tous les CP et toutes les grandes sections de maternelle.",
+            "sourceUrl": "https://www.europe1.fr/politique/presidentielle-que-propose-marine-le-pen-pour-leducation-nationale-4106299",
+            "sourceLabel": "Europe 1, 18 avril 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de revaloriser les salaires des enseignants de 3 % par an pendant le quinquennat.",
+            "sourceUrl": "https://www.europe1.fr/politique/presidentielle-que-propose-marine-le-pen-pour-leducation-nationale-4106299",
+            "sourceLabel": "Europe 1, 18 avril 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de permettre le choix de la voie professionnelle dès la 5e, avec l'apprentissage dès 14 ans.",
+            "sourceUrl": "https://www.europe1.fr/politique/presidentielle-que-propose-marine-le-pen-pour-leducation-nationale-4106299",
+            "sourceLabel": "Europe 1, 18 avril 2022",
+            "origin": "programme-2022"
+          }
         ],
-        "quotes": ["« Faisons confiance aux équipes sur le terrain. »"],
-        "sourceUrl": "https://example.org/programmes/claire-moreau#education",
-        "positions": [{ "issueId": "uniforme", "value": "generalisation" }]
+        "positions": [
+          {
+            "issueId": "uniforme",
+            "value": "generalisation",
+            "sourceUrl": "https://www.europe1.fr/politique/presidentielle-que-propose-marine-le-pen-pour-leducation-nationale-4106299"
+          }
+        ]
       },
       {
         "themeId": "securite",
         "themeLabel": "Sécurité & Justice",
         "keyPoints": [
-          "Recrutement de 5 000 policiers supplémentaires.",
-          "Numérisation complète des procédures judiciaires.",
-          "Comparution immédiate élargie pour les délits du quotidien."
-        ],
-        "quotes": ["« Une justice rapide est une justice crédible. »"],
-        "sourceUrl": "https://example.org/programmes/claire-moreau#securite",
-        "positions": [{ "issueId": "effectifs-police", "value": "hausse" }]
+          {
+            "text": "Propose une présomption de légitime défense pour les forces de l'ordre, le rétablissement des peines planchers et la suppression des remises de peine.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-des-philosophies-tres-differentes-en-matiere-de-securite-et-de-justice",
+            "sourceLabel": "LCP, mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de porter la capacité pénitentiaire à 85 000 places.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-des-philosophies-tres-differentes-en-matiere-de-securite-et-de-justice",
+            "sourceLabel": "LCP, mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de supprimer les prestations sociales non contributives pour les étrangers ne travaillant pas à temps plein depuis au moins cinq ans.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/economie/contre-budget-du-rn-des-propositions-qui-manquent-de-credibilite-economique-mais-trahissent-une-veritable-coherence-doctrinale",
+            "sourceLabel": "Public Sénat, 24 octobre 2025",
+            "origin": "contre-budget-2026"
+          },
+          {
+            "text": "Propose un référendum pour modifier la Constitution afin de restreindre l'immigration.",
+            "sourceUrl": "https://fr.euronews.com/my-europe/2026/09/17/marine-le-pen-veut-elle-ou-non-organiser-un-referendum-sur-le-frexit-si-elle-est-elue",
+            "sourceLabel": "Euronews, 17 septembre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
       },
       {
         "themeId": "international",
         "themeLabel": "International & Europe",
         "keyPoints": [
-          "Maintien du cadre européen actuel, sans nouveau transfert de compétences.",
-          "Accélération des accords de libre-échange.",
-          "Respect strict des règles budgétaires européennes."
+          {
+            "text": "Ne propose pas de référendum sur la sortie de l'Union européenne et défend une transformation de l'UE en alliance de nations, avec moins de compétences pour Bruxelles.",
+            "sourceUrl": "https://fr.euronews.com/my-europe/2026/09/17/marine-le-pen-veut-elle-ou-non-organiser-un-referendum-sur-le-frexit-si-elle-est-elue",
+            "sourceLabel": "Euronews, 17 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de réduire de 9 milliards d'euros la contribution de la France au budget de l'Union européenne.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f",
+            "sourceLabel": "Public Sénat, 6 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose d'affirmer la primauté du droit français sur le droit européen.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/bilateralisme-russie-union-europeenne-marine-le-pen-detaille-sa-politique",
+            "sourceLabel": "Public Sénat, 13 avril 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de retirer la France du commandement intégré de l'OTAN.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/bilateralisme-russie-union-europeenne-marine-le-pen-detaille-sa-politique",
+            "sourceLabel": "Public Sénat, 13 avril 2022",
+            "origin": "programme-2022"
+          }
         ],
-        "quotes": ["« L'Europe doit être un marché ouvert, pas un super-État. »"],
-        "sourceUrl": "https://example.org/programmes/claire-moreau#international",
-        "positions": [{ "issueId": "union-europeenne", "value": "statu-quo" }]
+        "positions": [
+          {
+            "issueId": "union-europeenne",
+            "value": "renegociation",
+            "sourceUrl": "https://fr.euronews.com/my-europe/2026/09/17/marine-le-pen-veut-elle-ou-non-organiser-un-referendum-sur-le-frexit-si-elle-est-elue"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jean-luc-melenchon",
+    "name": "Jean-Luc Mélenchon",
+    "party": "La France insoumise",
+    "avatarUrl": "/avatars/jean-luc-melenchon.svg",
+    "color": "#4D7C0F",
+    "status": "Candidat déclaré le 3 mai 2026 (annonce au 20 heures de TF1, après une réunion des élus LFI le même jour)",
+    "statusSourceUrl": "https://lcp.fr/actualites/presidentielle-jean-luc-melenchon-officialise-sa-candidature-pour-2027-435851",
+    "summary": "Fondateur de La France insoumise, il a été candidat aux élections présidentielles de 2012, 2017 et 2022. Il se présente en 2027 sur la base du programme L'Avenir en commun, dont une nouvelle version doit être présentée les 6 et 7 novembre 2026.",
+    "officialSiteUrl": "https://melenchon2027.fr/",
+    "programUrl": "https://melenchon2027.fr/programme/decouvrir/",
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          {
+            "text": "Défend le retour de l'âge légal de départ à la retraite à 60 ans.",
+            "sourceUrl": "https://melenchon2027.fr/programme2025/livre/",
+            "sourceLabel": "melenchon2027.fr, L'Avenir en commun édition 2025",
+            "origin": "programme-2025"
+          },
+          {
+            "text": "Propose de porter le SMIC à 1 600 euros net par mois.",
+            "sourceUrl": "https://melenchon2027.fr/programme2025/livre/",
+            "sourceLabel": "melenchon2027.fr, L'Avenir en commun édition 2025",
+            "origin": "programme-2025"
+          },
+          {
+            "text": "Propose de rétablir un impôt sur la fortune comprenant un volet climatique et d'accroître la progressivité de l'impôt sur le revenu.",
+            "sourceUrl": "https://melenchon2027.fr/programme-partage/chapitre-6/",
+            "sourceLabel": "melenchon2027.fr, synthèse des contributions, chapitre 6, 17 juillet 2026",
+            "origin": "programme-2027-synthese"
+          },
+          {
+            "text": "Propose de réduire la TVA sur les produits de première nécessité et d'instaurer une TVA sur les produits de grand luxe pour la financer.",
+            "sourceUrl": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/reduire-la-tva-sur-les-produits-de-premiere-necessite-et-reinstaurer-une-tva-grand-luxe-pour-la-financer",
+            "sourceLabel": "Institut Montaigne, présidentielle 2022",
+            "origin": "programme-2022"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "age-retraite",
+            "value": "60",
+            "sourceUrl": "https://melenchon2027.fr/programme2025/livre/"
+          },
+          {
+            "issueId": "smic",
+            "value": "forte-hausse",
+            "sourceUrl": "https://melenchon2027.fr/programme2025/livre/"
+          },
+          {
+            "issueId": "tva-premiere-necessite",
+            "value": "baisse",
+            "sourceUrl": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/reduire-la-tva-sur-les-produits-de-premiere-necessite-et-reinstaurer-une-tva-grand-luxe-pour-la-financer"
+          }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": [
+          {
+            "text": "Propose de réguler l'installation des médecins.",
+            "sourceUrl": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
+            "sourceLabel": "melenchon2027.fr, plan thématique Ruralités, octobre 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose de rouvrir progressivement des services d'urgences, des maternités et des EHPAD publics avec un objectif d'accès à un service de santé à moins de trente minutes.",
+            "sourceUrl": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
+            "sourceLabel": "melenchon2027.fr, plan thématique Ruralités, octobre 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose de recruter des médecins publics et de développer des centres de santé publics à médecins salariés.",
+            "sourceUrl": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
+            "sourceLabel": "melenchon2027.fr, plan thématique Ruralités, octobre 2026",
+            "origin": "programme-2027"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "deserts-medicaux",
+            "value": "regulation",
+            "sourceUrl": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
+          }
+        ]
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": [
+          {
+            "text": "Défend une planification écologique comme principe d'organisation de l'action publique.",
+            "sourceUrl": "https://melenchon2027.fr/lettre-au-peuple-de-france/",
+            "sourceLabel": "melenchon2027.fr, Lettre au peuple de France, 5 mai 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose d'annuler la libéralisation du marché de l'électricité, de renationaliser EDF et Engie et de mettre en place des tarifs réglementés de l'énergie.",
+            "sourceUrl": "https://melenchon2027.fr/programme-partage/chapitre-13/",
+            "sourceLabel": "melenchon2027.fr, synthèse des contributions, chapitre 13, 17 juillet 2026",
+            "origin": "programme-2027-synthese"
+          },
+          {
+            "text": "Propose de sortir du nucléaire en abandonnant les projets d'EPR et de passer à 100 % d'énergies renouvelables.",
+            "sourceUrl": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/sortir-du-nucleaire-par-labandon-des-projets-depr-demanteler-et-reconvertir-les-sites-existants",
+            "sourceLabel": "Institut Montaigne, présidentielle 2022",
+            "origin": "programme-2022"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "nucleaire",
+            "value": "sortie",
+            "sourceUrl": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/sortir-du-nucleaire-par-labandon-des-projets-depr-demanteler-et-reconvertir-les-sites-existants"
+          }
+        ]
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": [
+          {
+            "text": "Propose de limiter les temps de transport scolaire à 15 minutes en zone rurale et de rendre les transports scolaires gratuits.",
+            "sourceUrl": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
+            "sourceLabel": "melenchon2027.fr, plan thématique Ruralités, octobre 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose la gratuité de l'éducation publique, incluant cantine, fournitures, manuels et activités périscolaires.",
+            "sourceUrl": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/assurer-la-gratuite-de-leducation-publique-et-du-materiel-scolaire/",
+            "sourceLabel": "Institut Montaigne, présidentielle 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de réduire progressivement les effectifs à 19 élèves par classe.",
+            "sourceUrl": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/reduire-les-effectifs-a-19-eleves-par-classe",
+            "sourceLabel": "Institut Montaigne, présidentielle 2022",
+            "origin": "programme-2022"
+          }
+        ]
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": [
+          {
+            "text": "Propose de créer une police de proximité.",
+            "sourceUrl": "https://melenchon2027.fr/programme-partage/chapitre-4/",
+            "sourceLabel": "melenchon2027.fr, synthèse des contributions, chapitre 4, 17 juillet 2026",
+            "origin": "programme-2027-synthese"
+          },
+          {
+            "text": "Propose de remplacer l'IGPN et l'IGGN par une autorité indépendante rattachée au Défenseur des droits.",
+            "sourceUrl": "https://melenchon2027.fr/programme-partage/chapitre-4/",
+            "sourceLabel": "melenchon2027.fr, synthèse des contributions, chapitre 4, 17 juillet 2026",
+            "origin": "programme-2027-synthese"
+          },
+          {
+            "text": "Propose de supprimer la BRAV-M et d'abroger la loi de 2017 sur l'usage des armes en cas de refus d'obtempérer.",
+            "sourceUrl": "https://melenchon2027.fr/programme-partage/chapitre-4/",
+            "sourceLabel": "melenchon2027.fr, synthèse des contributions, chapitre 4, 17 juillet 2026",
+            "origin": "programme-2027-synthese"
+          }
+        ]
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": [
+          {
+            "text": "Propose d'utiliser des clauses d'exemption (opt-out) sur les dispositions des traités européens qui empêchent l'application du programme.",
+            "sourceUrl": "https://melenchon2027.fr/programme-partage/chapitre-17/",
+            "sourceLabel": "melenchon2027.fr, synthèse des contributions, chapitre 17, 17 juillet 2026",
+            "origin": "programme-2027-synthese"
+          },
+          {
+            "text": "Propose d'abroger les accords de libre-échange de l'UE avec le Mercosur, la Nouvelle-Zélande, le Canada et le Japon.",
+            "sourceUrl": "https://melenchon2027.fr/programme-partage/chapitre-17/",
+            "sourceLabel": "melenchon2027.fr, synthèse des contributions, chapitre 17, 17 juillet 2026",
+            "origin": "programme-2027-synthese"
+          },
+          {
+            "text": "Propose de quitter le commandement intégré de l'OTAN, puis l'organisation par étapes.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/otan-les-propositions-des-candidats-a-la-presidentielle-200136",
+            "sourceLabel": "Public Sénat, 25 mars 2022",
+            "origin": "programme-2022"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "edouard-philippe",
+    "name": "Édouard Philippe",
+    "party": "Horizons",
+    "avatarUrl": "/avatars/edouard-philippe.svg",
+    "color": "#0E7490",
+    "status": "Candidat déclaré le 3 septembre 2024 (entretien au Point)",
+    "statusSourceUrl": "https://www.publicsenat.fr/actualites/politique/edouard-philippe-candidat-a-la-presidentielle-il-a-rompu-tres-officiellement-avec-emmanuel-macron",
+    "summary": "Premier ministre de mai 2017 à juillet 2020 et maire du Havre, il a fondé le parti Horizons en 2021. Il se présente comme candidat du centre-droit pour 2027.",
+    "officialSiteUrl": "https://horizonsleparti.fr",
+    "programUrl": null,
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          {
+            "text": "Propose de porter progressivement l'âge légal de départ à la retraite à 65 ans et la durée de cotisation à 45 ans, en moins de dix ans.",
+            "sourceUrl": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de",
+            "sourceLabel": "LCP, 29 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose un système de retraite mixte associant répartition et capitalisation, avec un versement de l'État sur un plan d'épargne de chaque jeune dès son premier emploi.",
+            "sourceUrl": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de",
+            "sourceLabel": "LCP, 29 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de ne remplacer que deux fonctionnaires partant à la retraite sur trois et de réduire de 18 à 12 mois la durée maximale d'indemnisation chômage pour les moins de 50 ans.",
+            "sourceUrl": "https://fr.euronews.com/2026/10/09/presidentielle-2027-edouard-philippe-mise-sur-le-travail-et-la-reduction-des-depenses-publ",
+            "sourceLabel": "Euronews, 9 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de remplacer les allocations familiales par une allocation unique de 350 euros par mois dès le premier enfant et d'exonérer de cotisations sociales deux heures supplémentaires travaillées par semaine.",
+            "sourceUrl": "https://fr.euronews.com/2026/10/09/presidentielle-2027-edouard-philippe-mise-sur-le-travail-et-la-reduction-des-depenses-publ",
+            "sourceLabel": "Euronews, 9 octobre 2026",
+            "origin": "declaration-2026"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "age-retraite",
+            "value": "65",
+            "sourceUrl": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de"
+          }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": []
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": [
+          {
+            "text": "Propose de créer un fonds unique d'adaptation au changement climatique, fusionnant le fonds Barnier et le Fonds vert, doté de 2 milliards d'euros par an.",
+            "sourceUrl": "https://www.linfodurable.fr/entre-le-deni-du-rn-et-le-dogme-de-lfi-le-plan-dedouard-philippe-pour-une-politique-de-securite",
+            "sourceLabel": "L'Info Durable (AFP), 17 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose une politique de sécurité climatique pilotée depuis l'Élysée, incluant la production d'un bombardier d'eau français pendant le mandat et une journée nationale d'alerte.",
+            "sourceUrl": "https://www.linfodurable.fr/entre-le-deni-du-rn-et-le-dogme-de-lfi-le-plan-dedouard-philippe-pour-une-politique-de-securite",
+            "sourceLabel": "L'Info Durable (AFP), 17 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose d'atteindre 10 % de réutilisation des eaux usées et de développer les réseaux de froid.",
+            "sourceUrl": "https://www.linfodurable.fr/entre-le-deni-du-rn-et-le-dogme-de-lfi-le-plan-dedouard-philippe-pour-une-politique-de-securite",
+            "sourceLabel": "L'Info Durable (AFP), 17 septembre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": [
+          {
+            "text": "Propose une hausse d'environ 20 % de la rémunération moyenne des enseignants sur le quinquennat.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-salaires-des-enseignants-sanctions-pour-les-parents-ce-que-propose",
+            "sourceLabel": "LCP, 24 août 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose une amende de responsabilisation scolaire visant les parents d'élèves harceleurs, perturbateurs ou absentéistes, décidée par le maire sur proposition de l'équipe pédagogique.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-salaires-des-enseignants-sanctions-pour-les-parents-ce-que-propose",
+            "sourceLabel": "LCP, 24 août 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose d'accroître l'autonomie des établissements, notamment pour adapter les rythmes et ajouter des heures d'enseignement.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-salaires-des-enseignants-sanctions-pour-les-parents-ce-que-propose",
+            "sourceLabel": "LCP, 24 août 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend l'usage de l'intelligence artificielle pour aider les enseignants, sans IA pour les élèves avant le collège.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-salaires-des-enseignants-sanctions-pour-les-parents-ce-que-propose",
+            "sourceLabel": "LCP, 24 août 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": [
+          {
+            "text": "Propose de diviser par deux l'immigration légale, nettement en dessous de 200 000 titres de séjour par an.",
+            "sourceUrl": "https://fr.euronews.com/2026/10/09/presidentielle-2027-edouard-philippe-mise-sur-le-travail-et-la-reduction-des-depenses-publ",
+            "sourceLabel": "Euronews, 9 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose une liste européenne de pays sûrs dont les ressortissants ne pourraient pas demander l'asile dans l'Union européenne.",
+            "sourceUrl": "https://fr.euronews.com/2026/10/09/presidentielle-2027-edouard-philippe-mise-sur-le-travail-et-la-reduction-des-depenses-publ",
+            "sourceLabel": "Euronews, 9 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose l'incarcération immédiate dès la première infraction dans des établissements pour courtes peines, ainsi que des peines planchers pour les infractions les plus graves.",
+            "sourceUrl": "https://www.europe1.fr/politique/justice-peines-planchers-suppression-du-juge-dapplication-des-peines-edouard-philippe-formule-des-propositions-en-meeting-a-marseille-752761",
+            "sourceLabel": "Europe 1, 17 mai 2025",
+            "origin": "declaration-2025"
+          },
+          {
+            "text": "Propose de donner aux maires le droit de prononcer des amendes et de proposer des peines de réparation pour les infractions du quotidien.",
+            "sourceUrl": "https://www.europe1.fr/politique/justice-peines-planchers-suppression-du-juge-dapplication-des-peines-edouard-philippe-formule-des-propositions-en-meeting-a-marseille-752761",
+            "sourceLabel": "Europe 1, 17 mai 2025",
+            "origin": "declaration-2025"
+          }
+        ]
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": [
+          {
+            "text": "Soutient l'adhésion de l'Ukraine à l'OTAN et l'envoi de soldats européens en Ukraine après la fin du conflit.",
+            "sourceUrl": "https://fr.euronews.com/2026/05/26/edouard-philippe-a-rencontre-volodymyr-zelensky-a-kyiv",
+            "sourceLabel": "Euronews, 26 mai 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Exprime un désaccord avec la politique du gouvernement israélien et condamne la situation à Gaza.",
+            "sourceUrl": "https://fr.euronews.com/2026/10/09/presidentielle-2027-edouard-philippe-mise-sur-le-travail-et-la-reduction-des-depenses-publ",
+            "sourceLabel": "Euronews, 9 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose une Europe à plusieurs vitesses et la suppression du droit de veto en matière fiscale et de sanctions.",
+            "sourceUrl": "https://horizonsleparti.fr/wp-content/uploads/pdf/manifeste-defendre-les-europeens.pdf",
+            "sourceLabel": "Horizons, manifeste « Défendre les Européens », 5 avril 2024",
+            "origin": "programme-europeennes-2024"
+          },
+          {
+            "text": "Propose la création d'un état-major européen capable de commander des opérations au nom de l'Union européenne.",
+            "sourceUrl": "https://horizonsleparti.fr/wp-content/uploads/pdf/manifeste-defendre-les-europeens.pdf",
+            "sourceLabel": "Horizons, manifeste « Défendre les Européens », 5 avril 2024",
+            "origin": "programme-europeennes-2024"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bruno-retailleau",
+    "name": "Bruno Retailleau",
+    "party": "Les Républicains",
+    "avatarUrl": "/avatars/bruno-retailleau.svg",
+    "color": "#9333EA",
+    "status": "Candidature annoncée le 12 février 2026, désigné candidat LR par les adhérents le 19 avril 2026 (73,8 %)",
+    "statusSourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-bruno-retailleau-designe-candidat-par-les-adherents-lr",
+    "summary": "Sénateur de la Vendée depuis 2004, il a présidé le groupe LR au Sénat de 2014 à 2024 puis a été ministre de l'Intérieur de septembre 2024 à octobre 2025. Il préside Les Républicains depuis mai 2025.",
+    "officialSiteUrl": "https://republicains.fr",
+    "programUrl": null,
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          {
+            "text": "Propose un âge minimal de départ à la retraite à 63 ans avec une décote de 7 % par an et un taux plein à 65 ans.",
+            "sourceUrl": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
+            "sourceLabel": "LCP, 23 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose une part de retraite par capitalisation pour les jeunes entrant sur le marché du travail, financée par une cotisation de 1 % du salaire brut.",
+            "sourceUrl": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
+            "sourceLabel": "LCP, 23 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de plafonner le cumul des prestations sociales à 70 % du SMIC et d'exiger 15 heures de travail hebdomadaires en contrepartie du RSA.",
+            "sourceUrl": "https://www.europe1.fr/node/877862",
+            "sourceLabel": "Europe 1, 7 janvier 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose la suppression d'environ 250 000 postes de fonctionnaires, dont 125 000 départs à la retraite non remplacés d'ici 2032.",
+            "sourceUrl": "https://acteurspublics.fr/articles/presidentielle-bruno-retailleau-souhaite-redeployer-125-000-fonctionnaires-sur-le-terrain-grace-a-lia/",
+            "sourceLabel": "Acteurs publics, 8 juillet 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": [
+          {
+            "text": "Propose de redéployer 20 000 emplois administratifs vers le renfort des hôpitaux grâce à l'intelligence artificielle.",
+            "sourceUrl": "https://acteurspublics.fr/articles/presidentielle-bruno-retailleau-souhaite-redeployer-125-000-fonctionnaires-sur-le-terrain-grace-a-lia/",
+            "sourceLabel": "Acteurs publics, 8 juillet 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": [
+          {
+            "text": "Fait du nucléaire une priorité nationale et propose un plan de reconstruction industrielle centré sur l'atome.",
+            "sourceUrl": "https://www.europe1.fr/politique/economiquement-vertueuse-ecologiquement-responsable-bruno-retailleau-clarifie-la-position-des-republicains-sur-les-energies-renouvelables-762050",
+            "sourceLabel": "Europe 1, 3 juillet 2025",
+            "origin": "declaration-2025"
+          },
+          {
+            "text": "S'oppose au financement public de l'éolien et du photovoltaïque.",
+            "sourceUrl": "https://www.europe1.fr/politique/economiquement-vertueuse-ecologiquement-responsable-bruno-retailleau-clarifie-la-position-des-republicains-sur-les-energies-renouvelables-762050",
+            "sourceLabel": "Europe 1, 3 juillet 2025",
+            "origin": "declaration-2025"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "nucleaire",
+            "value": "relance",
+            "sourceUrl": "https://www.europe1.fr/politique/economiquement-vertueuse-ecologiquement-responsable-bruno-retailleau-clarifie-la-position-des-republicains-sur-les-energies-renouvelables-762050"
+          }
+        ]
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": [
+          {
+            "text": "Propose de rétablir un examen d'entrée en sixième, de développer les groupes de niveau et de remettre en cause le collège unique.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux",
+            "sourceLabel": "Public Sénat, 31 août 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de créer 1 000 établissements publics « libres », sur la base du volontariat, pouvant adapter programmes, rythmes et calendrier.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux",
+            "sourceLabel": "Public Sénat, 31 août 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de revaloriser les salaires des enseignants vers la moyenne européenne et de réformer leurs règles d'affectation et de carrière.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux",
+            "sourceLabel": "Public Sénat, 31 août 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose des établissements de réinsertion scolaire pour les élèves de moins de 16 ans exclus à répétition et un contrat d'engagement des parents.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux",
+            "sourceLabel": "Public Sénat, 31 août 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": [
+          {
+            "text": "Propose une Charte de l'ordre républicain inscrite dans la Constitution, portant sur la sécurité, la laïcité, la nationalité et l'immigration, soumise à référendum à la rentrée 2027.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle",
+            "sourceLabel": "Public Sénat, 3 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose des plafonds migratoires, un renforcement de la condition d'assimilation pour la naturalisation et un éloignement facilité des étrangers condamnés.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle",
+            "sourceLabel": "Public Sénat, 3 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose des peines minimales pour certains crimes et délits graves et le recours à la rétention de sûreté après exécution de la peine.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle",
+            "sourceLabel": "Public Sénat, 3 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de rendre 18 000 policiers et gendarmes à la voie publique et à l'enquête par redéploiement des tâches administratives.",
+            "sourceUrl": "https://acteurspublics.fr/articles/presidentielle-bruno-retailleau-souhaite-redeployer-125-000-fonctionnaires-sur-le-terrain-grace-a-lia/",
+            "sourceLabel": "Acteurs publics, 8 juillet 2026",
+            "origin": "declaration-2026"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "effectifs-police",
+            "value": "redeploiement",
+            "sourceUrl": "https://acteurspublics.fr/articles/presidentielle-bruno-retailleau-souhaite-redeployer-125-000-fonctionnaires-sur-le-terrain-grace-a-lia/"
+          }
+        ]
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": [
+          {
+            "text": "Propose un « bouclier constitutionnel » permettant au droit français de primer sur le droit européen dans certaines situations, notamment en matière d'immigration et de sécurité.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle",
+            "sourceLabel": "Public Sénat, 3 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend la primauté du droit national sur les normes internationales, à soumettre à référendum.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/referendum-sur-limmigration-primaute-du-droit-national-le-projet-de-bruno-retailleau-est-il-faisable",
+            "sourceLabel": "Public Sénat, 13 février 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fabien-roussel",
+    "name": "Fabien Roussel",
+    "party": "Parti communiste français",
+    "avatarUrl": "/avatars/fabien-roussel.svg",
+    "color": "#C2410C",
+    "status": "Candidat désigné le 6 septembre 2026 par un vote des adhérents du PCF (72,06 %), annonce le même soir sur TF1",
+    "statusSourceUrl": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
+    "summary": "Secrétaire national du Parti communiste français, il a été le candidat du PCF à l'élection présidentielle de 2022. Il a été désigné candidat pour 2027 par un vote des adhérents de son parti en septembre 2026.",
+    "officialSiteUrl": "https://www.pcf.fr/",
+    "programUrl": null,
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          {
+            "text": "Propose la création d'un fonds d'avenir doté de 500 milliards d'euros pour financer son programme.",
+            "sourceUrl": "https://www.pcf.fr/40e_congres_discours_de_cloture_de_fabien_roussel",
+            "sourceLabel": "pcf.fr, discours de clôture du 40e congrès, 8 juillet 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose des sanctions contre la fraude fiscale pouvant aller jusqu'à la prison, la déchéance des droits civiques ou des travaux d'intérêt général.",
+            "sourceUrl": "https://lcp.fr/actualites/fabien-roussel-officiellement-candidat-du-pcf-a-l-election-presidentielle-de-2027-441389",
+            "sourceLabel": "LCP, 6 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de porter le SMIC à 1 500 euros net et de rétablir la retraite à 60 ans avec une pension minimale de 1 200 euros net.",
+            "sourceUrl": "https://www.macommune.info/wp-content/uploads/2022/04/candidat-11-fabien-roussel-declaration-accessible.pdf",
+            "sourceLabel": "Profession de foi présidentielle 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de rétablir et de tripler l'impôt sur la fortune.",
+            "sourceUrl": "https://www.macommune.info/wp-content/uploads/2022/04/candidat-11-fabien-roussel-declaration-accessible.pdf",
+            "sourceLabel": "Profession de foi présidentielle 2022",
+            "origin": "programme-2022"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "age-retraite",
+            "value": "60",
+            "sourceUrl": "https://www.macommune.info/wp-content/uploads/2022/04/candidat-11-fabien-roussel-declaration-accessible.pdf"
+          },
+          {
+            "issueId": "smic",
+            "value": "forte-hausse",
+            "sourceUrl": "https://www.macommune.info/wp-content/uploads/2022/04/candidat-11-fabien-roussel-declaration-accessible.pdf"
+          }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": [
+          {
+            "text": "Propose de créer 100 000 postes supplémentaires à l'hôpital public et de remplacer la tarification à l'activité par une dotation budgétaire.",
+            "sourceUrl": "https://pneumologie.lequotidiendumedecin.fr/sante-societe/politique-de-sante/fabien-roussel-pcf-souhaite-creer-100-000-personnels-supplementaires-lhopital-public",
+            "sourceLabel": "Le Quotidien du Médecin, 17 mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de rouvrir les maternités de proximité fermées.",
+            "sourceUrl": "https://pneumologie.lequotidiendumedecin.fr/sante-societe/politique-de-sante/fabien-roussel-pcf-souhaite-creer-100-000-personnels-supplementaires-lhopital-public",
+            "sourceLabel": "Le Quotidien du Médecin, 17 mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de créer un service public du grand âge et d'interdire les EHPAD à but lucratif.",
+            "sourceUrl": "https://www.macommune.info/wp-content/uploads/2022/04/candidat-11-fabien-roussel-declaration-accessible.pdf",
+            "sourceLabel": "Profession de foi présidentielle 2022",
+            "origin": "programme-2022"
+          }
+        ]
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": [
+          {
+            "text": "Défend une baisse de 30 % des tarifs de l'électricité et du gaz pour les ménages et les entreprises.",
+            "sourceUrl": "https://www.pcf.fr/40e_congres_discours_de_cloture_de_fabien_roussel",
+            "sourceLabel": "pcf.fr, discours de clôture du 40e congrès, 8 juillet 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose un plan climat fondé sur une trajectoire carbone associé à la réindustrialisation du pays.",
+            "sourceUrl": "https://lcp.fr/actualites/fabien-roussel-officiellement-candidat-du-pcf-a-l-election-presidentielle-de-2027-441389",
+            "sourceLabel": "LCP, 6 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Demande à TotalEnergies de baisser le prix de l'essence de 30 à 50 centimes et propose sa nationalisation en cas de refus.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-a-la-fete-de-l-huma-fabien-roussel-au-defi-de-prouver-l-utilite-d-une",
+            "sourceLabel": "LCP, 11 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend un mix énergétique associant nucléaire et renouvelables, avec la construction d'au moins six nouveaux EPR.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-fabien-roussel-presente-180-propositions-pour-une-france-des-jours",
+            "sourceLabel": "Public Sénat, 24 janvier 2022",
+            "origin": "programme-2022"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "nucleaire",
+            "value": "relance",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-fabien-roussel-presente-180-propositions-pour-une-france-des-jours"
+          }
+        ]
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": [
+          {
+            "text": "Propose de plafonner les effectifs à 20 élèves en maternelle et en primaire, 25 dans le secondaire et 12 en éducation prioritaire.",
+            "sourceUrl": "https://lille.snes.edu/IMG/pdf/brochure_programmes_candidats_presidentielles_2022_web.pdf",
+            "sourceLabel": "SNES-FSU Lille, brochure programmes présidentielle 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de créer 90 000 postes d'enseignants et de supprimer Parcoursup.",
+            "sourceUrl": "https://lille.snes.edu/IMG/pdf/brochure_programmes_candidats_presidentielles_2022_web.pdf",
+            "sourceLabel": "SNES-FSU Lille, brochure programmes présidentielle 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose que tous les devoirs soient faits à l'école et d'interdire les écoles privées hors contrat.",
+            "sourceUrl": "https://www.macommune.info/wp-content/uploads/2022/04/candidat-11-fabien-roussel-declaration-accessible.pdf",
+            "sourceLabel": "Profession de foi présidentielle 2022",
+            "origin": "programme-2022"
+          }
+        ]
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": [
+          {
+            "text": "Défend l'attribution de moyens supplémentaires aux forces de sécurité.",
+            "sourceUrl": "https://www.pcf.fr/40e_congres_discours_de_cloture_de_fabien_roussel",
+            "sourceLabel": "pcf.fr, discours de clôture du 40e congrès, 8 juillet 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Réclame davantage de policiers dans les quartiers populaires et un renforcement de la protection des frontières contre les trafics.",
+            "sourceUrl": "https://www.europe1.fr/politique/immigration-fabien-roussel-veut-renforcer-les-frontieres-des-deputes-insoumis-agaces-4200352",
+            "sourceLabel": "Europe 1, 27 août 2023",
+            "origin": "declaration-2023"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "effectifs-police",
+            "value": "hausse",
+            "sourceUrl": "https://www.europe1.fr/politique/immigration-fabien-roussel-veut-renforcer-les-frontieres-des-deputes-insoumis-agaces-4200352"
+          }
+        ]
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": [
+          {
+            "text": "Défend un cessez-le-feu rapide entre l'Ukraine et la Russie et propose de réorienter une partie du budget de la défense vers les services publics après l'arrêt des hostilités.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-a-la-fete-de-l-huma-fabien-roussel-au-defi-de-prouver-l-utilite-d-une",
+            "sourceLabel": "LCP, 11 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de sortir du marché européen de l'électricité et demande que l'Union européenne cesse ses relations commerciales avec Israël.",
+            "sourceUrl": "https://www.pcf.fr/40e_congres_discours_de_cloture_de_fabien_roussel",
+            "sourceLabel": "pcf.fr, discours de clôture du 40e congrès, 8 juillet 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose l'ouverture de négociations pour de nouveaux traités européens et un traité de sécurité collective entre les pays d'Europe.",
+            "sourceUrl": "https://www.macommune.info/wp-content/uploads/2022/04/candidat-11-fabien-roussel-declaration-accessible.pdf",
+            "sourceLabel": "Profession de foi présidentielle 2022",
+            "origin": "programme-2022"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "union-europeenne",
+            "value": "renegociation",
+            "sourceUrl": "https://www.macommune.info/wp-content/uploads/2022/04/candidat-11-fabien-roussel-declaration-accessible.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "marine-tondelier",
+    "name": "Marine Tondelier",
+    "party": "Les Écologistes",
+    "avatarUrl": "/avatars/marine-tondelier.svg",
+    "color": "#475569",
+    "status": "Candidate des Écologistes ; un vote des adhérents, du 10 au 13 décembre 2026, doit confirmer sa candidature ou le soutien à un autre candidat de gauche.",
+    "statusSourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-les-ecologistes-reportent-lheure-du-choix-a-decembre-marine-tondelier-toujours-en-lice",
+    "summary": "Secrétaire nationale des Écologistes depuis décembre 2022, elle est conseillère municipale d'opposition à Hénin-Beaumont et conseillère régionale depuis 2021. Elle a annoncé sa candidature à la présidentielle en octobre 2025 et son parti a publié en juillet 2026 le programme « Pour une prospérité écologique ».",
+    "officialSiteUrl": "https://www.lesecologistes.fr/",
+    "programUrl": "https://lesecologistes.fr/share/page/6ImK65GKUnvibm33WGkjkj/projet",
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          {
+            "text": "Propose de porter le SMIC à 2 000 euros brut par mois, en contrepartie d'un plan d'aide aux TPE et PME.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-2027-ce-qu-il-faut-retenir-du-premier-debat-entre-les-candidats-440670",
+            "sourceLabel": "LCP, 27 août 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend un âge légal de départ à 62 ans, et un départ à 60 ans pour les salariés ayant commencé à travailler avant 20 ans ou exercé des métiers pénibles.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-que-proposent-les-candidats-a-l-elysee-sur-les-retraites-441751",
+            "sourceLabel": "LCP, 16 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose une hausse de la contribution sur les héritages de plus de 4 millions d'euros.",
+            "sourceUrl": "https://lesecologistes.fr/posts/20uOkUL8XPvQeEiVWpSWCJ/heritage-la-grande-transmission-doit-financer-la-grande-transition",
+            "sourceLabel": "Les Écologistes, 26 août 2026",
+            "origin": "programme-2027"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "age-retraite",
+            "value": "62",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-que-proposent-les-candidats-a-l-elysee-sur-les-retraites-441751"
+          }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": [
+          {
+            "text": "Propose la création de 2 000 nouveaux centres de santé.",
+            "sourceUrl": "https://www.lesecologistes.fr/",
+            "sourceLabel": "Site des Écologistes, consulté le 16 octobre 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose d'interdire les perturbateurs endocriniens, les substances cancérogènes, mutagènes et reprotoxiques ainsi que les PFAS dans les produits du quotidien.",
+            "sourceUrl": "https://www.terre-net.fr/politique/article/899196/tondelier-devoile-ses-mesures-pour-la-sante-environnementale",
+            "sourceLabel": "Terre-net (AFP), 30 mai 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose d'interdire les aliments ultra-transformés dans les cantines scolaires et les publicités télévisées pour des produits trop sucrés ou trop salés avant 21 heures.",
+            "sourceUrl": "https://www.terre-net.fr/politique/article/899196/tondelier-devoile-ses-mesures-pour-la-sante-environnementale",
+            "sourceLabel": "Terre-net (AFP), 30 mai 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": [
+          {
+            "text": "Propose de mettre fin aux nouveaux programmes nucléaires EPR2 et SMR et de fermer progressivement les centrales vieillissantes sur une vingtaine d'années.",
+            "sourceUrl": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf",
+            "sourceLabel": "Programme des Écologistes « Pour une prospérité écologique », juillet 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Fixe un objectif de 44 % d'énergies renouvelables dans la consommation finale brute d'électricité en 2030.",
+            "sourceUrl": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf",
+            "sourceLabel": "Programme des Écologistes « Pour une prospérité écologique », juillet 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose 500 000 rénovations performantes de logements par an et un million de voitures électriques en leasing social.",
+            "sourceUrl": "https://www.lesecologistes.fr/",
+            "sourceLabel": "Site des Écologistes, consulté le 16 octobre 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose d'atteindre 21 % de surfaces agricoles en bio en 2030 et 25 % en 2032, et un moratoire sur les nouvelles « mégabassines ».",
+            "sourceUrl": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf",
+            "sourceLabel": "Programme des Écologistes « Pour une prospérité écologique », juillet 2026",
+            "origin": "programme-2027"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "nucleaire",
+            "value": "sortie",
+            "sourceUrl": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
+          }
+        ]
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": [
+          {
+            "text": "Propose de réduire les effectifs à 19 élèves par classe d'ici 2032, et à 12 élèves en REP et REP+.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+            "sourceLabel": "Public Sénat, 31 août 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose d'augmenter les salaires des enseignants de 15 % sur cinq ans, au-delà de l'inflation.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+            "sourceLabel": "Public Sénat, 31 août 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose de créer un corps de catégorie B pour les accompagnants d'élèves en situation de handicap (AESH).",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+            "sourceLabel": "Public Sénat, 31 août 2026",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Propose de consacrer deux milliards d'euros par an à l'adaptation des écoles en « refuges climatiques », principalement par l'isolation.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+            "sourceLabel": "Public Sénat, 31 août 2026",
+            "origin": "programme-2027"
+          }
+        ]
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": [
+          {
+            "text": "Le programme des Écologistes comporte des chapitres consacrés à la refondation d'une « police républicaine », aux moyens de la justice et à la lutte contre le narcotrafic, sans objectif chiffré d'effectifs vérifié.",
+            "sourceUrl": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf",
+            "sourceLabel": "Programme des Écologistes « Pour une prospérité écologique », juillet 2026 (sommaire)",
+            "origin": "programme-2027"
+          }
+        ]
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": [
+          {
+            "text": "Défend l'avancée vers une Europe fédérale et l'évolution de l'armée française dans le cadre d'une Europe de la défense.",
+            "sourceUrl": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf",
+            "sourceLabel": "Programme des Écologistes « Pour une prospérité écologique », juillet 2026 (sommaire)",
+            "origin": "programme-2027"
+          },
+          {
+            "text": "Défend le soutien à l'Ukraine face à la Russie et la réduction des achats français d'énergie, d'uranium et d'engrais russes.",
+            "sourceUrl": "https://agendapublica.es/noticia/21111/leader-of-ecologistes-if-far-right-wins-france-europe-will-tilt-and-we-will-enter-different-world",
+            "sourceLabel": "Agenda Pública, 31 mai 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose une réindustrialisation coordonnée à l'échelle européenne, notamment dans la sidérurgie et les énergies renouvelables.",
+            "sourceUrl": "https://agendapublica.es/noticia/21111/leader-of-ecologistes-if-far-right-wins-france-europe-will-tilt-and-we-will-enter-different-world",
+            "sourceLabel": "Agenda Pública, 31 mai 2026",
+            "origin": "declaration-2026"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "union-europeenne",
+            "value": "integration",
+            "sourceUrl": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eric-zemmour",
+    "name": "Éric Zemmour",
+    "party": "Reconquête",
+    "avatarUrl": "/avatars/eric-zemmour.svg",
+    "color": "#A16207",
+    "status": "A annoncé sa candidature le 17 septembre 2026 sur BFMTV ; une déclaration formelle était attendue à l'automne 2026.",
+    "statusSourceUrl": "https://www.publicsenat.fr/actualites/politique/eric-zemmour-officialise-sa-candidature-a-la-presidentielle-2027",
+    "summary": "Journaliste et essayiste, longtemps chroniqueur au Figaro, Éric Zemmour a fondé le parti Reconquête en décembre 2021. Candidat à la présidentielle de 2022, il est arrivé quatrième au premier tour avec 7,07 % des voix.",
+    "officialSiteUrl": "https://www.parti-reconquete.fr",
+    "programUrl": null,
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          {
+            "text": "Propose de reporter progressivement l'âge légal de départ à la retraite à 64 ans.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme",
+            "sourceLabel": "Public Sénat, 23 mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose d'augmenter le salaire net des travailleurs modestes par une baisse de la CSG et d'exonérer d'impôt et de cotisations les heures supplémentaires.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme",
+            "sourceLabel": "Public Sénat, 23 mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de baisser les impôts de production des entreprises.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme",
+            "sourceLabel": "Public Sénat, 23 mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose un investissement massif dans l'intelligence artificielle, financé par la mobilisation de l'épargne, afin de faire de la France la troisième puissance mondiale du secteur.",
+            "sourceUrl": "https://www.europe1.fr/politique/presidentielle-2027-eric-zemmour-appelle-a-un-vote-du-sursaut-lors-de-son-discours-de-rentree-1075178",
+            "sourceLabel": "Europe 1, 13 septembre 2026",
+            "origin": "declaration-2026"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "age-retraite",
+            "value": "64",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme"
+          }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": [
+          {
+            "text": "Propose que l'État recrute 1 000 médecins salariés par an pendant cinq ans pour les territoires.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme",
+            "sourceLabel": "Public Sénat, 23 mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de supprimer l'aide médicale d'État (AME).",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme",
+            "sourceLabel": "Public Sénat, 23 mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de créer 400 000 places supplémentaires en Ehpad.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme",
+            "sourceLabel": "Public Sénat, 23 mars 2022",
+            "origin": "programme-2022"
+          }
+        ]
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": [
+          {
+            "text": "Propose la construction de six réacteurs EPR d'ici 2035 et de quatorze d'ici 2045.",
+            "sourceUrl": "https://www.europe1.fr/politique/presidentielle-2027-eric-zemmour-appelle-a-un-vote-du-sursaut-lors-de-son-discours-de-rentree-1075178",
+            "sourceLabel": "Europe 1, 13 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Remet en cause la fermeture prévue de douze réacteurs nucléaires.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme",
+            "sourceLabel": "Public Sénat, 23 mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de supprimer les zones à faibles émissions (ZFE).",
+            "sourceUrl": "https://www.toutsurmesfinances.com/argent/a/eric-zemmour-programme",
+            "sourceLabel": "Tout sur mes finances, 2022",
+            "origin": "programme-2022"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "nucleaire",
+            "value": "relance",
+            "sourceUrl": "https://www.europe1.fr/politique/presidentielle-2027-eric-zemmour-appelle-a-un-vote-du-sursaut-lors-de-son-discours-de-rentree-1075178"
+          }
+        ]
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": [
+          {
+            "text": "Propose de rétablir le port de la blouse à l'école primaire.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-eric-zemmour-egratigne-les-journalistes-et-promet-une-revolution",
+            "sourceLabel": "Public Sénat, 10 janvier 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de mettre fin au collège unique et de rétablir les filières littéraire, scientifique et économique au lycée.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme",
+            "sourceLabel": "Public Sénat, 23 mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de rétablir les écoles normales pour la formation des enseignants et de créer un ministère de l'Instruction publique.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-eric-zemmour-egratigne-les-journalistes-et-promet-une-revolution",
+            "sourceLabel": "Public Sénat, 10 janvier 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de suspendre les allocations familiales des parents d'élèves perturbateurs ou absentéistes.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-eric-zemmour-egratigne-les-journalistes-et-promet-une-revolution",
+            "sourceLabel": "Public Sénat, 10 janvier 2022",
+            "origin": "programme-2022"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "uniforme",
+            "value": "generalisation",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-eric-zemmour-egratigne-les-journalistes-et-promet-une-revolution"
+          }
+        ]
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": [
+          {
+            "text": "Propose d'expulser les étrangers sans emploi depuis un an, y compris en situation régulière, ainsi que les détenus étrangers et les personnes en situation irrégulière.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/eric-zemmour-officialise-sa-candidature-a-la-presidentielle-2027",
+            "sourceLabel": "Public Sénat, 18 septembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de créer un ministère de la remigration et de supprimer le droit du sol.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme",
+            "sourceLabel": "Public Sénat, 23 mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de limiter le droit d'asile à une centaine de personnes par an.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme",
+            "sourceLabel": "Public Sénat, 23 mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose une présomption de légitime défense pour les forces de l'ordre.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme",
+            "sourceLabel": "Public Sénat, 23 mars 2022",
+            "origin": "programme-2022"
+          }
+        ]
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": [
+          {
+            "text": "Propose de réviser l'article 55 de la Constitution pour faire primer les nouvelles lois nationales sur les textes internationaux et européens.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme",
+            "sourceLabel": "Public Sénat, 23 mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose un référendum obligatoire pour toute ratification de traité européen et tout élargissement de l'Union européenne.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme",
+            "sourceLabel": "Public Sénat, 23 mars 2022",
+            "origin": "programme-2022"
+          },
+          {
+            "text": "Propose de porter le budget de la défense à 70 milliards d'euros à l'horizon 2030.",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme",
+            "sourceLabel": "Public Sénat, 23 mars 2022",
+            "origin": "programme-2022"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "union-europeenne",
+            "value": "renegociation",
+            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme"
+          }
+        ]
       }
     ]
   }

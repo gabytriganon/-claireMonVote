@@ -1,0 +1,11 @@
+{
+  "election": "Présidentielle 2027",
+  "firstRound": "2027-04-18",
+  "updatedAt": "2026-10-16",
+  "provisional": true,
+  "selection": "La liste réunit les personnalités qui ont déclaré leur candidature ou ont été désignées par leur parti, et qui sont testées dans les sondages nationaux de premier tour publiés fin août 2026 (Ifop, Elabe, Cluster17).",
+  "selectionSources": [
+    { "label": "Public Sénat, 14 octobre 2026", "url": "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque" },
+    { "label": "Sondages (Wikipédia)", "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2027_French_presidential_election" }
+  ]
+}

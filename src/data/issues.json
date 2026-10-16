@@ -53,6 +53,6 @@
     "themeId": "international",
     "question": "Relation avec l'Union européenne",
     "major": true,
-    "options": { "integration": "Plus d'intégration européenne", "statu-quo": "Statu quo", "renegociation": "Renégociation des traités" }
+    "options": { "integration": "Plus d'intégration européenne", "statu-quo": "Statu quo", "renegociation": "Renégociation des traités", "sortie": "Sortie de l'Union européenne" }
   }
 ]

@@ -3,6 +3,7 @@ import { Link, NavLink, Outlet } from 'react-router-dom'
 import { BookOpenText, Download, Moon, Sun, WifiOff } from 'lucide-react'
 import { useAppStore } from '../store/useAppStore'
 import { withBase } from '../lib/base'
+import { formatDate, meta } from '../lib/data'
 
 interface BeforeInstallPromptEvent extends Event {
   prompt: () => Promise<void>
@@ -150,10 +151,10 @@ export function Layout() {
       <footer className="border-t border-slate-200 py-6 text-sm text-slate-600 dark:border-slate-800 dark:text-slate-400">
         <div className="mx-auto max-w-6xl space-y-1 px-4">
           <p>
-            Données de démonstration : les candidats présentés sont fictifs. Les candidats sont affichés dans un ordre
-            aléatoire pour ne favoriser personne.
+            {meta.election} : liste provisoire des candidats, données mises à jour le {formatDate(meta.updatedAt)}. Les
+            candidats sont affichés dans un ordre aléatoire pour ne favoriser personne.
           </p>
-          <p>Chaque synthèse renvoie vers la source officielle du programme.</p>
+          <p>Chaque proposition renvoie vers sa source publique. Une position non vérifiée est signalée, jamais devinée.</p>
         </div>
       </footer>
     </div>

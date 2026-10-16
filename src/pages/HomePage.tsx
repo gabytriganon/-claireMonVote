@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { ArrowRight, Check, Plus, Scale, Search, X } from 'lucide-react'
 import { Avatar } from '../components/Avatar'
+import { ProvisionalNotice } from '../components/ProvisionalNotice'
 import { getCandidate, searchCandidates } from '../lib/data'
 import { useAppStore } from '../store/useAppStore'
 
@@ -50,6 +51,7 @@ export function HomePage() {
             Comparer 2 candidats
           </button>
         </div>
+        <ProvisionalNotice />
       </section>
 
       <section aria-labelledby="annuaire">
@@ -81,23 +83,7 @@ export function HomePage() {
                         <p className="text-sm text-slate-600 dark:text-slate-400">{candidate.party}</p>
                       </div>
                     </div>
-                    {candidate.slogan && (
-                      <p data-secondary className="text-slate-700 italic dark:text-slate-300">
-                        « {candidate.slogan} »
-                      </p>
-                    )}
-                    {candidate.tags && (
-                      <ul className="flex flex-wrap gap-1.5" aria-label="Thèmes phares">
-                        {candidate.tags.map((tag) => (
-                          <li
-                            key={tag}
-                            className="rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-medium text-slate-700 dark:bg-slate-800 dark:text-slate-300"
-                          >
-                            {tag}
-                          </li>
-                        ))}
-                      </ul>
-                    )}
+                    <p className="text-sm text-slate-700 dark:text-slate-300">{candidate.status}</p>
                     {matched.length > 0 && (
                       <p className="text-sm text-slate-700 dark:text-slate-300">
                         Mentionné dans :{' '}

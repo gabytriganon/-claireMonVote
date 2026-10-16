@@ -1,17 +1,32 @@
-import { ExternalLink, Quote } from 'lucide-react'
-import { issues, positionLabel, type Proposal } from '../lib/data'
+import { ExternalLink } from 'lucide-react'
+import { issues, originLabel, positionLabel, type Proposal } from '../lib/data'
+
+const EMPTY = 'Aucune proposition vérifiée sur ce thème à ce jour. Nous préférons le signaler plutôt que de deviner.'
 
 export function ProposalView({ proposal, compact = false }: { proposal?: Proposal; compact?: boolean }) {
-  if (!proposal) {
-    return <p className="text-slate-600 italic dark:text-slate-400">Aucune proposition publiée sur ce thème.</p>
+  if (!proposal || proposal.keyPoints.length === 0) {
+    return <p className="text-slate-600 italic dark:text-slate-400">{EMPTY}</p>
   }
   return (
     <div className="space-y-5">
       <ul className="space-y-3">
         {proposal.keyPoints.map((point) => (
-          <li key={point} className="flex gap-3">
+          <li key={point.text} className="flex gap-3">
             <span aria-hidden="true" className="mt-2.5 size-1.5 shrink-0 rounded-full bg-slate-500" />
-            <span className="leading-relaxed">{point}</span>
+            <span className="leading-relaxed">
+              {point.text}{' '}
+              <a
+                href={point.sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium break-words text-sky-700 hover:underline dark:text-sky-400"
+              >
+                <span data-secondary>{originLabel(point.origin)} · </span>
+                {point.sourceLabel}
+                <ExternalLink aria-hidden="true" className="ml-1 inline size-3 align-baseline" />
+                <span className="sr-only">(source, nouvel onglet)</span>
+              </a>
+            </span>
           </li>
         ))}
       </ul>
@@ -26,35 +41,21 @@ export function ProposalView({ proposal, compact = false }: { proposal?: Proposa
                 <dt className="text-xs font-medium tracking-wide text-slate-600 uppercase dark:text-slate-400">
                   {issue.question}
                 </dt>
-                <dd className="font-semibold">{positionLabel(issue, pos.value)}</dd>
+                <dd className="font-semibold">
+                  {positionLabel(issue, pos.value)}{' '}
+                  <a
+                    href={pos.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs font-medium text-sky-700 hover:underline dark:text-sky-400"
+                  >
+                    source<span className="sr-only"> (nouvel onglet)</span>
+                  </a>
+                </dd>
               </div>
             )
           })}
         </dl>
-      )}
-
-      {proposal.quotes?.map((quote) => (
-        <blockquote
-          key={quote}
-          data-secondary
-          className="flex gap-3 border-l-4 border-slate-300 pl-4 text-slate-700 italic dark:border-slate-600 dark:text-slate-300"
-        >
-          <Quote aria-hidden="true" className="mt-1 size-4 shrink-0 opacity-60" />
-          <p>{quote}</p>
-        </blockquote>
-      ))}
-
-      {proposal.sourceUrl && (
-        <a
-          href={proposal.sourceUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1.5 text-sm font-medium text-sky-700 hover:underline dark:text-sky-400"
-        >
-          Source officielle
-          <ExternalLink aria-hidden="true" className="size-3.5" />
-          <span className="sr-only">(nouvel onglet)</span>
-        </a>
       )}
     </div>
   )
