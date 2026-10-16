@@ -1,0 +1,58 @@
+[
+  {
+    "id": "age-retraite",
+    "themeId": "economie",
+    "question": "Âge légal de départ à la retraite",
+    "major": true,
+    "options": { "60": "60 ans", "62": "62 ans", "64": "64 ans", "65": "65 ans" }
+  },
+  {
+    "id": "smic",
+    "themeId": "economie",
+    "question": "Évolution du SMIC",
+    "major": false,
+    "options": { "forte-hausse": "Forte hausse (10 % ou plus)", "hausse-moderee": "Hausse modérée (environ 5 %)", "stable": "Pas de coup de pouce" }
+  },
+  {
+    "id": "tva-premiere-necessite",
+    "themeId": "economie",
+    "question": "TVA sur les produits de première nécessité",
+    "major": false,
+    "options": { "baisse": "Baisse", "maintien": "Maintien" }
+  },
+  {
+    "id": "deserts-medicaux",
+    "themeId": "sante",
+    "question": "Lutte contre les déserts médicaux",
+    "major": true,
+    "options": { "regulation": "Régulation de l'installation des médecins", "incitations": "Incitations financières uniquement" }
+  },
+  {
+    "id": "nucleaire",
+    "themeId": "ecologie",
+    "question": "Avenir du nucléaire",
+    "major": true,
+    "options": { "relance": "Relance (nouveaux réacteurs)", "maintien": "Maintien du parc actuel", "sortie": "Sortie progressive" }
+  },
+  {
+    "id": "uniforme",
+    "themeId": "education",
+    "question": "Uniforme scolaire",
+    "major": false,
+    "options": { "generalisation": "Généralisation", "libre-choix": "Laissé au choix des établissements" }
+  },
+  {
+    "id": "effectifs-police",
+    "themeId": "securite",
+    "question": "Effectifs de police et de gendarmerie",
+    "major": false,
+    "options": { "hausse": "Recrutements supplémentaires", "redeploiement": "Redéploiement à effectifs constants" }
+  },
+  {
+    "id": "union-europeenne",
+    "themeId": "international",
+    "question": "Relation avec l'Union européenne",
+    "major": true,
+    "options": { "integration": "Plus d'intégration européenne", "statu-quo": "Statu quo", "renegociation": "Renégociation des traités" }
+  }
+]

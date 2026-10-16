@@ -1,0 +1,362 @@
+[
+  {
+    "id": "jean-dupont",
+    "name": "Jean Dupont",
+    "party": "Mouvement Demain",
+    "avatarUrl": "/avatars/jean-dupont.svg",
+    "color": "#0F766E",
+    "slogan": "Construire ensemble le pays de demain",
+    "tags": ["Nucléaire", "Europe", "Pouvoir d'achat"],
+    "summary": "Jean Dupont défend une modernisation progressive de l'économie, appuyée sur une énergie décarbonée et une Europe plus intégrée. Il met l'accent sur le pouvoir d'achat et l'équilibre des comptes publics.",
+    "officialProgramUrl": "https://example.org/programmes/jean-dupont",
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          "Âge légal de départ maintenu à 64 ans, avec un dispositif renforcé pour les carrières longues.",
+          "Revalorisation du SMIC de 5 %.",
+          "Baisse de la TVA sur les produits de première nécessité."
+        ],
+        "quotes": ["« Le travail doit toujours payer davantage que l'inactivité. »"],
+        "sourceUrl": "https://example.org/programmes/jean-dupont#economie",
+        "positions": [
+          { "issueId": "age-retraite", "value": "64" },
+          { "issueId": "smic", "value": "hausse-moderee" },
+          { "issueId": "tva-premiere-necessite", "value": "baisse" }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": [
+          "Prime d'installation de 50 000 € pour les médecins s'installant en zone sous-dotée.",
+          "Création de 500 maisons de santé pluridisciplinaires.",
+          "Remboursement intégral des soins dentaires et optiques de base."
+        ],
+        "quotes": ["« Personne ne devrait faire une heure de route pour voir un médecin. »"],
+        "sourceUrl": "https://example.org/programmes/jean-dupont#sante",
+        "positions": [{ "issueId": "deserts-medicaux", "value": "incitations" }]
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": [
+          "Objectif de neutralité carbone en 2040.",
+          "Construction de 6 nouveaux réacteurs nucléaires.",
+          "Investissement de 10 milliards d'euros dans l'isolation thermique."
+        ],
+        "quotes": ["« Le nucléaire est notre meilleur allié pour sortir des énergies fossiles. »"],
+        "stance": "pro-nucleaire",
+        "sourceUrl": "https://example.org/programmes/jean-dupont#ecologie",
+        "positions": [{ "issueId": "nucleaire", "value": "relance" }]
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": [
+          "Revalorisation de 10 % du salaire des enseignants en début de carrière.",
+          "Classes limitées à 20 élèves en primaire.",
+          "Uniforme laissé au choix des établissements."
+        ],
+        "quotes": ["« L'école est la première promesse de la République. »"],
+        "sourceUrl": "https://example.org/programmes/jean-dupont#education",
+        "positions": [{ "issueId": "uniforme", "value": "libre-choix" }]
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": [
+          "Recrutement de 8 000 policiers et gendarmes supplémentaires.",
+          "Réduction des délais de jugement à moins d'un an.",
+          "Création d'un parquet national dédié aux cybercrimes."
+        ],
+        "quotes": ["« La sécurité est la condition de toutes les libertés. »"],
+        "sourceUrl": "https://example.org/programmes/jean-dupont#securite",
+        "positions": [{ "issueId": "effectifs-police", "value": "hausse" }]
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": [
+          "Création d'une défense européenne commune.",
+          "Renforcement du budget européen pour l'innovation.",
+          "Maintien de l'aide au développement à 0,7 % du PIB."
+        ],
+        "quotes": ["« Seule, la France pèse ; unie à l'Europe, elle compte. »"],
+        "sourceUrl": "https://example.org/programmes/jean-dupont#international",
+        "positions": [{ "issueId": "union-europeenne", "value": "integration" }]
+      }
+    ]
+  },
+  {
+    "id": "amina-benali",
+    "name": "Amina Benali",
+    "party": "Alliance Citoyenne pour le Climat",
+    "avatarUrl": "/avatars/amina-benali.svg",
+    "color": "#7C3AED",
+    "slogan": "Le climat et la justice sociale, maintenant",
+    "tags": ["Climat", "Retraite à 60 ans", "Services publics"],
+    "summary": "Amina Benali place la transition écologique et la réduction des inégalités au cœur de son projet. Elle propose un rôle accru de l'État et des services publics, financé par une fiscalité plus progressive.",
+    "officialProgramUrl": "https://example.org/programmes/amina-benali",
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          "Retour de l'âge légal de départ à 60 ans.",
+          "Hausse du SMIC de 12 % dès la première année.",
+          "Baisse de la TVA sur les produits de première nécessité, compensée par un impôt sur les très hauts patrimoines."
+        ],
+        "quotes": ["« La richesse produite doit mieux revenir à celles et ceux qui la créent. »"],
+        "sourceUrl": "https://example.org/programmes/amina-benali#economie",
+        "positions": [
+          { "issueId": "age-retraite", "value": "60" },
+          { "issueId": "smic", "value": "forte-hausse" },
+          { "issueId": "tva-premiere-necessite", "value": "baisse" }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": [
+          "Régulation de l'installation des médecins dans les zones déjà bien dotées.",
+          "Recrutement de 100 000 soignants à l'hôpital public.",
+          "Création d'un pôle public du médicament."
+        ],
+        "quotes": ["« La santé n'est pas une marchandise. »"],
+        "sourceUrl": "https://example.org/programmes/amina-benali#sante",
+        "positions": [{ "issueId": "deserts-medicaux", "value": "regulation" }]
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": [
+          "Sortie progressive du nucléaire d'ici 2050.",
+          "100 % d'électricité renouvelable en 2050.",
+          "Gratuité des transports en commun pour les moins de 25 ans."
+        ],
+        "quotes": ["« Chaque année perdue rendra la transition plus brutale. »"],
+        "stance": "anti-nucleaire",
+        "sourceUrl": "https://example.org/programmes/amina-benali#ecologie",
+        "positions": [{ "issueId": "nucleaire", "value": "sortie" }]
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": [
+          "Classes limitées à 19 élèves de la maternelle au lycée.",
+          "Gratuité totale des cantines scolaires.",
+          "Uniforme laissé au choix des établissements."
+        ],
+        "quotes": ["« L'égalité commence à l'école. »"],
+        "sourceUrl": "https://example.org/programmes/amina-benali#education",
+        "positions": [{ "issueId": "uniforme", "value": "libre-choix" }]
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": [
+          "Retour d'une police de proximité, à effectifs constants.",
+          "Doublement du budget de la justice sur le quinquennat.",
+          "Développement des peines alternatives à la prison."
+        ],
+        "quotes": ["« Une police proche des habitants est une police plus efficace. »"],
+        "sourceUrl": "https://example.org/programmes/amina-benali#securite",
+        "positions": [{ "issueId": "effectifs-police", "value": "redeploiement" }]
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": [
+          "Taxe carbone aux frontières de l'Union européenne.",
+          "Harmonisation sociale et fiscale européenne.",
+          "Hausse de l'aide au développement à 1 % du PIB."
+        ],
+        "quotes": ["« L'Europe doit devenir le continent de la transition. »"],
+        "sourceUrl": "https://example.org/programmes/amina-benali#international",
+        "positions": [{ "issueId": "union-europeenne", "value": "integration" }]
+      }
+    ]
+  },
+  {
+    "id": "marc-lefevre",
+    "name": "Marc Lefèvre",
+    "party": "Rassemblement des Territoires",
+    "avatarUrl": "/avatars/marc-lefevre.svg",
+    "color": "#B45309",
+    "slogan": "Rendre le pouvoir aux territoires",
+    "tags": ["Décentralisation", "Ruralité", "Souveraineté"],
+    "summary": "Marc Lefèvre veut redonner davantage de compétences aux régions et aux communes. Il défend la souveraineté nationale, l'agriculture et les services publics de proximité dans les zones rurales.",
+    "officialProgramUrl": "https://example.org/programmes/marc-lefevre",
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          "Âge légal de départ ramené à 62 ans.",
+          "Revalorisation du SMIC de 5 %, modulée par une prime régionale.",
+          "Baisse de la TVA sur les produits de première nécessité et les produits agricoles locaux."
+        ],
+        "quotes": ["« L'emploi se crée d'abord au plus près du terrain. »"],
+        "sourceUrl": "https://example.org/programmes/marc-lefevre#economie",
+        "positions": [
+          { "issueId": "age-retraite", "value": "62" },
+          { "issueId": "smic", "value": "hausse-moderee" },
+          { "issueId": "tva-premiere-necessite", "value": "baisse" }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": [
+          "Obligation pour les jeunes médecins d'exercer trois ans en zone sous-dotée.",
+          "Aucune fermeture de maternité ou d'hôpital de proximité.",
+          "Déploiement de la téléconsultation dans chaque mairie rurale."
+        ],
+        "quotes": ["« La santé de proximité est un droit, pas un luxe urbain. »"],
+        "sourceUrl": "https://example.org/programmes/marc-lefevre#sante",
+        "positions": [{ "issueId": "deserts-medicaux", "value": "regulation" }]
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": [
+          "Construction de 10 nouveaux réacteurs nucléaires.",
+          "Moratoire sur les nouveaux parcs éoliens terrestres.",
+          "Soutien à la méthanisation agricole."
+        ],
+        "quotes": ["« Notre indépendance énergétique ne se négocie pas. »"],
+        "stance": "pro-nucleaire",
+        "sourceUrl": "https://example.org/programmes/marc-lefevre#ecologie",
+        "positions": [{ "issueId": "nucleaire", "value": "relance" }]
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": [
+          "Généralisation de l'uniforme à l'école et au collège.",
+          "Aucune fermeture de classe en zone rurale sans accord du maire.",
+          "Renforcement de l'apprentissage dès 15 ans."
+        ],
+        "quotes": ["« Chaque village mérite son école. »"],
+        "sourceUrl": "https://example.org/programmes/marc-lefevre#education",
+        "positions": [{ "issueId": "uniforme", "value": "generalisation" }]
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": [
+          "Recrutement de 10 000 gendarmes, en priorité dans les zones rurales.",
+          "Renforcement des pouvoirs des polices municipales.",
+          "Construction de 15 000 places de prison."
+        ],
+        "quotes": ["« La gendarmerie doit revenir dans nos campagnes. »"],
+        "sourceUrl": "https://example.org/programmes/marc-lefevre#securite",
+        "positions": [{ "issueId": "effectifs-police", "value": "hausse" }]
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": [
+          "Renégociation des traités européens pour rendre des compétences aux États.",
+          "Clause de sauvegarde pour protéger l'agriculture française.",
+          "Priorité aux produits locaux dans la commande publique."
+        ],
+        "quotes": ["« Coopérer en Europe, oui ; obéir à Bruxelles, non. »"],
+        "sourceUrl": "https://example.org/programmes/marc-lefevre#international",
+        "positions": [{ "issueId": "union-europeenne", "value": "renegociation" }]
+      }
+    ]
+  },
+  {
+    "id": "claire-moreau",
+    "name": "Claire Moreau",
+    "party": "Parti de la Libre Entreprise",
+    "avatarUrl": "/avatars/claire-moreau.svg",
+    "color": "#BE185D",
+    "slogan": "Libérer les énergies, simplifier la vie",
+    "tags": ["Entreprises", "Simplification", "Dette"],
+    "summary": "Claire Moreau mise sur la baisse des charges et la simplification administrative pour stimuler l'emploi. Elle fait de la réduction de la dette publique une priorité du quinquennat.",
+    "officialProgramUrl": "https://example.org/programmes/claire-moreau",
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          "Report de l'âge légal de départ à 65 ans.",
+          "Pas de coup de pouce au SMIC, mais baisse des cotisations salariales.",
+          "Maintien des taux de TVA actuels pour financer la baisse des charges."
+        ],
+        "quotes": ["« On ne redistribue bien que la richesse qu'on a d'abord créée. »"],
+        "sourceUrl": "https://example.org/programmes/claire-moreau#economie",
+        "positions": [
+          { "issueId": "age-retraite", "value": "65" },
+          { "issueId": "smic", "value": "stable" },
+          { "issueId": "tva-premiere-necessite", "value": "maintien" }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": [
+          "Exonération fiscale pendant cinq ans pour les médecins s'installant en zone sous-dotée.",
+          "Suppression d'un tiers des formalités administratives des soignants.",
+          "Ouverture accrue des partenariats public-privé hospitaliers."
+        ],
+        "quotes": ["« Libérons du temps médical en libérant les soignants de la paperasse. »"],
+        "sourceUrl": "https://example.org/programmes/claire-moreau#sante",
+        "positions": [{ "issueId": "deserts-medicaux", "value": "incitations" }]
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": [
+          "Prolongation des réacteurs nucléaires existants jusqu'à 60 ans.",
+          "Crédit d'impôt pour les entreprises qui investissent dans la décarbonation.",
+          "Neutralité carbone en 2050."
+        ],
+        "quotes": ["« L'innovation fera plus pour le climat que la contrainte. »"],
+        "stance": "pro-nucleaire",
+        "sourceUrl": "https://example.org/programmes/claire-moreau#ecologie",
+        "positions": [{ "issueId": "nucleaire", "value": "maintien" }]
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": [
+          "Généralisation de l'uniforme à l'école et au collège.",
+          "Autonomie accrue des chefs d'établissement pour recruter.",
+          "Cours d'économie et d'entrepreneuriat dès le collège."
+        ],
+        "quotes": ["« Faisons confiance aux équipes sur le terrain. »"],
+        "sourceUrl": "https://example.org/programmes/claire-moreau#education",
+        "positions": [{ "issueId": "uniforme", "value": "generalisation" }]
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": [
+          "Recrutement de 5 000 policiers supplémentaires.",
+          "Numérisation complète des procédures judiciaires.",
+          "Comparution immédiate élargie pour les délits du quotidien."
+        ],
+        "quotes": ["« Une justice rapide est une justice crédible. »"],
+        "sourceUrl": "https://example.org/programmes/claire-moreau#securite",
+        "positions": [{ "issueId": "effectifs-police", "value": "hausse" }]
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": [
+          "Maintien du cadre européen actuel, sans nouveau transfert de compétences.",
+          "Accélération des accords de libre-échange.",
+          "Respect strict des règles budgétaires européennes."
+        ],
+        "quotes": ["« L'Europe doit être un marché ouvert, pas un super-État. »"],
+        "sourceUrl": "https://example.org/programmes/claire-moreau#international",
+        "positions": [{ "issueId": "union-europeenne", "value": "statu-quo" }]
+      }
+    ]
+  }
+]

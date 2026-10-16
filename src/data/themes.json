@@ -1,0 +1,8 @@
+[
+  { "id": "economie", "label": "Économie & Emploi", "icon": "briefcase" },
+  { "id": "sante", "label": "Santé", "icon": "heart-pulse" },
+  { "id": "ecologie", "label": "Écologie & Énergie", "icon": "leaf" },
+  { "id": "education", "label": "Éducation", "icon": "graduation-cap" },
+  { "id": "securite", "label": "Sécurité & Justice", "icon": "shield" },
+  { "id": "international", "label": "International & Europe", "icon": "globe" }
+]

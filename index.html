@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ÉclaireMonVote · Comparer les programmes</title>
+    <meta name="description" content="Consultez la synthèse des programmes des candidats, thème par thème, et comparez-les deux à deux en toute neutralité." />
+    <meta name="theme-color" content="#0f172a" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.png" />
+    <script>
+      // Applique thème et lecture simplifiée avant le premier rendu pour éviter un flash.
+      try {
+        var s = JSON.parse(localStorage.getItem('eclairemonvote-settings') || '{}').state || {}
+        var dark = s.theme === 'dark' || (s.theme !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches)
+        if (dark) document.documentElement.classList.add('dark')
+        if (s.simpleReading) document.documentElement.classList.add('simple')
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

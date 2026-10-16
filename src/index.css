@@ -1,0 +1,47 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant simple (&:where(.simple, .simple *));
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100;
+}
+
+/* Mode lecture simplifiée : texte plus grand, plus aéré, liens soulignés, éléments secondaires masqués. */
+html.simple {
+  font-size: 118%;
+}
+html.simple body {
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+  word-spacing: 0.08em;
+}
+html.simple a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+html.simple [data-secondary] {
+  display: none !important;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}
