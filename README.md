@@ -31,6 +31,10 @@ L'app utilise des URL propres (`/candidat/:id`, `/comparer`) : l'hébergeur doit
 
 Chaque push sur `main` publie l'app sur https://gabytriganon.github.io/-claireMonVote/ via le workflow `.github/workflows/deploy-pages.yml` (build avec `--base=/<nom-du-dépôt>/`, et `404.html` pour les liens directs vers une page). Une seule fois : dans *Settings > Pages* du dépôt, choisir **GitHub Actions** comme *Source*.
 
+## Référencement et Play Store
+
+Le build génère une page HTML par route (titre, description, canonique, données structurées et texte des programmes), `sitemap.xml` et `robots.txt` (`seo.ts`). Les étapes Google Search Console, nom de domaine et publication sur le Play Store (TWA) sont dans [docs/google-et-play-store.md](docs/google-et-play-store.md).
+
 ## Modifier les données
 
 Tout est dans `src/data/` :

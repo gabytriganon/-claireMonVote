@@ -32,9 +32,15 @@ jobs:
         run: node scripts/fetch-photos.mjs
       - name: Vérifier les liens sources
         run: node scripts/check-sources.mjs
-      - run: npm run build -- --base=/${{ github.event.repository.name }}/
-      # GitHub Pages ne connaît pas les routes de l'app : 404.html renvoie vers l'app pour les liens directs.
-      - run: cp dist/index.html dist/404.html
+      # Une page HTML par route est générée (référencement), plus sitemap.xml, robots.txt et 404.html.
+      # Variables facultatives (Settings > Secrets and variables > Actions > Variables) :
+      # SITE_URL (domaine propre, ex. https://eclairemonvote.fr/), GOOGLE_SITE_VERIFICATION, ANDROID_PACKAGE_ID, ANDROID_CERT_SHA256.
+      - run: npm run build
+        env:
+          SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io/{1}/', github.repository_owner, github.event.repository.name) }}
+          GOOGLE_SITE_VERIFICATION: ${{ vars.GOOGLE_SITE_VERIFICATION }}
+          ANDROID_PACKAGE_ID: ${{ vars.ANDROID_PACKAGE_ID }}
+          ANDROID_CERT_SHA256: ${{ vars.ANDROID_CERT_SHA256 }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

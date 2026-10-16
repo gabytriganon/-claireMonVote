@@ -4,7 +4,7 @@ import { ArrowLeft, ExternalLink, Scale } from 'lucide-react'
 import { Avatar, PhotoCreditLine } from '../components/Avatar'
 import { ProposalView } from '../components/ProposalView'
 import { ThemeTabs } from '../components/ThemeTabs'
-import { getCandidate, getProposal, getTheme, themes } from '../lib/data'
+import { electionYear, getCandidate, getProposal, getTheme, themes } from '../lib/data'
 import { NotFoundPage } from './NotFoundPage'
 
 export function CandidatePage() {
@@ -14,7 +14,7 @@ export function CandidatePage() {
   const themeId = getTheme(params.get('theme'))?.id ?? themes[0].id
 
   useEffect(() => {
-    if (candidate) document.title = `${candidate.name} · ÉclaireMonVote`
+    if (candidate) document.title = `Programme de ${candidate.name} (présidentielle ${electionYear}) · ÉclaireMonVote`
   }, [candidate])
 
   if (!candidate) return <NotFoundPage />
