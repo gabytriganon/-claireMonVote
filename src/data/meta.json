@@ -3,9 +3,27 @@
   "firstRound": "2027-04-18",
   "updatedAt": "2026-10-16",
   "provisional": true,
-  "selection": "La liste réunit les personnalités qui ont déclaré leur candidature ou ont été désignées par leur parti, et qui sont testées dans les sondages nationaux de premier tour publiés fin août 2026 (Ifop, Elabe, Cluster17).",
+  "selection": "La liste réunit toutes les personnalités qui ont déclaré leur candidature (ou ont été désignées par leur parti) et qui sont testées dans au moins un sondage national de premier tour réalisé depuis septembre 2026 (Ifop-Fiducial, OpinionWay, Elabe, Cluster17…).",
   "selectionSources": [
-    { "label": "Public Sénat, 14 octobre 2026", "url": "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque" },
-    { "label": "Sondages (Wikipédia)", "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2027_French_presidential_election" }
+    {
+      "label": "Public Sénat, 14 octobre 2026",
+      "url": "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque"
+    },
+    {
+      "label": "Ifop-Fiducial, 12-14 octobre 2026 (Le JDD)",
+      "url": "https://www.lejdd.fr/politique/presidentielle-2027-les-enseignements-du-premier-sondage-post-primaire-de-la-gauche-186066"
+    },
+    {
+      "label": "Ifop-Fiducial, 25-29 septembre 2026",
+      "url": "https://www.ifopgroup.com/wp-content/uploads/2026/10/122802-resultats-densemble-1.pdf"
+    },
+    {
+      "label": "OpinionWay, 9-10 septembre 2026",
+      "url": "https://www.opinion-way.com/wp-content/uploads/2026/09/OpinionWay-pour-CNEWS-Les-intentions-de-vote-a-lelection-presidentielle-2027-11-septembre-2026.pdf"
+    },
+    {
+      "label": "Sondages (Wikipédia)",
+      "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2027_French_presidential_election"
+    }
   ]
 }

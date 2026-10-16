@@ -2,7 +2,7 @@
 
 Progressive Web App pour consulter et comparer les programmes des candidats à l'élection présidentielle, thème par thème, en toute neutralité. Installable sur mobile et ordinateur, utilisable hors ligne.
 
-> Données : **présidentielle 2027**, liste **provisoire** des candidats déclarés ou désignés par leur parti et testés dans les sondages (mise à jour dans `src/data/meta.json`). Chaque proposition renvoie vers la page publique qui l'atteste ; une position non vérifiée est affichée comme « non connue », jamais devinée.
+> Données : **présidentielle 2027**, liste **provisoire** de tous les candidats déclarés (ou désignés par leur parti) et testés dans au moins un sondage national récent, réduite aux seuls candidats officiels dès la publication de la liste du Conseil constitutionnel au printemps 2027 (mise à jour dans `src/data/meta.json`). Chaque proposition renvoie vers la page publique qui l'atteste ; une position non vérifiée est affichée comme « non connue », jamais devinée.
 
 ## Fonctionnalités
 
