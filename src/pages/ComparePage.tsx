@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import { AlertTriangle, ArrowLeftRight, Check, CircleHelp, X } from 'lucide-react'
+import { AlertTriangle, ArrowLeftRight, Check, CircleHelp, RotateCcw, X } from 'lucide-react'
 import { Avatar } from '../components/Avatar'
 import { ProposalView } from '../components/ProposalView'
 import { ThemeTabs } from '../components/ThemeTabs'
@@ -101,6 +101,7 @@ function PositionRow({ row, a, b }: { row: IssueComparison; a: Candidate; b: Can
 export function ComparePage() {
   const [params, setParams] = useSearchParams()
   const stored = useAppStore((s) => s.compare)
+  const clearCompare = useAppStore((s) => s.clearCompare)
   const a = getCandidate(params.get('a') ?? stored[0])
   const b = getCandidate(params.get('b') ?? (params.get('a') ? undefined : stored[1]))
   const themeId = getTheme(params.get('theme'))?.id ?? themes[0].id
@@ -115,6 +116,12 @@ export function ComparePage() {
     const merged = { a: a?.id, b: b?.id, theme: themeId, filtre: filter, ...changes }
     for (const [k, v] of Object.entries(merged)) if (v && !(k === 'filtre' && v === 'tous')) next.set(k, v)
     setParams(next, { replace: true })
+  }
+
+  // Vide les deux candidats (URL et sélection mémorisée) en gardant le thème affiché.
+  function clear() {
+    clearCompare()
+    setParams(new URLSearchParams({ theme: themeId }), { replace: true })
   }
 
   // Comparateur mobile : un candidat visible à la fois, on swipe de l'un à l'autre.
@@ -141,7 +148,19 @@ export function ComparePage() {
   return (
     <div className="space-y-8">
       <header className="space-y-4">
-        <h1 className="text-3xl font-bold tracking-tight">Comparer deux candidats</h1>
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h1 className="text-3xl font-bold tracking-tight">Comparer deux candidats</h1>
+          {(a || b) && (
+            <button
+              type="button"
+              onClick={clear}
+              className="inline-flex items-center gap-2 rounded-lg border border-slate-300 px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
+            >
+              <RotateCcw aria-hidden="true" className="size-4" />
+              Effacer la comparaison
+            </button>
+          )}
+        </div>
         <div className="flex flex-col gap-3 sm:flex-row sm:items-end">
           <CandidateSelect label="Candidat A" value={a?.id} exclude={b?.id} onChange={(id) => update({ a: id })} />
           <button
