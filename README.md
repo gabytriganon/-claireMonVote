@@ -54,3 +54,7 @@ Règles de neutralité pour la mise à jour : même structure pour chaque candid
 - **Contenu des programmes** : il n'est pas réécrit automatiquement. Les nouvelles propositions doivent être recherchées, sourcées et relues avant publication dans `src/data/`.
 
 Pour remplacer les icônes de l'app : modifier `public/logo.svg` puis lancer `npm run generate-pwa-assets`.
+
+## Dons
+
+Le pied de page affiche un bouton « Soutenir le projet » qui ouvre la page de dons (HelloAsso, Tipeee, Ko-fi…), avec la mention que les dons de partis et de candidats sont refusés. Le lien se règle dans la variable de dépôt `SOUTIEN_URL` (*Settings > Secrets and variables > Actions > Variables*), puis en relançant *Actions > Déployer sur GitHub Pages > Run workflow*. Sans lien (ou avec un lien qui n'est pas en `https://`), le bouton est masqué. En local ou sur un autre hébergeur, utiliser la variable d'environnement `VITE_SOUTIEN_URL`.

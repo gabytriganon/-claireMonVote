@@ -21,6 +21,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # Lien de la page de dons (Settings > Secrets and variables > Actions > Variables). Vide : bouton masqué.
+      VITE_SOUTIEN_URL: ${{ vars.SOUTIEN_URL }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
