@@ -1,0 +1,41 @@
+{
+  "name": "eclairemonvote",
+  "version": "1.0.0",
+  "description": "Comparateur et clarificateur de programmes électoraux (PWA).",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "generate-pwa-assets": "pwa-assets-generator",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabytriganon/-claireMonVote.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabytriganon/-claireMonVote/issues"
+  },
+  "homepage": "https://github.com/gabytriganon/-claireMonVote#readme",
+  "dependencies": {
+    "lucide-react": "^1.58.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.4",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vite-pwa/assets-generator": "^2.0.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vite-plugin-pwa": "^2.0.0"
+  },
+  "private": true,
+  "type": "module"
+}
