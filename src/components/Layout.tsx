@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, NavLink, Outlet } from 'react-router-dom'
 import { BookOpenText, Download, Moon, Sun, WifiOff } from 'lucide-react'
 import { useAppStore } from '../store/useAppStore'
+import { withBase } from '../lib/base'
 
 interface BeforeInstallPromptEvent extends Event {
   prompt: () => Promise<void>
@@ -87,7 +88,7 @@ export function Layout() {
       <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/90 backdrop-blur dark:border-slate-800 dark:bg-slate-950/90">
         <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-3">
           <Link to="/" className="flex items-center gap-2 font-bold tracking-tight">
-            <img src="/logo.svg" alt="" width={32} height={32} className="size-8" />
+            <img src={withBase('/logo.svg')} alt="" width={32} height={32} className="size-8" />
             <span className="text-lg">ÉclaireMonVote</span>
           </Link>
           <nav aria-label="Navigation principale" className="ml-2 hidden gap-1 sm:flex">
