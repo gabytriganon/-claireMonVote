@@ -839,10 +839,10 @@
             "origin": "programme-2022"
           },
           {
-            "text": "Propose d'étendre le dédoublement des classes à tous les CP et toutes les grandes sections de maternelle.",
-            "sourceUrl": "https://www.europe1.fr/politique/presidentielle-que-propose-marine-le-pen-pour-leducation-nationale-4106299",
-            "sourceLabel": "Europe 1, 18 avril 2022",
-            "origin": "programme-2022"
+            "text": "Propose d'exclure les élèves de plus de 16 ans responsables de dégradations.",
+            "sourceUrl": "https://www.aa.com.tr/fr/france/pr%C3%A9sidentielle-2027-voile-retraites-ukraine-exclusions-d-%C3%A9l%C3%A8ves-les-principales-annonces-de-marine-le-pen/4090843",
+            "sourceLabel": "Anadolu (AA), 16 octobre 2026",
+            "origin": "declaration-2026"
           },
           {
             "text": "Propose de revaloriser les salaires des enseignants de 3 % par an pendant le quinquennat.",
@@ -851,10 +851,10 @@
             "origin": "programme-2022"
           },
           {
-            "text": "Propose de permettre le choix de la voie professionnelle dès la 5e, avec l'apprentissage dès 14 ans.",
-            "sourceUrl": "https://www.europe1.fr/politique/presidentielle-que-propose-marine-le-pen-pour-leducation-nationale-4106299",
-            "sourceLabel": "Europe 1, 18 avril 2022",
-            "origin": "programme-2022"
+            "text": "Propose de réformer Parcoursup avec une « transparence totale » sur les critères de sélection.",
+            "sourceUrl": "https://lcp.fr/actualites/parcoursup-suppression-remplacement-reforme-ce-que-proposent-les-candidats-a-la",
+            "sourceLabel": "LCP, 26 octobre 2026",
+            "origin": "declaration-2026"
           }
         ],
         "positions": [
@@ -876,10 +876,10 @@
             "origin": "programme-2022"
           },
           {
-            "text": "Propose de porter la capacité pénitentiaire à 85 000 places.",
-            "sourceUrl": "https://lcp.fr/actualites/presidentielle-des-philosophies-tres-differentes-en-matiere-de-securite-et-de-justice",
-            "sourceLabel": "LCP, mars 2022",
-            "origin": "programme-2022"
+            "text": "Propose un référendum sur un projet de loi contre les « idéologies totalitaires » permettant d'interdire progressivement le voile, d'abord dans les universités, les fédérations sportives et les bâtiments publics, puis dans la rue.",
+            "sourceUrl": "https://www.aa.com.tr/fr/france/pr%C3%A9sidentielle-2027-voile-retraites-ukraine-exclusions-d-%C3%A9l%C3%A8ves-les-principales-annonces-de-marine-le-pen/4090843",
+            "sourceLabel": "Anadolu (AA), 16 octobre 2026",
+            "origin": "declaration-2026"
           },
           {
             "text": "Propose de supprimer les prestations sociales non contributives pour les étrangers ne travaillant pas à temps plein depuis au moins cinq ans.",
@@ -918,10 +918,10 @@
             "origin": "programme-2022"
           },
           {
-            "text": "Propose de retirer la France du commandement intégré de l'OTAN.",
-            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/bilateralisme-russie-union-europeenne-marine-le-pen-detaille-sa-politique",
-            "sourceLabel": "Public Sénat, 13 avril 2022",
-            "origin": "programme-2022"
+            "text": "Propose de réduire l'aide financière de la France à l'Ukraine tout en maintenant l'aide militaire.",
+            "sourceUrl": "https://www.aa.com.tr/fr/france/pr%C3%A9sidentielle-2027-voile-retraites-ukraine-exclusions-d-%C3%A9l%C3%A8ves-les-principales-annonces-de-marine-le-pen/4090843",
+            "sourceLabel": "Anadolu (AA), 16 octobre 2026",
+            "origin": "declaration-2026"
           }
         ],
         "positions": [
@@ -1077,6 +1077,12 @@
             "sourceUrl": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/reduire-les-effectifs-a-19-eleves-par-classe",
             "sourceLabel": "Institut Montaigne, présidentielle 2022",
             "origin": "programme-2022"
+          },
+          {
+            "text": "Propose d'abolir Parcoursup et de créer 150 000 places supplémentaires dans l'enseignement supérieur.",
+            "sourceUrl": "https://lcp.fr/actualites/parcoursup-suppression-remplacement-reforme-ce-que-proposent-les-candidats-a-la",
+            "sourceLabel": "LCP, 26 octobre 2026",
+            "origin": "declaration-2026"
           }
         ]
       },
@@ -1595,10 +1601,10 @@
             "origin": "programme-2022"
           },
           {
-            "text": "Propose de créer 90 000 postes d'enseignants et de supprimer Parcoursup.",
-            "sourceUrl": "https://lille.snes.edu/IMG/pdf/brochure_programmes_candidats_presidentielles_2022_web.pdf",
-            "sourceLabel": "SNES-FSU Lille, brochure programmes présidentielle 2022",
-            "origin": "programme-2022"
+            "text": "Propose d'abroger Parcoursup « afin d'ouvrir les études à toutes et à tous ».",
+            "sourceUrl": "https://lcp.fr/actualites/parcoursup-suppression-remplacement-reforme-ce-que-proposent-les-candidats-a-la",
+            "sourceLabel": "LCP, 26 octobre 2026",
+            "origin": "declaration-2026"
           },
           {
             "text": "Propose que tous les devoirs soient faits à l'école et d'interdire les écoles privées hors contrat.",
@@ -2198,8 +2204,8 @@
     "party": "La France humaniste",
     "avatarUrl": "/avatars/dominique-de-villepin.svg",
     "color": "#DB2777",
-    "status": "A déclaré le 30 août 2026 vouloir être candidat et revendique plusieurs centaines de parrainages ; candidature pas encore formellement officialisée",
-    "statusSourceUrl": "https://actu.orange.fr/politique/presidentielle-2027-dominique-de-villepin-declare-vouloir-etre-candidat-magic-CNT000002rCnAy.html",
+    "status": "A déclaré le 30 août 2026 vouloir être candidat ; annonce le 23 octobre 2026 avoir dépassé 300 parrainages sur les 500 requis et prendre sa décision « au cours des prochaines semaines ».",
+    "statusSourceUrl": "https://lcp.fr/actualites/presidentielle-dominique-de-villepin-annonce-avoir-depasse-la-barre-des-300-signatures",
     "summary": "Ancien ministre des Affaires étrangères (2002-2004), de l'Intérieur (2004-2005) puis Premier ministre (2005-2007) sous la présidence de Jacques Chirac. Il a fondé en juin 2025 le mouvement La France humaniste, qui se présente comme une alternative aux partis de gauche radicale et d'extrême droite.",
     "officialSiteUrl": "https://lafrancehumaniste.fr/",
     "programUrl": "https://lafrancehumaniste.fr/france2027",
@@ -2783,6 +2789,111 @@
             "text": "Se dit défavorable à l'entrée de l'Ukraine dans l'Union européenne, tout en se déclarant ouvert au débat.",
             "sourceUrl": "https://www.publicsenat.fr/actualites/politique/francois-ruffin-tente-par-la-primaire-du-ps-mais-rabroue-par-raphael-glucksmann-que-disent-les-regles-de-participation-a-ce-scrutin",
             "sourceLabel": "Public Sénat, 8 septembre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "natacha-polony",
+    "name": "Natacha Polony",
+    "party": "Sans étiquette",
+    "avatarUrl": "/avatars/natacha-polony.svg",
+    "color": "#0369A1",
+    "status": "Candidate déclarée le 14 octobre 2026 (annonce sur France Inter).",
+    "statusSourceUrl": "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque",
+    "summary": "Journaliste et essayiste, agrégée de lettres modernes, elle a été directrice de la rédaction de l'hebdomadaire Marianne de 2018 à 2025 et a fondé le laboratoire d'idées Comité Orwell. Elle avait brièvement milité au Mouvement des citoyens de Jean-Pierre Chevènement.",
+    "officialSiteUrl": "https://www.npolony.fr/",
+    "programUrl": null,
+    "wikipediaTitle": "Natacha Polony",
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          {
+            "text": "Propose de réserver en priorité la commande publique, un marché d'environ 200 milliards d'euros, aux entreprises françaises, malgré l'interdiction prévue par le droit européen.",
+            "sourceUrl": "https://www.npolony.fr/actualites",
+            "sourceLabel": "Site de Natacha Polony, revue de presse (RMC, 25 octobre 2026)",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend un État stratège qui planifie les investissements essentiels et oriente l'argent public vers ceux qui investissent, forment et produisent en France.",
+            "sourceUrl": "https://natachapolony2027.fr/natacha-polony/ma-vision",
+            "sourceLabel": "Natacha Polony 2027, page « Ma vision », consultée le 1er novembre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": [
+          {
+            "text": "Fixe l'objectif que la France produise elle-même ses médicaments essentiels.",
+            "sourceUrl": "https://natachapolony2027.fr/natacha-polony/ma-vision",
+            "sourceLabel": "Natacha Polony 2027, page « Ma vision », consultée le 1er novembre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": [
+          {
+            "text": "Propose de libérer EDF de la mise en concurrence imposée par le droit européen, en considérant l'électricité comme « un bien stratégique, pas un marché comme les autres ».",
+            "sourceUrl": "https://www.npolony.fr/communiques",
+            "sourceLabel": "Site de Natacha Polony, communiqué du 27 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Présente le parc nucléaire et le savoir-faire d'EDF comme un atout et appelle à investir dans la production d'électricité.",
+            "sourceUrl": "https://www.npolony.fr/communiques",
+            "sourceLabel": "Site de Natacha Polony, communiqué du 27 octobre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": [
+          {
+            "text": "Défend une « école exigeante » qui permette à l'enfant de s'émanciper de ce qui le détermine à la naissance.",
+            "sourceUrl": "https://www.npolony.fr/principes#principe-4",
+            "sourceLabel": "Site de Natacha Polony, page « Principes », consultée le 1er novembre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": [
+          {
+            "text": "Propose de lutter contre les conflits d'intérêts, de protéger les lanceurs d'alerte et d'encadrer strictement les passages entre fonctions publiques stratégiques et intérêts privés.",
+            "sourceUrl": "https://natachapolony2027.fr/natacha-polony/ma-vision",
+            "sourceLabel": "Natacha Polony 2027, page « Ma vision », consultée le 1er novembre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": [
+          {
+            "text": "Estime que la France « n'a pas vocation à être le supplétif d'un empire, quel qu'il soit ».",
+            "sourceUrl": "https://natachapolony2027.fr/natacha-polony/ma-vision",
+            "sourceLabel": "Natacha Polony 2027, page « Ma vision », consultée le 1er novembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend une consultation régulière du peuple par référendum.",
+            "sourceUrl": "https://www.npolony.fr/principes#principe-6",
+            "sourceLabel": "Site de Natacha Polony, page « Principes », consultée le 1er novembre 2026",
             "origin": "declaration-2026"
           }
         ]
