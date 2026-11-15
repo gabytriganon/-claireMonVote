@@ -1,13 +1,21 @@
 {
   "election": "Présidentielle 2027",
   "firstRound": "2027-04-18",
-  "updatedAt": "2026-11-01",
+  "updatedAt": "2026-11-15",
   "provisional": true,
-  "selection": "La liste réunit toutes les personnalités qui ont déclaré leur candidature (ou ont été désignées par leur parti) et qui sont testées dans au moins un sondage national de premier tour réalisé depuis septembre 2026 (Ifop-Fiducial, OpinionWay, Elabe, Cluster17…).",
+  "selection": "La liste réunit toutes les personnalités qui ont déclaré leur candidature (ou ont été désignées par leur parti) et qui sont testées dans au moins un sondage national de premier tour réalisé au cours des deux derniers mois (Ifop, Cluster17, OpinionWay, Elabe…).",
   "selectionSources": [
     {
-      "label": "Public Sénat, 14 octobre 2026",
-      "url": "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque"
+      "label": "LCP, liste des candidats déclarés et potentiels, 10 novembre 2026",
+      "url": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932"
+    },
+    {
+      "label": "Cluster17 pour Politico, 9-10 novembre 2026",
+      "url": "https://cluster17.com/wp-content/uploads/2026/11/Sondage_Cluster17_ITV_P2027-Politico.pdf"
+    },
+    {
+      "label": "Ifop pour LCI, 27-29 octobre 2026",
+      "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10352-pres-iv-ifop-lci-3-novembre.pdf"
     },
     {
       "label": "Cluster17 pour Politico, 19-22 octobre 2026",
