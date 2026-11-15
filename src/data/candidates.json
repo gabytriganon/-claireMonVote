@@ -839,10 +839,10 @@
             "origin": "programme-2022"
           },
           {
-            "text": "Propose d'étendre le dédoublement des classes à tous les CP et toutes les grandes sections de maternelle.",
-            "sourceUrl": "https://www.europe1.fr/politique/presidentielle-que-propose-marine-le-pen-pour-leducation-nationale-4106299",
-            "sourceLabel": "Europe 1, 18 avril 2022",
-            "origin": "programme-2022"
+            "text": "Propose d'exclure les élèves de plus de 16 ans responsables de dégradations.",
+            "sourceUrl": "https://www.aa.com.tr/fr/france/pr%C3%A9sidentielle-2027-voile-retraites-ukraine-exclusions-d-%C3%A9l%C3%A8ves-les-principales-annonces-de-marine-le-pen/4090843",
+            "sourceLabel": "Anadolu (AA), 16 octobre 2026",
+            "origin": "declaration-2026"
           },
           {
             "text": "Propose de revaloriser les salaires des enseignants de 3 % par an pendant le quinquennat.",
@@ -851,10 +851,10 @@
             "origin": "programme-2022"
           },
           {
-            "text": "Propose de permettre le choix de la voie professionnelle dès la 5e, avec l'apprentissage dès 14 ans.",
-            "sourceUrl": "https://www.europe1.fr/politique/presidentielle-que-propose-marine-le-pen-pour-leducation-nationale-4106299",
-            "sourceLabel": "Europe 1, 18 avril 2022",
-            "origin": "programme-2022"
+            "text": "Propose de réformer Parcoursup avec une « transparence totale » sur les critères de sélection.",
+            "sourceUrl": "https://lcp.fr/actualites/parcoursup-suppression-remplacement-reforme-ce-que-proposent-les-candidats-a-la",
+            "sourceLabel": "LCP, 26 octobre 2026",
+            "origin": "declaration-2026"
           }
         ],
         "positions": [
@@ -876,10 +876,10 @@
             "origin": "programme-2022"
           },
           {
-            "text": "Propose de porter la capacité pénitentiaire à 85 000 places.",
-            "sourceUrl": "https://lcp.fr/actualites/presidentielle-des-philosophies-tres-differentes-en-matiere-de-securite-et-de-justice",
-            "sourceLabel": "LCP, mars 2022",
-            "origin": "programme-2022"
+            "text": "Propose un référendum sur un projet de loi contre les « idéologies totalitaires » permettant d'interdire progressivement le voile, d'abord dans les universités, les fédérations sportives et les bâtiments publics, puis dans la rue.",
+            "sourceUrl": "https://www.aa.com.tr/fr/france/pr%C3%A9sidentielle-2027-voile-retraites-ukraine-exclusions-d-%C3%A9l%C3%A8ves-les-principales-annonces-de-marine-le-pen/4090843",
+            "sourceLabel": "Anadolu (AA), 16 octobre 2026",
+            "origin": "declaration-2026"
           },
           {
             "text": "Propose de supprimer les prestations sociales non contributives pour les étrangers ne travaillant pas à temps plein depuis au moins cinq ans.",
@@ -918,10 +918,10 @@
             "origin": "programme-2022"
           },
           {
-            "text": "Propose de retirer la France du commandement intégré de l'OTAN.",
-            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/bilateralisme-russie-union-europeenne-marine-le-pen-detaille-sa-politique",
-            "sourceLabel": "Public Sénat, 13 avril 2022",
-            "origin": "programme-2022"
+            "text": "Propose de réduire l'aide financière de la France à l'Ukraine tout en maintenant l'aide militaire.",
+            "sourceUrl": "https://www.aa.com.tr/fr/france/pr%C3%A9sidentielle-2027-voile-retraites-ukraine-exclusions-d-%C3%A9l%C3%A8ves-les-principales-annonces-de-marine-le-pen/4090843",
+            "sourceLabel": "Anadolu (AA), 16 octobre 2026",
+            "origin": "declaration-2026"
           }
         ],
         "positions": [
@@ -952,16 +952,16 @@
         "themeLabel": "Économie & Emploi",
         "keyPoints": [
           {
-            "text": "Défend le retour de l'âge légal de départ à la retraite à 60 ans.",
-            "sourceUrl": "https://melenchon2027.fr/programme2025/livre/",
-            "sourceLabel": "melenchon2027.fr, L'Avenir en commun édition 2025",
-            "origin": "programme-2025"
+            "text": "Propose de rétablir à terme le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisations, après un retour à 62 ans.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841",
+            "sourceLabel": "LCP, 6 novembre 2026",
+            "origin": "programme-2027"
           },
           {
-            "text": "Propose de porter le SMIC à 1 600 euros net par mois.",
-            "sourceUrl": "https://melenchon2027.fr/programme2025/livre/",
-            "sourceLabel": "melenchon2027.fr, L'Avenir en commun édition 2025",
-            "origin": "programme-2025"
+            "text": "Propose d'augmenter immédiatement le SMIC à 1 700 euros net par mois.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841",
+            "sourceLabel": "LCP, 6 novembre 2026",
+            "origin": "programme-2027"
           },
           {
             "text": "Propose de rétablir un impôt sur la fortune comprenant un volet climatique et d'accroître la progressivité de l'impôt sur le revenu.",
@@ -980,12 +980,12 @@
           {
             "issueId": "age-retraite",
             "value": "60",
-            "sourceUrl": "https://melenchon2027.fr/programme2025/livre/"
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
           },
           {
             "issueId": "smic",
             "value": "forte-hausse",
-            "sourceUrl": "https://melenchon2027.fr/programme2025/livre/"
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
           },
           {
             "issueId": "tva-premiere-necessite",
@@ -1015,6 +1015,12 @@
             "sourceUrl": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
             "sourceLabel": "melenchon2027.fr, plan thématique Ruralités, octobre 2026",
             "origin": "programme-2027"
+          },
+          {
+            "text": "Propose de rembourser les séances de psychothérapie pour les moins de 26 ans.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841",
+            "sourceLabel": "LCP, 6 novembre 2026",
+            "origin": "programme-2027"
           }
         ],
         "positions": [
@@ -1042,17 +1048,17 @@
             "origin": "programme-2027-synthese"
           },
           {
-            "text": "Propose de sortir du nucléaire en abandonnant les projets d'EPR et de passer à 100 % d'énergies renouvelables.",
-            "sourceUrl": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/sortir-du-nucleaire-par-labandon-des-projets-depr-demanteler-et-reconvertir-les-sites-existants",
-            "sourceLabel": "Institut Montaigne, présidentielle 2022",
-            "origin": "programme-2022"
+            "text": "Maintient une sortie progressive du nucléaire et vise 100 % d'énergies renouvelables au plus tard en 2060, avec une baisse de 65 % des émissions d'ici 2033.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841",
+            "sourceLabel": "LCP, 6 novembre 2026",
+            "origin": "programme-2027"
           }
         ],
         "positions": [
           {
             "issueId": "nucleaire",
             "value": "sortie",
-            "sourceUrl": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/sortir-du-nucleaire-par-labandon-des-projets-depr-demanteler-et-reconvertir-les-sites-existants"
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
           }
         ]
       },
@@ -1077,6 +1083,12 @@
             "sourceUrl": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/reduire-les-effectifs-a-19-eleves-par-classe",
             "sourceLabel": "Institut Montaigne, présidentielle 2022",
             "origin": "programme-2022"
+          },
+          {
+            "text": "Propose d'abolir Parcoursup et de créer 150 000 places supplémentaires dans l'enseignement supérieur.",
+            "sourceUrl": "https://lcp.fr/actualites/parcoursup-suppression-remplacement-reforme-ce-que-proposent-les-candidats-a-la",
+            "sourceLabel": "LCP, 26 octobre 2026",
+            "origin": "declaration-2026"
           }
         ]
       },
@@ -1101,6 +1113,12 @@
             "sourceUrl": "https://melenchon2027.fr/programme-partage/chapitre-4/",
             "sourceLabel": "melenchon2027.fr, synthèse des contributions, chapitre 4, 17 juillet 2026",
             "origin": "programme-2027-synthese"
+          },
+          {
+            "text": "Propose un brevet obligatoire de formation à la lutte contre les discriminations pour les policiers.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841",
+            "sourceLabel": "LCP, 6 novembre 2026",
+            "origin": "programme-2027"
           }
         ]
       },
@@ -1121,10 +1139,10 @@
             "origin": "programme-2027-synthese"
           },
           {
-            "text": "Propose de quitter le commandement intégré de l'OTAN, puis l'organisation par étapes.",
-            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/otan-les-propositions-des-candidats-a-la-presidentielle-200136",
-            "sourceLabel": "Public Sénat, 25 mars 2022",
-            "origin": "programme-2022"
+            "text": "Propose de quitter immédiatement le commandement intégré de l'OTAN, puis l'organisation par étapes, et de refuser l'objectif de dépenses de défense de 5 % du PIB fixé par l'OTAN.",
+            "sourceUrl": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841",
+            "sourceLabel": "LCP, 6 novembre 2026",
+            "origin": "programme-2027"
           }
         ]
       }
@@ -1595,10 +1613,10 @@
             "origin": "programme-2022"
           },
           {
-            "text": "Propose de créer 90 000 postes d'enseignants et de supprimer Parcoursup.",
-            "sourceUrl": "https://lille.snes.edu/IMG/pdf/brochure_programmes_candidats_presidentielles_2022_web.pdf",
-            "sourceLabel": "SNES-FSU Lille, brochure programmes présidentielle 2022",
-            "origin": "programme-2022"
+            "text": "Propose d'abroger Parcoursup « afin d'ouvrir les études à toutes et à tous ».",
+            "sourceUrl": "https://lcp.fr/actualites/parcoursup-suppression-remplacement-reforme-ce-que-proposent-les-candidats-a-la",
+            "sourceLabel": "LCP, 26 octobre 2026",
+            "origin": "declaration-2026"
           },
           {
             "text": "Propose que tous les devoirs soient faits à l'école et d'interdire les écoles privées hors contrat.",
@@ -1852,8 +1870,8 @@
     "party": "Reconquête",
     "avatarUrl": "/avatars/eric-zemmour.svg",
     "color": "#A16207",
-    "status": "A annoncé sa candidature le 17 septembre 2026 sur BFMTV ; une déclaration formelle était attendue à l'automne 2026.",
-    "statusSourceUrl": "https://www.publicsenat.fr/actualites/politique/eric-zemmour-officialise-sa-candidature-a-la-presidentielle-2027",
+    "status": "Candidat déclaré le 10 novembre 2026 (annonce au journal de 20 heures de TF1), après avoir laissé entendre sa candidature le 17 septembre 2026 sur BFMTV.",
+    "statusSourceUrl": "https://www.sudradio.fr/societe/eric-zemmour-annonce-sa-candidature-a-la-presidentielle-pour-conserver-une-france-francaise",
     "summary": "Journaliste et essayiste, longtemps chroniqueur au Figaro, Éric Zemmour a fondé le parti Reconquête en décembre 2021. Candidat à la présidentielle de 2022, il est arrivé quatrième au premier tour avec 7,07 % des voix.",
     "officialSiteUrl": "https://www.parti-reconquete.fr",
     "programUrl": null,
@@ -1993,16 +2011,16 @@
         "themeLabel": "Sécurité & Justice",
         "keyPoints": [
           {
-            "text": "Propose d'expulser les étrangers sans emploi depuis un an, y compris en situation régulière, ainsi que les détenus étrangers et les personnes en situation irrégulière.",
-            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/eric-zemmour-officialise-sa-candidature-a-la-presidentielle-2027",
-            "sourceLabel": "Public Sénat, 18 septembre 2026",
+            "text": "Propose d'expulser les délinquants étrangers en prison et les étrangers au chômage depuis plus de six mois, y compris en situation régulière.",
+            "sourceUrl": "https://www.sudradio.fr/societe/eric-zemmour-annonce-sa-candidature-a-la-presidentielle-pour-conserver-une-france-francaise",
+            "sourceLabel": "Sud Radio (AFP), 10 novembre 2026",
             "origin": "declaration-2026"
           },
           {
-            "text": "Propose de créer un ministère de la remigration et de supprimer le droit du sol.",
-            "sourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2022-eric-zemmour-detaille-son-programme-et-assume-le-terme",
-            "sourceLabel": "Public Sénat, 23 mars 2022",
-            "origin": "programme-2022"
+            "text": "Fixe l'objectif de deux millions d'immigrés en moins à la fin du quinquennat et propose un référendum sur la politique migratoire.",
+            "sourceUrl": "https://www.sudradio.fr/societe/eric-zemmour-annonce-sa-candidature-a-la-presidentielle-pour-conserver-une-france-francaise",
+            "sourceLabel": "Sud Radio (AFP), 10 novembre 2026",
+            "origin": "declaration-2026"
           },
           {
             "text": "Propose de limiter le droit d'asile à une centaine de personnes par an.",
@@ -2198,8 +2216,8 @@
     "party": "La France humaniste",
     "avatarUrl": "/avatars/dominique-de-villepin.svg",
     "color": "#DB2777",
-    "status": "A déclaré le 30 août 2026 vouloir être candidat et revendique plusieurs centaines de parrainages ; candidature pas encore formellement officialisée",
-    "statusSourceUrl": "https://actu.orange.fr/politique/presidentielle-2027-dominique-de-villepin-declare-vouloir-etre-candidat-magic-CNT000002rCnAy.html",
+    "status": "A déclaré le 30 août 2026 vouloir être candidat et a assuré début novembre 2026 qu'il serait bien candidat ; l'annonce officielle n'a pas encore eu lieu.",
+    "statusSourceUrl": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
     "summary": "Ancien ministre des Affaires étrangères (2002-2004), de l'Intérieur (2004-2005) puis Premier ministre (2005-2007) sous la présidence de Jacques Chirac. Il a fondé en juin 2025 le mouvement La France humaniste, qui se présente comme une alternative aux partis de gauche radicale et d'extrême droite.",
     "officialSiteUrl": "https://lafrancehumaniste.fr/",
     "programUrl": "https://lafrancehumaniste.fr/france2027",
@@ -2580,8 +2598,8 @@
     "party": "Debout !",
     "avatarUrl": "/avatars/francois-ruffin.svg",
     "color": "#B91C1C",
-    "status": "Candidat déclaré : la primaire de la gauche unitaire prévue le 11 octobre 2026 n'a pas eu lieu, et il maintient sa candidature hors primaire (Public Sénat, 18 septembre 2026).",
-    "statusSourceUrl": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-le-dernier-decompte-des-candidats-deja-sur-la-ligne-de-depart",
+    "status": "Candidat déclaré hors primaire (la primaire de la gauche unitaire du 11 octobre 2026 n'a pas eu lieu) ; il a dit qu'il retirerait sa candidature « si une solution se dégage pour battre Marine Le Pen au second tour ».",
+    "statusSourceUrl": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
     "summary": "Député de la Somme depuis 2017, ancien membre du groupe La France insoumise, il préside le mouvement Debout ! (anciennement Picardie Debout !). Il dit vouloir rapprocher la gauche sociale et la gauche écologiste, et défend le protectionnisme économique ainsi que le référendum d'initiative citoyenne.",
     "officialSiteUrl": "https://nouspresident.fr",
     "programUrl": "https://nouspresident.fr/notre-programme/",
@@ -2784,6 +2802,285 @@
             "sourceUrl": "https://www.publicsenat.fr/actualites/politique/francois-ruffin-tente-par-la-primaire-du-ps-mais-rabroue-par-raphael-glucksmann-que-disent-les-regles-de-participation-a-ce-scrutin",
             "sourceLabel": "Public Sénat, 8 septembre 2026",
             "origin": "declaration-2026"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "natacha-polony",
+    "name": "Natacha Polony",
+    "party": "Sans étiquette",
+    "avatarUrl": "/avatars/natacha-polony.svg",
+    "color": "#0369A1",
+    "status": "Candidate déclarée le 14 octobre 2026 (annonce sur France Inter).",
+    "statusSourceUrl": "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-qui-sont-les-candidats-declares-ou-presque",
+    "summary": "Journaliste et essayiste, agrégée de lettres modernes, elle a été directrice de la rédaction de l'hebdomadaire Marianne de 2018 à 2025 et a fondé le laboratoire d'idées Comité Orwell. Elle avait brièvement milité au Mouvement des citoyens de Jean-Pierre Chevènement.",
+    "officialSiteUrl": "https://www.npolony.fr/",
+    "programUrl": null,
+    "wikipediaTitle": "Natacha Polony",
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          {
+            "text": "Propose de réserver en priorité la commande publique, un marché d'environ 200 milliards d'euros, aux entreprises françaises, malgré l'interdiction prévue par le droit européen.",
+            "sourceUrl": "https://www.npolony.fr/actualites",
+            "sourceLabel": "Site de Natacha Polony, revue de presse (RMC, 25 octobre 2026)",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend un État stratège qui planifie les investissements essentiels et oriente l'argent public vers ceux qui investissent, forment et produisent en France.",
+            "sourceUrl": "https://natachapolony2027.fr/natacha-polony/ma-vision",
+            "sourceLabel": "Natacha Polony 2027, page « Ma vision », consultée le 1er novembre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": [
+          {
+            "text": "Fixe l'objectif que la France produise elle-même ses médicaments essentiels.",
+            "sourceUrl": "https://natachapolony2027.fr/natacha-polony/ma-vision",
+            "sourceLabel": "Natacha Polony 2027, page « Ma vision », consultée le 1er novembre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": [
+          {
+            "text": "Propose de libérer EDF de la mise en concurrence imposée par le droit européen, en considérant l'électricité comme « un bien stratégique, pas un marché comme les autres ».",
+            "sourceUrl": "https://www.npolony.fr/communiques",
+            "sourceLabel": "Site de Natacha Polony, communiqué du 27 octobre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Présente le parc nucléaire et le savoir-faire d'EDF comme un atout et appelle à investir dans la production d'électricité.",
+            "sourceUrl": "https://www.npolony.fr/communiques",
+            "sourceLabel": "Site de Natacha Polony, communiqué du 27 octobre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": [
+          {
+            "text": "Défend une « école exigeante » qui permette à l'enfant de s'émanciper de ce qui le détermine à la naissance.",
+            "sourceUrl": "https://www.npolony.fr/principes#principe-4",
+            "sourceLabel": "Site de Natacha Polony, page « Principes », consultée le 1er novembre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": [
+          {
+            "text": "Propose de lutter contre les conflits d'intérêts, de protéger les lanceurs d'alerte et d'encadrer strictement les passages entre fonctions publiques stratégiques et intérêts privés.",
+            "sourceUrl": "https://natachapolony2027.fr/natacha-polony/ma-vision",
+            "sourceLabel": "Natacha Polony 2027, page « Ma vision », consultée le 1er novembre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": [
+          {
+            "text": "Estime que la France « n'a pas vocation à être le supplétif d'un empire, quel qu'il soit ».",
+            "sourceUrl": "https://natachapolony2027.fr/natacha-polony/ma-vision",
+            "sourceLabel": "Natacha Polony 2027, page « Ma vision », consultée le 1er novembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Défend une consultation régulière du peuple par référendum.",
+            "sourceUrl": "https://www.npolony.fr/principes#principe-6",
+            "sourceLabel": "Site de Natacha Polony, page « Principes », consultée le 1er novembre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "teddy-riner",
+    "name": "Teddy Riner",
+    "party": "Sans étiquette",
+    "avatarUrl": "/avatars/teddy-riner.svg",
+    "color": "#4338CA",
+    "status": "Candidat déclaré le 9 novembre 2026 (vidéo sur ses réseaux sociaux et entretien au Parisien) ; il doit encore réunir les 500 parrainages.",
+    "statusSourceUrl": "https://lcp.fr/actualites/le-judoka-teddy-riner-annonce-sa-candidature-a-l-election-presidentielle-de-2027-444920",
+    "summary": "Judoka, triple champion olympique individuel (2012, 2016, 2024) et onze fois champion du monde. Il se présente « ni de droite, ni de gauche », sans parti, avec une équipe issue de la société civile. Il a annoncé que son programme serait dévoilé prochainement.",
+    "officialSiteUrl": null,
+    "programUrl": null,
+    "wikipediaTitle": "Teddy Riner",
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          {
+            "text": "Juge une réforme des retraites « incontournable » et veut garder le système par répartition, sans exclure une part de capitalisation.",
+            "sourceUrl": "https://lcp.fr/actualites/retraites-salaires-securite-que-propose-teddy-riner-pour-la-presidentielle-444935",
+            "sourceLabel": "LCP, 10 novembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de sortir du « carcan figé des 35 heures », sans les remettre en question, pour permettre à ceux qui le veulent de travailler plus et d'augmenter leurs revenus.",
+            "sourceUrl": "https://lcp.fr/actualites/retraites-salaires-securite-que-propose-teddy-riner-pour-la-presidentielle-444935",
+            "sourceLabel": "LCP, 10 novembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Propose de réduire l'écart entre salaire brut et salaire net et d'alléger les charges des entreprises.",
+            "sourceUrl": "https://lcp.fr/actualites/retraites-salaires-securite-que-propose-teddy-riner-pour-la-presidentielle-444935",
+            "sourceLabel": "LCP, 10 novembre 2026",
+            "origin": "declaration-2026"
+          },
+          {
+            "text": "Veut réduire la dette en sachant « dépenser moins et réinjecter mieux ».",
+            "sourceUrl": "https://lcp.fr/actualites/retraites-salaires-securite-que-propose-teddy-riner-pour-la-presidentielle-444935",
+            "sourceLabel": "LCP, 10 novembre 2026",
+            "origin": "declaration-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": []
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": []
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": []
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": []
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": []
+      }
+    ]
+  },
+  {
+    "id": "francois-asselineau",
+    "name": "François Asselineau",
+    "party": "Union populaire républicaine",
+    "avatarUrl": "/avatars/francois-asselineau.svg",
+    "color": "#047857",
+    "status": "Candidature annoncée pour 2027 ; l'UPR a lancé en novembre 2026 un appel aux parrainages en sa faveur.",
+    "statusSourceUrl": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
+    "summary": "Inspecteur général des finances, il a fondé en 2007 l'Union populaire républicaine (UPR), qui milite pour la sortie de la France de l'Union européenne, de l'euro et de l'OTAN. Il a été candidat à la présidentielle de 2017 (0,92 %). Son programme 2027 n'est pas encore publié.",
+    "officialSiteUrl": "https://upr.fr/",
+    "programUrl": null,
+    "wikipediaTitle": "François Asselineau",
+    "proposals": [
+      {
+        "themeId": "economie",
+        "themeLabel": "Économie & Emploi",
+        "keyPoints": [
+          {
+            "text": "Propose, une fois la France sortie de l'Union européenne, d'augmenter substantiellement le SMIC tout en abaissant les charges patronales des TPE et des PME.",
+            "sourceUrl": "https://upr.fr/le-frexit",
+            "sourceLabel": "Site de l'UPR, page « Le Frexit », consultée le 15 novembre 2026",
+            "origin": "site-officiel-2026"
+          },
+          {
+            "text": "Propose de protéger dans la Constitution les services publics et la retraite par répartition.",
+            "sourceUrl": "https://upr.fr/le-frexit",
+            "sourceLabel": "Site de l'UPR, page « Le Frexit », consultée le 15 novembre 2026",
+            "origin": "site-officiel-2026"
+          },
+          {
+            "text": "Propose un minimum vieillesse de 950 euros par mois.",
+            "sourceUrl": "https://upr.fr/le-frexit",
+            "sourceLabel": "Site de l'UPR, page « Le Frexit », consultée le 15 novembre 2026",
+            "origin": "site-officiel-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "sante",
+        "themeLabel": "Santé",
+        "keyPoints": []
+      },
+      {
+        "themeId": "ecologie",
+        "themeLabel": "Écologie & Énergie",
+        "keyPoints": [
+          {
+            "text": "Propose d'interdire les OGM, y compris dans la nourriture animale.",
+            "sourceUrl": "https://upr.fr/le-frexit",
+            "sourceLabel": "Site de l'UPR, page « Le Frexit », consultée le 15 novembre 2026",
+            "origin": "site-officiel-2026"
+          },
+          {
+            "text": "Propose un référendum sur le nucléaire.",
+            "sourceUrl": "https://upr.fr/",
+            "sourceLabel": "Site de l'UPR, page d'accueil, consultée le 15 novembre 2026",
+            "origin": "site-officiel-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "education",
+        "themeLabel": "Éducation",
+        "keyPoints": []
+      },
+      {
+        "themeId": "securite",
+        "themeLabel": "Sécurité & Justice",
+        "keyPoints": [
+          {
+            "text": "Propose un référendum sur l'immigration.",
+            "sourceUrl": "https://upr.fr/",
+            "sourceLabel": "Site de l'UPR, page d'accueil, consultée le 15 novembre 2026",
+            "origin": "site-officiel-2026"
+          }
+        ]
+      },
+      {
+        "themeId": "international",
+        "themeLabel": "International & Europe",
+        "keyPoints": [
+          {
+            "text": "Propose de faire sortir la France de l'Union européenne par l'article 50 du traité sur l'Union européenne, de l'euro, et de l'OTAN par l'article 13 du traité de l'Atlantique Nord.",
+            "sourceUrl": "https://upr.fr/francois-asselineau",
+            "sourceLabel": "Site de l'UPR, page « François Asselineau », consultée le 15 novembre 2026",
+            "origin": "site-officiel-2026"
+          },
+          {
+            "text": "Propose de garantir l'incessibilité de l'arme nucléaire et du siège permanent de la France au Conseil de sécurité.",
+            "sourceUrl": "https://upr.fr/",
+            "sourceLabel": "Site de l'UPR, page d'accueil, consultée le 15 novembre 2026",
+            "origin": "site-officiel-2026"
+          }
+        ],
+        "positions": [
+          {
+            "issueId": "union-europeenne",
+            "value": "sortie",
+            "sourceUrl": "https://upr.fr/francois-asselineau"
           }
         ]
       }
